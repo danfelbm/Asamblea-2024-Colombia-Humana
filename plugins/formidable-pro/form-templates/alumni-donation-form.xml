@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/5.6.2" created="2021-04-14 17:15" -->
+
+<channel>
+	<title>[Used Live] API Demos</title>
+	<pubDate>Wed, 14 Apr 2021 17:15:55 +0000</pubDate>
+
+	<form>
+		<id>286</id>
+		<form_key><![CDATA[alumni-donation]]></form_key>
+		<name><![CDATA[Alumni Donation]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2021-04-01 20:46:22</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<editable>0</editable>
+		<options><![CDATA[{"success_msg":"Thank you for your donation.","logged_in_role":[""],"editable_role":[""],"edit_page_id":"","open_date":"2021-04-01 20:46","submit_value":"Complete Donation","submit_conditions":{"show_hide":"show","any_all":"all"},"before_html":"<legend class=\\\"frm_screen_reader\\\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\\\"frm_form_title\\\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\\\"frm_description\\\">[form_description]<\/div>[\/if form_description]","submit_html":"<div class=\\\"frm_submit\\\">\r\n[if back_button]<button type=\\\"submit\\\" name=\\\"frm_prev_page\\\" formnovalidate=\\\"formnovalidate\\\" class=\\\"frm_prev_page\\\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\\\"frm_button_submit\\\" type=\\\"submit\\\"  [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\\\"#\\\" tabindex=\\\"0\\\" class=\\\"frm_save_draft\\\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>","paypal_item_name":"","paypal_amount_field":"","paypal_amount":"","paypal_list":[],"paypal_stop_email":0,"paypal_type":"","repeat_num":1,"repeat_time":"M","retry":0,"trial":0,"trial_amount":"","trial_num":1,"trial_time":"M","change_field":[],"action_id":0,"currency":"USD"}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>0</parent_form_id>
+		<field>
+			<id>4006</id>
+			<field_key><![CDATA[8q0ia]]></field_key>
+			<name><![CDATA[]]></name>
+			<description><![CDATA[Your commitment to the school is greatly appreciated! Please fill out the form below to complete your gift to the school. ]]></description>
+			<type><![CDATA[html]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>1</field_order>
+			<form_id>286</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"blank":"","classes":"frm12","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field\\\">[description]<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>4023</id>
+			<field_key><![CDATA[5s15a]]></field_key>
+			<name><![CDATA[Full Name]]></name>
+			<description><![CDATA[First Name]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>2</field_order>
+			<form_id>286</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"invalid":"Text is invalid","classes":"frm_half","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>4024</id>
+			<field_key><![CDATA[rot7t]]></field_key>
+			<name><![CDATA[Last Name]]></name>
+			<description><![CDATA[Last Name]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>4</field_order>
+			<form_id>286</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"label":"hidden","invalid":"Text is invalid","classes":"frm_half","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>4025</id>
+			<field_key><![CDATA[eyb47]]></field_key>
+			<name><![CDATA[From which program did you earn your degree?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[select]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>5</field_order>
+			<form_id>286</form_id>
+			<required>0</required>
+			<options><![CDATA[{"5":{"label":"","value":"","image":"0"},"0":{"label":"Engineering","value":"Engineering","image":"0"},"1":{"label":"Arts and Sciences","value":"Arts and Sciences","image":"0"},"2":{"label":"Music","value":"Music","image":"0"},"3":{"label":"Medicine","value":"Medicine","image":"0"},"4":{"label":"Law","value":"Law","image":"0"}}]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>4026</id>
+			<field_key><![CDATA[o1uvz]]></field_key>
+			<name><![CDATA[Email]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>6</field_order>
+			<form_id>286</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"blank":"","invalid":"Text is invalid","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>","placeholder":"ex: myname@example.com"}]]></field_options>
+		</field>
+		<field>
+			<id>4027</id>
+			<field_key><![CDATA[w3aod]]></field_key>
+			<name><![CDATA[Year of graduation]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>7</field_order>
+			<form_id>286</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"blank":"","invalid":"Text is invalid","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>4031</id>
+			<field_key><![CDATA[d3f9s]]></field_key>
+			<name><![CDATA[Donation amount]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[product]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>8</field_order>
+			<form_id>286</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"","price":"","value":""},{"label":"Product 1","price":"","value":"Product 1"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <div  id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\\\"frm_opt_container\\\" aria-labelledby=\\\"field_[key]_label\\\" role=\\\"group\\\">[input]<\/div>\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>","data_type":"user_def"}]]></field_options>
+		</field>
+	</form>
+	<view>
+		<title>Send Email</title>
+		<link></link>
+		<post_author><![CDATA[emmawells]]></post_author>
+		<description></description>
+		<content><![CDATA[{"event":["create"],"email_to":"[admin_email]","cc":"","bcc":"","from":"[sitename] <[admin_email]>","reply_to":"","email_subject":"","email_message":"[default-message]","email_attachment_id":"","conditions":{"send_stop":"send","any_all":"any"},"autoresponder":{"is_active":"","do_default_trigger":"no","send_interval":"30","send_unit":"days","send_before_after":"after","send_date":"update","send_after_interval_type":"number","send_after_interval":"0","send_after_unit":"days","send_after_count":"1"}}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>840</post_id>
+		<post_date>2021-04-01 20:46:22</post_date>
+		<post_date_gmt>2021-04-01 20:46:22</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>286_email_840</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>286</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[286_email_]]></meta_value>
+		</postmeta>
+	</view>
+	<view>
+		<title>PayPal</title>
+		<link></link>
+		<post_author><![CDATA[emmawells]]></post_author>
+		<description></description>
+		<content><![CDATA[{"event":["create"],"action_id":"0","paypal_item_name":"Alumni Donation","business_email":"[admin_email]","paypal_amount_field":"4031","paypal_amount":"","paypal_type":"_donations","repeat_num":"1","repeat_time":"M","trial_amount":"","trial_num":"1","trial_time":"M","paypal_stop_email":"1","currency":"USD","return_url":"[siteurl]","cancel_url":"[siteurl]","conditions":{"send_stop":"send","any_all":"any"}}]]></content>
+		<excerpt><![CDATA[paypal]]></excerpt>
+		<post_id>842</post_id>
+		<post_date>2021-04-01 21:36:55</post_date>
+		<post_date_gmt>2021-04-01 21:36:55</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>286_paypal_941</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>286</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+	</view>
+</channel>

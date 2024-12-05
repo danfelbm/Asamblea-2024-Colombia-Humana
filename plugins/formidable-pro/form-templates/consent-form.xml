@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/6.0.2" created="2022-09-02 03:52" -->
+
+<channel>
+	<title>[Used Live] API Demos</title>
+	<pubDate>Fri, 02 Sep 2022 03:52:53 +0000</pubDate>
+
+	<form>
+		<id>370</id>
+		<form_key><![CDATA[consent]]></form_key>
+		<name><![CDATA[Consent]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2022-09-01 05:45:24</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<editable>0</editable>
+		<options><![CDATA[{"antispam":1,"start_over":1,"submit_html":"<div class=\"frm_submit\">\n[if back_button]<button type=\"submit\" name=\"frm_prev_page\" formnovalidate=\"formnovalidate\" class=\"frm_prev_page\" [back_hook]>[back_label]<\/button>[\/if back_button]\n<button class=\"frm_button_submit\" type=\"submit\" [button_action]>[button_label]<\/button>\n[if save_draft]<a href=\"#\" tabindex=\"0\" class=\"frm_save_draft\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\n[if start_over]<a href=\"#\" tabindex=\"0\" class=\"frm_start_over\">[start_over_label]<\/a>[\/if start_over]\n<\/div>","open_date":"2022-09-01 05:45"}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>0</parent_form_id>
+		<field>
+			<id>4884</id>
+			<field_key><![CDATA[kx1jr]]></field_key>
+			<name><![CDATA[Name of Training]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>2</field_order>
+			<form_id>370</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","invalid":"Text is invalid","auto_address":0,"geo_show_map":0}]]></field_options>
+		</field>
+		<field>
+			<id>4885</id>
+			<field_key><![CDATA[59gfd]]></field_key>
+			<name><![CDATA[Participant's Name]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[name]]></type>
+			<default_value><![CDATA[{"first":"","middle":"","last":""}]]></default_value>
+			<field_order>4</field_order>
+			<form_id>370</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n    <\/div>\n    [input]\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","placeholder":{"first":"","middle":"","last":""}}]]></field_options>
+		</field>
+		<field>
+			<id>4888</id>
+			<field_key><![CDATA[91cl7]]></field_key>
+			<name><![CDATA[Emergency Contact Number]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[phone]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>6</field_order>
+			<form_id>370</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","invalid":"Phone is invalid","classes":"frm6 frm_first","format":"(999)-999-9999","placeholder":"(999)-999-9999"}]]></field_options>
+		</field>
+		<field>
+			<id>4894</id>
+			<field_key><![CDATA[xshuu]]></field_key>
+			<name><![CDATA[Email address]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[email]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>7</field_order>
+			<form_id>370</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","invalid":"Email is invalid","classes":"frm6","placeholder":"example@site.com"}]]></field_options>
+		</field>
+		<field>
+			<id>4887</id>
+			<field_key><![CDATA[jinfg]]></field_key>
+			<name><![CDATA[Address]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[address]]></type>
+			<default_value><![CDATA[{"line1":"","line2":"","city":"","state":"","zip":"","country":""}]]></default_value>
+			<field_order>9</field_order>
+			<form_id>370</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n    <\/div>\n    [input]\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","placeholder":{"line1":"","line2":"","city":"","state":"","zip":"","country":""},"address_type":"us","auto_address":0,"geo_show_map":0}]]></field_options>
+		</field>
+		<field>
+			<id>4893</id>
+			<field_key><![CDATA[vvv8n]]></field_key>
+			<name><![CDATA[HTML]]></name>
+			<description><![CDATA[<strong>TERMS AND CONDITIONS</strong>
+I have read the information above and have had an opportunity to ask questions about the training and how my information will be used. I understand the purpose of the training and what my participation involves. I agree to take part in the training and for the information I provide to be shared with the organization. I understand that anonymized information about me may be published online and that published material from this project may be used and distributed for training and service design and development. I know that my participation is voluntary and that I can choose to withdraw from the training at any point.]]></description>
+			<type><![CDATA[html]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>11</field_order>
+			<form_id>370</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4890</id>
+			<field_key><![CDATA[ify0x]]></field_key>
+			<name><![CDATA[Consent]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[checkbox]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>13</field_order>
+			<form_id>370</form_id>
+			<required>1</required>
+			<options><![CDATA[[{"label":"I have read, understand, and voluntarily agree to take part in this training.","value":"I have read, understand, and voluntarily agree to take part in this training.","image":"0"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","label":"none","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n    <\/div>\n    <div class=\"frm_opt_container\" role=\"group\">[input]<\/div>\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","image_options":"0","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4891</id>
+			<field_key><![CDATA[kl31q]]></field_key>
+			<name><![CDATA[Participant's Signature]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[signature]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>15</field_order>
+			<form_id>370</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","size":"600","max":"150","classes":"frm6 frm_first"}]]></field_options>
+		</field>
+		<field>
+			<id>4892</id>
+			<field_key><![CDATA[9odpz]]></field_key>
+			<name><![CDATA[Date]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[date]]></type>
+			<default_value><![CDATA[[date]]]></default_value>
+			<field_order>16</field_order>
+			<form_id>370</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","classes":"frm6","days_of_the_week":[1,2,3,4,5,6,0]}]]></field_options>
+		</field>
+	</form>
+	<view>
+		<title>Send Email</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[{"email_to":"[admin_email]","cc":"","bcc":"","from":"[sitename] <[admin_email]>","reply_to":"","email_subject":"","email_message":"[default-message]","inc_user_info":0,"plain_text":0,"event":["create"],"conditions":{"send_stop":"","any_all":""}}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>1150</post_id>
+		<post_date>2022-09-01 05:45:24</post_date>
+		<post_date_gmt>2022-09-01 05:45:24</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>370_email_</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>370</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+	</view>
+</channel>

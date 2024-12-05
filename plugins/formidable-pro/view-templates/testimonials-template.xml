@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/6.1.1" created="2022-12-09 08:34" -->
+
+<channel>
+	<title>API Demos</title>
+	<pubDate>Fri, 09 Dec 2022 08:34:39 +0000</pubDate>
+
+	<application>
+		<name><![CDATA[Testimonials]]></name>
+	</application>
+	<form>
+		<id>358</id>
+		<form_key><![CDATA[add-testimonial]]></form_key>
+		<name><![CDATA[Add Testimonial]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2022-08-16 03:18:09</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<editable>0</editable>
+		<options><![CDATA[{"ajax_submit":"1","logged_in_role":[""],"cookie_expiration":"8000","editable_role":[""],"edit_page_id":"","protect_files_role":[""],"open_date":"2019-10-10 19:12","custom_style":"1","submit_value":"Submit my testimonial","submit_conditions":{"show_hide":"show","any_all":"all"},"start_over_label":"Start Over","landing_bg_image_id":"0","landing_opacity":"100","chat":["1"],"chat_include_arrows":["1"],"chat_progress_type":"bar","chat_continue_text":"Continue","chat_start_button_text":"Start a testimonial","before_html":"<legend class=\"frm_screen_reader\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\"frm_form_title\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\"frm_description\">[form_description]<\/div>[\/if form_description]","submit_html":"<div class=\"frm_submit\">\r\n[if back_button]<button type=\"submit\" name=\"frm_prev_page\" formnovalidate=\"formnovalidate\" class=\"frm_prev_page\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\"frm_button_submit\" type=\"submit\" [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\"#\" tabindex=\"0\" class=\"frm_save_draft\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>","js_validate":1,"chat_show_start_page":0}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>0</parent_form_id>
+		<field>
+			<id>5190</id>
+			<field_key><![CDATA[testimonial-name]]></field_key>
+			<name><![CDATA[What is your name?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[name]]></type>
+			<default_value><![CDATA[{"first":"","middle":"","last":""}]]></default_value>
+			<field_order>2</field_order>
+			<form_id>358</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>","placeholder":{"first":"","middle":"","last":""}}]]></field_options>
+		</field>
+		<field>
+			<id>4718</id>
+			<field_key><![CDATA[testimonial-title]]></field_key>
+			<name><![CDATA[What is your job title?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>4</field_order>
+			<form_id>358</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","invalid":"Text is invalid","classes":"frm12 frm_first","auto_address":0,"geo_show_map":0}]]></field_options>
+		</field>
+		<field>
+			<id>4711</id>
+			<field_key><![CDATA[testimonial-company]]></field_key>
+			<name><![CDATA[What is the name of the company you work for?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>6</field_order>
+			<form_id>358</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"invalid":"Text is invalid","classes":"frm12 frm_first","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>","btsp":{"prepend":"","append":""},"in_section":"0","admin_only":[""],"auto_address":0,"geo_show_map":0}]]></field_options>
+		</field>
+		<field>
+			<id>5191</id>
+			<field_key><![CDATA[testimonial-url]]></field_key>
+			<name><![CDATA[What is the URL of the company website?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[url]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>8</field_order>
+			<form_id>358</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","invalid":"Website\/URL is invalid"}]]></field_options>
+		</field>
+		<field>
+			<id>5189</id>
+			<field_key><![CDATA[testimonial-heading]]></field_key>
+			<name><![CDATA[Thanks! Please provide a headline for your testimonial.]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>10</field_order>
+			<form_id>358</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","invalid":"Text is invalid","auto_address":0,"geo_show_map":0}]]></field_options>
+		</field>
+		<field>
+			<id>4715</id>
+			<field_key><![CDATA[testimonial-desc]]></field_key>
+			<name><![CDATA[What do you think about us? Provide your testimonial below.]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[textarea]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>12</field_order>
+			<form_id>358</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"max":"3","invalid":"Thanks! Please provide your testimonial below. is invalid","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>","btsp":"","in_section":"0","admin_only":[""],"auto_grow":"1","max_limit":"0"}]]></field_options>
+		</field>
+		<field>
+			<id>4714</id>
+			<field_key><![CDATA[testimonial-rating]]></field_key>
+			<name><![CDATA[How would you rate your experience with us?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[star]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>14</field_order>
+			<form_id>358</form_id>
+			<required>1</required>
+			<options><![CDATA[[1,2,3,4,5]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    <div class=\"frm_opt_container\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>","minnum":"1","maxnum":"5","btsp":""}]]></field_options>
+		</field>
+		<field>
+			<id>4720</id>
+			<field_key><![CDATA[testimonial-avatar]]></field_key>
+			<name><![CDATA[Can we add your picture with the testimonial?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[file]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>16</field_order>
+			<form_id>358</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","invalid":"File Upload is invalid","classes":"frm_full_upload","ftypes":{"jpg|jpeg|jpe":"image\/jpeg","png":"image\/png","gif":"image\/gif"},"restrict":"1"}]]></field_options>
+		</field>
+		<field>
+			<id>4719</id>
+			<field_key><![CDATA[testimonial-email]]></field_key>
+			<name><![CDATA[Can you provide us with your email address?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[email]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>18</field_order>
+			<form_id>358</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","invalid":"Email is invalid"}]]></field_options>
+		</field>
+		<field>
+			<id>4716</id>
+			<field_key><![CDATA[testimonial-agree]]></field_key>
+			<name><![CDATA[May we post your testimonial (or a portion of it) on our website?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>20</field_order>
+			<form_id>358</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Yes, I agree.","value":"Yes","image":"0"},{"label":"No, I don't agree.","value":"No","image":"0"}]]]></options>
+			<field_options><![CDATA[{"blank":"","separate_value":"1","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\"frm_opt_container\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>","hide_field":["4714"],"hide_field_cond":[">="],"hide_opt":["4"],"btsp":"","in_section":"0","admin_only":[""],"other":"0","image_options":"0","image_size":"small"}]]></field_options>
+		</field>
+	</form>
+	<item>
+		<id>3554</id>
+		<item_key><![CDATA[8xbjl]]></item_key>
+		<name><![CDATA[Randall Fisher]]></name>
+		<description><![CDATA[{"browser":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/104.0.0.0 Safari\/537.36","referrer":"https:\/\/sandbox.formidableforms.com\/demos\/wp-admin\/admin.php?page=formidable-entries&frm_action=new&form=358&frm-full=1"}]]></description>
+		<created_at>2022-08-16 04:56:20</created_at>
+		<updated_at>2022-12-09 08:01:05</updated_at>
+		<form_id>358</form_id>
+		<post_id>0</post_id>
+		<ip>120.28.65.223</ip>
+		<is_draft>0</is_draft>
+		<user_id><![CDATA[kristine]]></user_id>
+		<updated_by><![CDATA[kristine]]></updated_by>
+		<parent_item_id>0</parent_item_id>
+
+		<item_meta>
+			<field_id>4718</field_id>
+		    <meta_value><![CDATA[Personal Trainer]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4711</field_id>
+		    <meta_value><![CDATA[Fit Republic]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4715</field_id>
+		    <meta_value><![CDATA[I have been using this product for years, and it is the best! It is always evolving with new features each time. It is one of the best things I have purchased, and I will recommend it to everyone.]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4714</field_id>
+		    <meta_value>5</meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4719</field_id>
+		    <meta_value><![CDATA[randall@example.com]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4720</field_id>
+		    <meta_value><![CDATA[http://sandbox.formidableforms.com/demos/wp-content/uploads/sites/17/formidable/358/rob.png]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>5190</field_id>
+		    <meta_value><![CDATA[{"first":"Randall","last":"Fisher"}]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>5189</field_id>
+		    <meta_value><![CDATA[The best thing I have purchased]]></meta_value>
+		</item_meta>
+	</item>
+	<item>
+		<id>3555</id>
+		<item_key><![CDATA[s6zgw]]></item_key>
+		<name><![CDATA[Savannah Miles]]></name>
+		<description><![CDATA[{"browser":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/104.0.0.0 Safari\/537.36","referrer":"https:\/\/sandbox.formidableforms.com\/demos\/wp-admin\/admin.php?page=formidable-entries&frm_action=new&form=358&frm-full=1"}]]></description>
+		<created_at>2022-08-16 05:36:09</created_at>
+		<updated_at>2022-12-09 07:26:47</updated_at>
+		<form_id>358</form_id>
+		<post_id>0</post_id>
+		<ip>120.28.65.223</ip>
+		<is_draft>0</is_draft>
+		<user_id><![CDATA[kristine]]></user_id>
+		<updated_by><![CDATA[kristine]]></updated_by>
+		<parent_item_id>0</parent_item_id>
+
+		<item_meta>
+			<field_id>4718</field_id>
+		    <meta_value><![CDATA[Ruby Developer]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4711</field_id>
+		    <meta_value><![CDATA[Agile Solutions]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4715</field_id>
+		    <meta_value><![CDATA[I am extremely satisfied with your product. Your support team has been helpful and friendly. I’m glad I chose the right product for our company, and I couldn’t be happier.]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4714</field_id>
+		    <meta_value>5</meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4720</field_id>
+		    <meta_value><![CDATA[http://sandbox.formidableforms.com/demos/wp-content/uploads/sites/17/formidable/358/sav.png]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4719</field_id>
+		    <meta_value><![CDATA[savannah@example.com]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>5190</field_id>
+		    <meta_value><![CDATA[{"first":"Savannah","last":"Miles"}]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>5189</field_id>
+		    <meta_value><![CDATA[Great product!]]></meta_value>
+		</item_meta>
+	</item>
+	<item>
+		<id>4003</id>
+		<item_key><![CDATA[t8cdx]]></item_key>
+		<name><![CDATA[Bessie Richards]]></name>
+		<description><![CDATA[{"browser":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/107.0.0.0 Safari\/537.36","referrer":"https:\/\/sandbox.formidableforms.com\/demos\/wp-admin\/admin.php?page=formidable-entries&frm_action=new&form=358"}]]></description>
+		<created_at>2022-12-09 06:55:26</created_at>
+		<updated_at>2022-12-09 07:34:31</updated_at>
+		<form_id>358</form_id>
+		<post_id>0</post_id>
+		<ip>2001:fd8:3398:4754:20ed:4bb8:702b:8a61</ip>
+		<is_draft>0</is_draft>
+		<user_id><![CDATA[kristine]]></user_id>
+		<updated_by><![CDATA[kristine]]></updated_by>
+		<parent_item_id>0</parent_item_id>
+
+		<item_meta>
+			<field_id>5190</field_id>
+		    <meta_value><![CDATA[{"first":"Bessie","last":"Richards"}]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4718</field_id>
+		    <meta_value><![CDATA[Marketing Manager]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4711</field_id>
+		    <meta_value><![CDATA[New Media]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>5189</field_id>
+		    <meta_value><![CDATA[Powerful suite of tools]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4715</field_id>
+		    <meta_value><![CDATA[Our leads have grown with the help of this product. It offers a set of tools that every marketing team must have. It is a cost-effective way to manage our campaigns.]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4714</field_id>
+		    <meta_value>5</meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4720</field_id>
+		    <meta_value><![CDATA[http://sandbox.formidableforms.com/demos/wp-content/uploads/sites/17/formidable/358/bessie.png]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4719</field_id>
+		    <meta_value><![CDATA[bessie@test.com]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4716</field_id>
+		    <meta_value><![CDATA[Yes]]></meta_value>
+		</item_meta>
+	</item>
+	<item>
+		<id>4004</id>
+		<item_key><![CDATA[ou50b]]></item_key>
+		<name><![CDATA[Cody Edwards]]></name>
+		<description><![CDATA[{"browser":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/107.0.0.0 Safari\/537.36","referrer":"https:\/\/sandbox.formidableforms.com\/demos\/wp-admin\/admin.php?page=formidable-entries&frm_action=new&form=358"}]]></description>
+		<created_at>2022-12-09 07:41:48</created_at>
+		<updated_at>2022-12-09 07:41:48</updated_at>
+		<form_id>358</form_id>
+		<post_id>0</post_id>
+		<ip>2001:fd8:3398:4754:20ed:4bb8:702b:8a61</ip>
+		<is_draft>0</is_draft>
+		<user_id><![CDATA[kristine]]></user_id>
+		<updated_by><![CDATA[kristine]]></updated_by>
+		<parent_item_id>0</parent_item_id>
+
+		<item_meta>
+			<field_id>5190</field_id>
+		    <meta_value><![CDATA[{"first":"Cody","last":"Edwards"}]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4718</field_id>
+		    <meta_value><![CDATA[UX Designer]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4711</field_id>
+		    <meta_value><![CDATA[Digital Creatives]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>5189</field_id>
+		    <meta_value><![CDATA[Great customer service]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4715</field_id>
+		    <meta_value><![CDATA[I highly recommend this product! Their support was extremely helpful. The results that I got from using their product is amazing.]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4714</field_id>
+		    <meta_value>5</meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4720</field_id>
+		    <meta_value><![CDATA[http://sandbox.formidableforms.com/demos/wp-content/uploads/sites/17/formidable/358/cody.png]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4719</field_id>
+		    <meta_value><![CDATA[cody@test.com]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4716</field_id>
+		    <meta_value><![CDATA[Yes]]></meta_value>
+		</item_meta>
+	</item>
+	<view>
+		<title>Customer feedback</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[{"event":["create"],"email_to":"[testimonial-email]","cc":"","bcc":"","from":"[sitename] ","reply_to":"","email_subject":"[form_name] - Thank you for your valuable feedback!","email_message":"Hi [testimonial-name],\r\n\r\nWe appreciate you took the time to share your feedback! If there is anything else you think we could do to improve our service or product, please don't hesitate to reach out to us. ","email_attachment_id":"","conditions":{"send_stop":"send","any_all":"any"},"autoresponder":{"is_active":"","do_default_trigger":"no","send_interval":"30","send_unit":"days","send_before_after":"after","send_date":"update","send_after_interval_type":"number","send_after_interval":"0","send_after_unit":"days","send_after_count":"1"}}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>1124</post_id>
+		<post_date>2019-10-10 19:24:48</post_date>
+		<post_date_gmt>0000-00-00 00:00:00</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>358_email_1124</post_name>
+		<status>draft</status>
+		<post_parent>0</post_parent>
+		<menu_order>358</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[181_email_1358-2]]></meta_value>
+		</postmeta>
+	</view>
+	<view>
+		<title>New Testimonial Submission</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[{"event":["create"],"email_to":"[admin_email]","cc":"","bcc":"","from":"[sitename] ","reply_to":"","email_subject":"[form_name] - New Testimonial Submission","email_message":"[default-message]","email_attachment_id":"","conditions":{"send_stop":"send","any_all":"any"},"autoresponder":{"is_active":"","do_default_trigger":"no","send_interval":"30","send_unit":"days","send_before_after":"after","send_date":"update","send_after_interval_type":"number","send_after_interval":"0","send_after_unit":"days","send_after_count":"1"}}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>1125</post_id>
+		<post_date>2019-10-10 19:12:41</post_date>
+		<post_date_gmt>0000-00-00 00:00:00</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>358_email_1125</post_name>
+		<status>draft</status>
+		<post_parent>0</post_parent>
+		<menu_order>358</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[181_email_1257-2]]></meta_value>
+		</postmeta>
+	</view>
+	<view>
+		<title>Testimonial Card</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[[{"box":0,"content":"[{\"box\":0,\"content\":\"[{\"box\":0,\"content\":\"\"},{\"box\":10,\"content\":\"<strong>[if testimonial-heading][testimonial-heading][\/if testimonial-heading]n<hr>nn\"},{\"box\":1,\"content\":\"\"},{\"box\":2,\"content\":\"\"},{\"box\":27,\"content\":\"<strong>[if testimonial-name][testimonial-name][\/if testimonial-name]n[if testimonial-title][testimonial-title][\/if testimonial-title], [if testimonial-company][testimonial-company][\/if testimonial-company]n\"},{\"box\":43,\"content\":\"[if testimonial-avatar][testimonial-avatar show_image=1 class=\"frm_round\"][\/if testimonial-avatar]\"},{\"box\":44,\"content\":\"[if testimonial-desc][testimonial-desc][\/if testimonial-desc]\"},{\"box\":51,\"content\":\"<strong>[if testimonial-name][testimonial-name][\/if testimonial-name]n[if testimonial-title][testimonial-title][\/if testimonial-title], [if testimonial-company][testimonial-company][\/if testimonial-company]n\"},{\"box\":82,\"content\":\"<strong>[if testimonial-name][testimonial-name][\/if testimonial-name]n<em>[if testimonial-title][testimonial-title][\/if testimonial-title]n[if testimonial-company][testimonial-company][\/if testimonial-company]\"},{\"box\":85,\"content\":\"nn\"},{\"box\":83,\"content\":\"[if testimonial-rating][frm-stats id=testimonial-rating type=star][\/if testimonial-rating]\"},{\"box\":99,\"content\":\"\"},{\"box\":107,\"content\":\"<strong>[if testimonial-name][testimonial-name][\/if testimonial-name]n<em>[if testimonial-title][testimonial-title][\/if testimonial-title] | [if testimonial-company][testimonial-company][\/if testimonial-company]n[if testimonial-rating][frm-stats id=testimonial-rating type=star][\/if testimonial-rating]\"},{\"box\":117,\"content\":\"\"},{\"box\":115,\"content\":\"[if testimonial-avatar][testimonial-avatar show_image=1 class=\"frm_round\" size=\"thumbnail\"][\/if testimonial-avatar]\"},{\"box\":125,\"content\":\"<div class=\"testimonial\">n<p style=\"font-weight:bold;text-transform: uppercase\">[if testimonial-heading][testimonial-heading][\/if testimonial-heading]n[if testimonial-desc][testimonial-desc][\/if testimonial-desc]n\"},{\"box\":133,\"content\":\"<strong>[if testimonial-name][testimonial-name][\/if testimonial-name]n<em>[if testimonial-title][testimonial-title][\/if testimonial-title]n[if testimonial-company][testimonial-company][\/if testimonial-company]n[frm-stats id=testimonial-rating type=star]\"},{\"box\":138,\"content\":\"[if testimonial-avatar][testimonial-avatar show_image=1 class=\"frm_round\"][\/if testimonial-avatar]\"},{\"box\":139,\"content\":\"<div style=\"padding-top: 1.5em\">n<strong>[if testimonial-name][testimonial-name][\/if testimonial-name]n<em>[if testimonial-title][testimonial-title][\/if testimonial-title], [if testimonial-company][testimonial-company][\/if testimonial-company]n\"}]\"},{\"box\":1,\"content\":\"[if testimonial-avatar][testimonial-avatar show_image=1 class=\"frm_round\"][\/if testimonial-avatar]\"},{\"box\":2,\"content\":\"<strong>[if testimonial-name][testimonial-name][\/if testimonial-name]n<em>[if testimonial-title][testimonial-title][\/if testimonial-title], [if testimonial-company]<a href=\"[testimonial-url]\" target=\"_blank\" style=\"text-decoration:none\">[testimonial-company][\/if testimonial-company]n[frm-stats id=testimonial-rating type=star]\"},{\"box\":16,\"content\":\"<div style=\"font-weight:bold;text-transform:uppercase;padding-top: 1em;font-size:medium\">[if testimonial-heading][testimonial-heading][\/if testimonial-heading]n[if testimonial-desc][testimonial-desc][\/if testimonial-desc]\"}]","style":{"padding":"25px"}},{"box":1,"content":"<div style=\"text-align:center;\">[if testimonial-avatar][testimonial-avatar show_image=1 class=\"frm_round\"][\/if testimonial-avatar]\n<\/div>"},{"box":2,"content":"<span style=\"font-weight:bold;\">[if testimonial-name][testimonial-name][\/if testimonial-name]<\/span>\n<em>[if testimonial-title][testimonial-title][\/if testimonial-title], <a href=\"[testimonial-url]\" target=\"_blank\" style=\"text-decoration:none;\">[if testimonial-company][testimonial-company][\/if testimonial-company]<\/a><\/em>\n[frm-stats id=testimonial-rating type=star]","style":{"padding":"0px 15px"}},{"box":4,"content":"<div style=\"font-weight:bold; text-transform:uppercase; font-size: medium;\">[if testimonial-heading][testimonial-heading][\/if testimonial-heading]<\/div>\n[if testimonial-desc][testimonial-desc][\/if testimonial-desc]","style":{"padding":"25px 0 0 0"}}]]]></content>
+		<excerpt><![CDATA[]]></excerpt>
+		<post_id>1260</post_id>
+		<post_date>2022-12-09 03:56:26</post_date>
+		<post_date_gmt>2022-12-09 03:56:26</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>testimonial-card</post_name>
+		<status>private</status>
+		<post_parent>0</post_parent>
+		<menu_order>0</menu_order>
+		<post_type>frm_display</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>frm_form_id</meta_key>
+			<meta_value>358</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_grid_view</meta_key>
+			<meta_value>1</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_show_count</meta_key>
+			<meta_value><![CDATA[all]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_options</meta_key>
+			<meta_value><![CDATA[{"date_field_id":"","edate_field_id":"","repeat_event_field_id":"","repeat_edate_field_id":"","before_content":"","after_content":"","empty_msg":"No Entries Found","limit":"","page_size":"","no_rt":0,"ajax_pagination":"0","grid_column_count":2,"grid_row_gap":"20","grid_column_gap":"2","grid_classes":"frm_tiles","grid_responsive":1}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_param</meta_key>
+			<meta_value><![CDATA[entry]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_dyncontent</meta_key>
+			<meta_value><![CDATA[]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_type</meta_key>
+			<meta_value><![CDATA[id]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_active_preview_filter</meta_key>
+			<meta_value><![CDATA[limited]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_oembed_987f075f75ce596385857ecef2e2a056</meta_key>
+			<meta_value><![CDATA[{{unknown}}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_oembed_6663bcb8f764367c82ab92da04f173bd</meta_key>
+			<meta_value><![CDATA[{{unknown}}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_edit_last</meta_key>
+			<meta_value>86</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_edit_lock</meta_key>
+			<meta_value><![CDATA[1670571961:86]]></meta_value>
+		</postmeta>
+		<layout>
+			<type>listing</type>
+			<data><![CDATA[[{"id":0,"layout":5,"boxes":[{"id":1},{"id":2}]},{"id":3,"layout":1,"boxes":[{"id":4}]}]]]></data>
+		</layout>
+	</view>
+	<view>
+		<title>Testimonial List</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[[{"box":0,"content":"[{\"box\":0,\"content\":\"[{\"box\":0,\"content\":\"\"},{\"box\":10,\"content\":\"<strong>[if testimonial-heading][testimonial-heading][\/if testimonial-heading]n<hr>nn\"},{\"box\":1,\"content\":\"\"},{\"box\":2,\"content\":\"\"},{\"box\":27,\"content\":\"<strong>[if testimonial-name][testimonial-name][\/if testimonial-name]n[if testimonial-title][testimonial-title][\/if testimonial-title], [if testimonial-company][testimonial-company][\/if testimonial-company]n\"},{\"box\":43,\"content\":\"[if testimonial-avatar][testimonial-avatar show_image=1 class=\"frm_round\"][\/if testimonial-avatar]\"},{\"box\":44,\"content\":\"[if testimonial-desc][testimonial-desc][\/if testimonial-desc]\"},{\"box\":51,\"content\":\"<strong>[if testimonial-name][testimonial-name][\/if testimonial-name]n[if testimonial-title][testimonial-title][\/if testimonial-title], [if testimonial-company][testimonial-company][\/if testimonial-company]n\"},{\"box\":82,\"content\":\"<strong>[if testimonial-name][testimonial-name][\/if testimonial-name]n<em>[if testimonial-title][testimonial-title][\/if testimonial-title]n[if testimonial-company][testimonial-company][\/if testimonial-company]\"},{\"box\":85,\"content\":\"nn\"},{\"box\":83,\"content\":\"[if testimonial-rating][frm-stats id=testimonial-rating type=star][\/if testimonial-rating]\"},{\"box\":99,\"content\":\"\"},{\"box\":107,\"content\":\"<strong>[if testimonial-name][testimonial-name][\/if testimonial-name]n<em>[if testimonial-title][testimonial-title][\/if testimonial-title] | [if testimonial-company][testimonial-company][\/if testimonial-company]n[if testimonial-rating][frm-stats id=testimonial-rating type=star][\/if testimonial-rating]\"},{\"box\":117,\"content\":\"\"},{\"box\":115,\"content\":\"[if testimonial-avatar][testimonial-avatar show_image=1 class=\"frm_round\" size=\"thumbnail\"][\/if testimonial-avatar]\"},{\"box\":125,\"content\":\"<div class=\"testimonial\">n<p style=\"font-weight:bold;text-transform: uppercase\">[if testimonial-heading][testimonial-heading][\/if testimonial-heading]n[if testimonial-desc][testimonial-desc][\/if testimonial-desc]n\"},{\"box\":133,\"content\":\"<strong>[if testimonial-name][testimonial-name][\/if testimonial-name]n<em>[if testimonial-title][testimonial-title][\/if testimonial-title]n[if testimonial-company][testimonial-company][\/if testimonial-company]n[frm-stats id=testimonial-rating type=star]\"},{\"box\":138,\"content\":\"[if testimonial-avatar][testimonial-avatar show_image=1 class=\"frm_round\"][\/if testimonial-avatar]\"},{\"box\":139,\"content\":\"<div style=\"padding-top: 1.5em\">n<strong>[if testimonial-name][testimonial-name][\/if testimonial-name]n<em>[if testimonial-title][testimonial-title][\/if testimonial-title], [if testimonial-company][testimonial-company][\/if testimonial-company]n\"}]\"},{\"box\":1,\"content\":\"nn<strong>[if testimonial-name][testimonial-name][\/if testimonial-name]n[if testimonial-title][testimonial-title][\/if testimonial-title], [if testimonial-company][testimonial-company][\/if testimonial-company]n[frm-stats id=testimonial-rating type=star]nn\"},{\"box\":3,\"content\":\"[if testimonial-avatar][testimonial-avatar show_image=1 class=\"frm_round\"][\/if testimonial-avatar]\"},{\"box\":4,\"content\":\"<div style=\"font-weight:bold;text-transform:uppercase;padding-top: 1em\">[if testimonial-heading][testimonial-heading][\/if testimonial-heading]n[if testimonial-desc][testimonial-desc][\/if testimonial-desc]\"},{\"box\":21,\"content\":\"<div style=\"font-weight:bold;text-transform:uppercase;padding-top: 1em\">[if testimonial-name][testimonial-name][\/if testimonial-name]n<em>[if testimonial-title][testimonial-title][\/if testimonial-title]n[if testimonial-company][testimonial-company][\/if testimonial-company]n[frm-stats id=testimonial-rating type=star]\"},{\"box\":38,\"content\":\"<strong>[if testimonial-name][testimonial-name][\/if testimonial-name]n[if testimonial-title][testimonial-title][\/if testimonial-title], [if testimonial-company][testimonial-company][\/if testimonial-company]n[frm-stats id=testimonial-rating type=star]\"},{\"box\":66,\"content\":\"<div style=\"text-align:center\">n[if testimonial-avatar][testimonial-avatar show_image=1 class=\"frm_round\"][\/if testimonial-avatar]n\"},{\"box\":157,\"content\":\"[if testimonial-desc][testimonial-desc][\/if testimonial-desc]\"},{\"box\":195,\"content\":\"\"},{\"box\":245,\"content\":\"\"},{\"box\":283,\"content\":\"<div style=\"text-align:right\">n<span style=\"font-weight:bold;text-transform:uppercase\">[if testimonial-name][testimonial-name][\/if testimonial-name]n<em>[if testimonial-title][testimonial-title][\/if testimonial-title]n[if testimonial-company]<a href=\"[testimonial-url]\" target=\"_blank\" style=\"text-decoration:none\" rel=\"noopener\">[testimonial-company][\/if testimonial-company]n\"},{\"box\":317,\"content\":\"<div style=\"font-weight:bold;text-transform:uppercase;font-size:medium\">n[if testimonial-heading][testimonial-heading][\/if testimonial-heading]\"},{\"box\":318,\"content\":\"<div style=\"float:right\">[frm-stats id=testimonial-rating type=star]n\"}]","style":{"padding":"20px 30px"}},{"box":21,"content":""},{"box":4,"content":""},{"box":3,"content":""},{"box":1,"content":""},{"box":30,"content":""},{"box":31,"content":""},{"box":131,"content":"<div style=\"font-weight:bold; text-transform:uppercase;\">[if testimonial-heading][testimonial-heading][\/if testimonial-heading]<\/div>","style":{"fontSize":"18px","lineHeight":"18px","borderRadius":"0 0px undefined undefined","padding":"10px 0px"}},{"box":132,"content":"<span style=\"float:right;\">[frm-stats id=testimonial-rating type=star]<\/span>"},{"box":122,"content":""},{"box":104,"content":"<div style=\"text-align:center;\">[if testimonial-avatar][testimonial-avatar show_image=1 class=\"frm_round\" size=thumbnail][\/if testimonial-avatar]\n<\/div>","style":{"padding":"15px 0px"}},{"box":152,"content":"[if testimonial-desc][testimonial-desc][\/if testimonial-desc]","style":{"borderRadius":"0 0 undefined undefined","padding":"15px 0px 0px 0px"}},{"box":176,"content":"<div style=\"float:right;\">\n<span style=\"font-weight:bold;\">[if testimonial-name][testimonial-name][\/if testimonial-name]<\/span>\n<a href=\"[testimonial-url]\" target=\"_blank\" style=\"text-decoration:none;\"><em>[if testimonial-title][testimonial-title][\/if testimonial-title] at [if testimonial-company][testimonial-company][\/if testimonial-company]<\/em><\/a>\n<\/div>"}]]]></content>
+		<excerpt><![CDATA[]]></excerpt>
+		<post_id>1261</post_id>
+		<post_date>2022-12-09 05:38:50</post_date>
+		<post_date_gmt>2022-12-09 05:38:50</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>testimonial-list</post_name>
+		<status>private</status>
+		<post_parent>0</post_parent>
+		<menu_order>0</menu_order>
+		<post_type>frm_display</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>frm_param</meta_key>
+			<meta_value><![CDATA[entry]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_dyncontent</meta_key>
+			<meta_value><![CDATA[]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_type</meta_key>
+			<meta_value><![CDATA[id]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_show_count</meta_key>
+			<meta_value><![CDATA[all]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_form_id</meta_key>
+			<meta_value>358</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_entry_id</meta_key>
+			<meta_value><![CDATA[]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_active_preview_filter</meta_key>
+			<meta_value><![CDATA[limited]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_grid_view</meta_key>
+			<meta_value>1</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_table_view</meta_key>
+			<meta_value><![CDATA[]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_options</meta_key>
+			<meta_value><![CDATA[{"date_field_id":"","edate_field_id":"","repeat_event_field_id":"","repeat_edate_field_id":"","before_content":"","after_content":"","empty_msg":"No Entries Found","limit":"","page_size":"","no_rt":0,"ajax_pagination":"0","grid_column_count":1,"grid_row_gap":"20","grid_column_gap":"2","grid_classes":"frm_tiles","grid_responsive":0}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_edit_last</meta_key>
+			<meta_value>86</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_edit_lock</meta_key>
+			<meta_value><![CDATA[1670571966:86]]></meta_value>
+		</postmeta>
+		<layout>
+			<type>listing</type>
+			<data><![CDATA[[{"id":94,"layout":1,"boxes":[{"id":95,"rows":[{"id":103,"layout":5,"boxes":[{"id":104},{"id":105,"rows":[{"id":113,"layout":1,"boxes":[{"id":114,"rows":[{"id":130,"layout":2,"boxes":[{"id":131},{"id":132}]}]}]},{"id":151,"layout":1,"boxes":[{"id":152}]},{"id":121,"layout":1,"boxes":[{"id":122,"rows":[{"id":174,"layout":2,"boxes":[{"id":175},{"id":176}]}]}]}]}]}]}]}]]]></data>
+		</layout>
+	</view>
+	<view>
+		<title>Testimonial Gallery</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[[{"box":0,"content":"","style":{"padding":"20px"}},{"box":1,"content":"<div style=\"text-align;center;\">[if testimonial-avatar][testimonial-avatar show_image=1 class=\"frm_round\"][\/if testimonial-avatar]<\/div>"},{"box":42,"content":"<div style=\"text-align;center;\">[if testimonial-avatar][testimonial-avatar show_image=1 class=\"frm_round\"][\/if testimonial-avatar]<\/div>"},{"box":23,"content":"<div style=\"text-align:center;\"><em>[if testimonial-desc][testimonial-desc][\/if testimonial-desc]<\/em><\/div>"},{"box":84,"content":""},{"box":99,"content":"<div style=\"text-align:center;\">\n<span style=\"font-weight:bold;\">[if testimonial-name][testimonial-name][\/if testimonial-name]<\/span>\n<a href=\"[testimonial-url]\" target=\"_blank\" style=\"text-decoration:none;\"><em>[if testimonial-title][testimonial-title][\/if testimonial-title] at [if testimonial-company][testimonial-company][\/if testimonial-company]<\/em><\/a>\n<\/div>"},{"box":118,"content":""},{"box":130,"content":"<div style=\"text-align:center;\">[if testimonial-avatar][testimonial-avatar show_image=1 class=\"frm_round\"][\/if testimonial-avatar]\n<\/div>"},{"box":158,"content":""}]]]></content>
+		<excerpt><![CDATA[]]></excerpt>
+		<post_id>1262</post_id>
+		<post_date>2022-12-09 06:18:18</post_date>
+		<post_date_gmt>2022-12-09 06:18:18</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>testimonial-gallery</post_name>
+		<status>private</status>
+		<post_parent>0</post_parent>
+		<menu_order>0</menu_order>
+		<post_type>frm_display</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>frm_form_id</meta_key>
+			<meta_value>358</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_grid_view</meta_key>
+			<meta_value>1</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_show_count</meta_key>
+			<meta_value><![CDATA[all]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_options</meta_key>
+			<meta_value><![CDATA[{"date_field_id":"","edate_field_id":"","repeat_event_field_id":"","repeat_edate_field_id":"","before_content":"","after_content":"","empty_msg":"No Entries Found","limit":"","page_size":"","no_rt":0,"ajax_pagination":"0","grid_column_count":3,"grid_row_gap":"20","grid_column_gap":"2","grid_classes":"frm_tiles","grid_responsive":1}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_param</meta_key>
+			<meta_value><![CDATA[entry]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_dyncontent</meta_key>
+			<meta_value><![CDATA[]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_type</meta_key>
+			<meta_value><![CDATA[id]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_active_preview_filter</meta_key>
+			<meta_value><![CDATA[limited]]></meta_value>
+		</postmeta>
+		<layout>
+			<type>listing</type>
+			<data><![CDATA[[{"id":128,"layout":3,"boxes":[{"id":129},{"id":130},{"id":131}]},{"id":22,"layout":1,"boxes":[{"id":23}]},{"id":98,"layout":1,"boxes":[{"id":99}]}]]]></data>
+		</layout>
+	</view>
+	<view>
+		<title>Add Testimonial</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[<!-- wp:formidable/simple-form {"formId":"358"} -->
+<div>[formidable id="358"]</div>
+<!-- /wp:formidable/simple-form -->]]></content>
+		<excerpt><![CDATA[]]></excerpt>
+		<post_id>1264</post_id>
+		<post_date>2022-12-09 07:30:37</post_date>
+		<post_date_gmt>0000-00-00 00:00:00</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name></post_name>
+		<status>draft</status>
+		<post_parent>0</post_parent>
+		<menu_order>0</menu_order>
+		<post_type>page</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_edit_lock</meta_key>
+			<meta_value><![CDATA[1670574666:86]]></meta_value>
+		</postmeta>
+	</view>
+	<view>
+		<title>Testimonial Card</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[<!-- wp:formidable/simple-view {"viewId":"1260","useDefaultLimit":true} -->
+<div>[display-frm-data id="1260" filter="limited"]</div>
+<!-- /wp:formidable/simple-view -->]]></content>
+		<excerpt><![CDATA[]]></excerpt>
+		<post_id>1268</post_id>
+		<post_date>2022-12-09 07:56:33</post_date>
+		<post_date_gmt>0000-00-00 00:00:00</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name></post_name>
+		<status>draft</status>
+		<post_parent>0</post_parent>
+		<menu_order>0</menu_order>
+		<post_type>page</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_edit_lock</meta_key>
+			<meta_value><![CDATA[1670574666:86]]></meta_value>
+		</postmeta>
+	</view>
+</channel>

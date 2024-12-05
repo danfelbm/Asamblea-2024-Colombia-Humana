@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/6.0.2" created="2022-09-28 17:07" -->
+
+<channel>
+	<title>API Demos</title>
+	<pubDate>Wed, 28 Sep 2022 17:07:52 +0000</pubDate>
+
+	<form>
+		<id>383</id>
+		<form_key><![CDATA[informed-consent]]></form_key>
+		<name><![CDATA[Informed Consent]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2022-09-28 17:00:07</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<editable>0</editable>
+		<options><![CDATA[{"antispam":"1","logged_in_role":[""],"cookie_expiration":"8000","editable_role":[""],"edit_page_id":"","protect_files":"0","noindex_files":"0","open_date":"2022-09-01 05:45","custom_style":"1","submit_conditions":{"show_hide":"show","any_all":"all"},"start_over":"1","start_over_label":"Start Over","landing_bg_image_id":"0","landing_opacity":"100","chat_progress_type":"","chat_continue_text":"Continue","chat_start_button_text":"Start","before_html":"<legend class=\"frm_screen_reader\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\"frm_form_title\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\"frm_description\">[form_description]<\/div>[\/if form_description]","submit_html":"<div class=\"frm_submit\">\r\n[if back_button]<button type=\"submit\" name=\"frm_prev_page\" formnovalidate=\"formnovalidate\" class=\"frm_prev_page\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\"frm_button_submit\" type=\"submit\" [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\"#\" tabindex=\"0\" class=\"frm_save_draft\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n[if start_over]<a href=\"#\" tabindex=\"0\" class=\"frm_start_over\">[start_over_label]<\/a>[\/if start_over]\r\n<\/div>","paypal_item_name":"","paypal_amount_field":"","paypal_amount":"","paypal_list":[],"paypal_stop_email":0,"paypal_type":"","repeat_num":1,"repeat_time":"M","retry":0,"trial":0,"trial_amount":"","trial_num":1,"trial_time":"M","change_field":[],"action_id":0,"business_email":"","currency":"USD","return_url":"","cancel_url":""}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>0</parent_form_id>
+		<field>
+			<id>5107</id>
+			<field_key><![CDATA[kx1jr2]]></field_key>
+			<name><![CDATA[Name of Study]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>2</field_order>
+			<form_id>383</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","invalid":"Text is invalid","auto_address":0,"geo_show_map":0}]]></field_options>
+		</field>
+		<field>
+			<id>5113</id>
+			<field_key><![CDATA[ify0x2]]></field_key>
+			<name><![CDATA[Consent]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[checkbox]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>4</field_order>
+			<form_id>383</form_id>
+			<required>1</required>
+			<options><![CDATA[[{"label":"I voluntarily give my consent to participate in this study. I have read the information above or the said information was read to me. I was given the opportunity to ask questions and these were answered satisfactorily and to my contentment.","value":"I voluntarily give my consent to participate in this study. I have read the information above or the said information was read to me. I was given the opportunity to ask questions and these were answered satisfactorily and to my contentment.","image":"0"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","label":"none","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\"frm_opt_container\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>","image_options":"0","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>5117</id>
+			<field_key><![CDATA[tp8qg]]></field_key>
+			<name><![CDATA[Participant Details]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>6</field_order>
+			<form_id>383</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","label":"","blank":"","repeat":"0"}]]></field_options>
+		</field>
+		<field>
+			<id>5108</id>
+			<field_key><![CDATA[59gfd2]]></field_key>
+			<name><![CDATA[Name of Participant]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[name]]></type>
+			<default_value><![CDATA[{"first":"","middle":"","last":""}]]></default_value>
+			<field_order>8</field_order>
+			<form_id>383</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"5117","classes":"frm12 frm_first","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>","placeholder":{"first":"","middle":"","last":""}}]]></field_options>
+		</field>
+		<field>
+			<id>5114</id>
+			<field_key><![CDATA[kl31q2]]></field_key>
+			<name><![CDATA[Signature of Participant]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[signature]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>10</field_order>
+			<form_id>383</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","size":"600","max":"150","classes":"frm6 frm_first"}]]></field_options>
+		</field>
+		<field>
+			<id>5115</id>
+			<field_key><![CDATA[9odpz2]]></field_key>
+			<name><![CDATA[Date]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[date]]></type>
+			<default_value><![CDATA[[date]]]></default_value>
+			<field_order>11</field_order>
+			<form_id>383</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"5117","classes":"frm6","days_of_the_week":[1,2,3,4,5,6,0]}]]></field_options>
+		</field>
+		<field>
+			<id>5118</id>
+			<field_key><![CDATA[898ds]]></field_key>
+			<name><![CDATA[Section Buttons]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[end_divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>12</field_order>
+			<form_id>383</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>5119</id>
+			<field_key><![CDATA[b2gvg]]></field_key>
+			<name><![CDATA[Witness Details]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>14</field_order>
+			<form_id>383</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","label":"","blank":"","repeat":"0"}]]></field_options>
+		</field>
+		<field>
+			<id>5120</id>
+			<field_key><![CDATA[ynoy7]]></field_key>
+			<name><![CDATA[Name of Witness]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[name]]></type>
+			<default_value><![CDATA[{"first":"","middle":"","last":""}]]></default_value>
+			<field_order>15</field_order>
+			<form_id>383</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"5119","classes":"frm12 frm_first","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>","placeholder":{"first":"","middle":"","last":""}}]]></field_options>
+		</field>
+		<field>
+			<id>5121</id>
+			<field_key><![CDATA[8anpt]]></field_key>
+			<name><![CDATA[Signature of Witness]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[signature]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>16</field_order>
+			<form_id>383</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","size":"600","max":"150","classes":"frm6 frm_first"}]]></field_options>
+		</field>
+		<field>
+			<id>5122</id>
+			<field_key><![CDATA[a1n7r]]></field_key>
+			<name><![CDATA[Date]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[date]]></type>
+			<default_value><![CDATA[[date]]]></default_value>
+			<field_order>17</field_order>
+			<form_id>383</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"5119","classes":"frm6","days_of_the_week":[1,2,3,4,5,6,0]}]]></field_options>
+		</field>
+		<field>
+			<id>5123</id>
+			<field_key><![CDATA[dpbyu]]></field_key>
+			<name><![CDATA[Section Buttons]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[end_divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>18</field_order>
+			<form_id>383</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>5124</id>
+			<field_key><![CDATA[nx8j9]]></field_key>
+			<name><![CDATA[Researcher Details]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>20</field_order>
+			<form_id>383</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","label":"","blank":"","repeat":"0"}]]></field_options>
+		</field>
+		<field>
+			<id>5125</id>
+			<field_key><![CDATA[cd6yg]]></field_key>
+			<name><![CDATA[Name of Researcher]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[name]]></type>
+			<default_value><![CDATA[{"first":"","middle":"","last":""}]]></default_value>
+			<field_order>21</field_order>
+			<form_id>383</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"5124","classes":"frm12 frm_first","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>","placeholder":{"first":"","middle":"","last":""}}]]></field_options>
+		</field>
+		<field>
+			<id>5126</id>
+			<field_key><![CDATA[iv9hb]]></field_key>
+			<name><![CDATA[Signature of Researcher]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[signature]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>22</field_order>
+			<form_id>383</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","size":"600","max":"150","classes":"frm6 frm_first"}]]></field_options>
+		</field>
+		<field>
+			<id>5127</id>
+			<field_key><![CDATA[jggdh]]></field_key>
+			<name><![CDATA[Date]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[date]]></type>
+			<default_value><![CDATA[[date]]]></default_value>
+			<field_order>23</field_order>
+			<form_id>383</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"5124","classes":"frm6","days_of_the_week":[1,2,3,4,5,6,0]}]]></field_options>
+		</field>
+		<field>
+			<id>5128</id>
+			<field_key><![CDATA[vhjx0]]></field_key>
+			<name><![CDATA[Section Buttons]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[end_divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>24</field_order>
+			<form_id>383</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"in_section":"0","blank":""}]]></field_options>
+		</field>
+	</form>
+	<view>
+		<title>Send Email</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[{"email_to":"[admin_email]","cc":"","bcc":"","from":"[sitename] <[admin_email]>","reply_to":"","email_subject":"","email_message":"[default-message]","inc_user_info":"0","plain_text":"0","event":["create"],"conditions":{"send_stop":"","any_all":""}}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>1206</post_id>
+		<post_date>2022-09-01 05:45:24</post_date>
+		<post_date_gmt>2022-09-01 05:45:24</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>370_email_-2</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>383</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+	</view>
+</channel>

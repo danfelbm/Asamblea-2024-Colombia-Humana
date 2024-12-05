@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/6.0.2" created="2022-10-11 19:31" -->
+
+<channel>
+	<title>API Demos</title>
+	<pubDate>Tue, 11 Oct 2022 19:31:35 +0000</pubDate>
+
+	<application>
+		<name><![CDATA[Team Directory]]></name>
+	</application>
+	<form>
+		<id>193</id>
+		<form_key><![CDATA[team-directory]]></form_key>
+		<name><![CDATA[Team Directory]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2020-07-09 22:45:23</created_at>
+		<logged_in>1</logged_in>
+		<is_template>0</is_template>
+		<editable>1</editable>
+		<options><![CDATA[{"success_page_id":"0","show_form":"1","ajax_submit":"1","js_validate":"1","success_msg":"Your listing was successfully updated.","edit_msg":"Your listing was successfully updated.","single_entry":"1","open_date":"","submit_value":"Add to Team","submit_conditions":{"show_hide":"show","any_all":"all"},"before_html":"<legend class=\\\"frm_screen_reader\\\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\\\"frm_form_title\\\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\\\"frm_description\\\">[form_description]<\/div>[\/if form_description]","submit_html":"<div class=\\\"frm_submit\\\">\r\n[if back_button]<button type=\\\"submit\\\" name=\\\"frm_prev_page\\\" formnovalidate=\\\"formnovalidate\\\" class=\\\"frm_prev_page\\\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\\\"frm_button_submit\\\" type=\\\"submit\\\"  [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\\\"#\\\" tabindex=\\\"0\\\" class=\\\"frm_save_draft\\\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>","paypal_item_name":"","paypal_amount_field":"","paypal_amount":"","paypal_list":[],"paypal_stop_email":0,"paypal_type":"","repeat_num":1,"repeat_time":"M","retry":0,"trial":0,"trial_amount":"","trial_num":1,"trial_time":"M","change_field":[],"action_id":0,"business_email":"steph@strategy11.com","currency":"USD","return_url":"http:\/\/localhost.localdomain\/wordpress2","cancel_url":"http:\/\/localhost.localdomain\/wordpress2","single_entry_type":"cookie"}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>0</parent_form_id>
+		<field>
+			<id>2720</id>
+			<field_key><![CDATA[team-first]]></field_key>
+			<name><![CDATA[Name]]></name>
+			<description><![CDATA[First]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[[first_name]]]></default_value>
+			<field_order>1</field_order>
+			<form_id>193</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"blank":"","required_indicator":"","classes":"frm_first frm_half","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>","watch_lookup":[""],"btsp":""}]]></field_options>
+		</field>
+		<field>
+			<id>2721</id>
+			<field_key><![CDATA[team-last]]></field_key>
+			<name><![CDATA[Last Name]]></name>
+			<description><![CDATA[Last]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[[last_name]]]></default_value>
+			<field_order>2</field_order>
+			<form_id>193</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"label":"hidden","blank":"","required_indicator":"","classes":"frm_half","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>","watch_lookup":[""],"btsp":""}]]></field_options>
+		</field>
+		<field>
+			<id>2722</id>
+			<field_key><![CDATA[team-avatar]]></field_key>
+			<name><![CDATA[Avatar]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[file]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>5</field_order>
+			<form_id>193</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"blank":"","required_indicator":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>","btsp":""}]]></field_options>
+		</field>
+		<field>
+			<id>2723</id>
+			<field_key><![CDATA[team-title]]></field_key>
+			<name><![CDATA[Title]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[[user_meta key=title]]]></default_value>
+			<field_order>7</field_order>
+			<form_id>193</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"blank":"","invalid":"Text is invalid","classes":"frm_half","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\">[required_label]<\/span>\n    <\/label>\n    [input]\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","btsp":""}]]></field_options>
+		</field>
+		<field>
+			<id>2724</id>
+			<field_key><![CDATA[team-bio]]></field_key>
+			<name><![CDATA[Bio]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[textarea]]></type>
+			<default_value><![CDATA[[user_meta key=user_description]]]></default_value>
+			<field_order>11</field_order>
+			<form_id>193</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"blank":"","required_indicator":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>","watch_lookup":[""],"ftypes":{"jpg|jpeg|jpe":"image\/jpeg","gif":"image\/gif","png":"image\/png"},"restrict":"1","delete":"1","btsp":""}]]></field_options>
+		</field>
+		<field>
+			<id>2725</id>
+			<field_key><![CDATA[khihwb27561c422]]></field_key>
+			<name><![CDATA[Social Links]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>12</field_order>
+			<form_id>193</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"label":"","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field frm_section_heading form-field[error_class]\\\">\r\n<h3 class=\\\"frm_pos_[label_position][collapse_class]\\\">[field_name]<\/h3>\r\n[if description]<div class=\\\"frm_description\\\">[description]<\/div>[\/if description]\r\n[collapse_this]\r\n<\/div>","btsp":""}]]></field_options>
+		</field>
+		<field>
+			<id>2726</id>
+			<field_key><![CDATA[team-twitter]]></field_key>
+			<name><![CDATA[Twitter]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[url]]></type>
+			<default_value><![CDATA[[user_meta key=twitter_url]]]></default_value>
+			<field_order>17</field_order>
+			<form_id>193</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"blank":"","invalid":"Website\/URL is invalid","classes":"frm_half frm_first","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\">[required_label]<\/span>\n    <\/label>\n    [input]\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","in_section":2725,"btsp":""}]]></field_options>
+		</field>
+		<field>
+			<id>2727</id>
+			<field_key><![CDATA[team-linkedin]]></field_key>
+			<name><![CDATA[LinkedIn]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[url]]></type>
+			<default_value><![CDATA[[user_meta key=linkedin_url]]]></default_value>
+			<field_order>18</field_order>
+			<form_id>193</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"blank":"","invalid":"Website\/URL is invalid","classes":"frm_half","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\">[required_label]<\/span>\n    <\/label>\n    [input]\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","in_section":2725,"btsp":""}]]></field_options>
+		</field>
+		<field>
+			<id>2728</id>
+			<field_key><![CDATA[43bpn18f3a57cfe]]></field_key>
+			<name><![CDATA[Section Buttons]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[end_divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>19</field_order>
+			<form_id>193</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"blank":"","btsp":""}]]></field_options>
+		</field>
+		<field>
+			<id>2729</id>
+			<field_key><![CDATA[team-userid]]></field_key>
+			<name><![CDATA[User ID]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[user_id]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>21</field_order>
+			<form_id>193</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"blank":"","watch_lookup":[""],"btsp":""}]]></field_options>
+		</field>
+	</form>
+	<item>
+		<id>2259</id>
+		<item_key><![CDATA[p9h3t]]></item_key>
+		<name><![CDATA[Gregory]]></name>
+		<description><![CDATA[{"browser":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/84.0.4147.89 Safari\/537.36","referrer":"https:\/\/sandbox.formidableforms.com\/demos\/wp-admin\/admin.php?page=formidable-entries&frm_action=new&form=193"}]]></description>
+		<created_at>2020-07-23 23:02:32</created_at>
+		<updated_at>2020-07-23 23:24:44</updated_at>
+		<form_id>193</form_id>
+		<post_id>0</post_id>
+		<ip>67.164.194.82</ip>
+		<is_draft>0</is_draft>
+		<user_id><![CDATA[]]></user_id>
+		<updated_by><![CDATA[stephywells]]></updated_by>
+		<parent_item_id>0</parent_item_id>
+
+		<item_meta>
+			<field_id>2720</field_id>
+		    <meta_value><![CDATA[Gregory]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2721</field_id>
+		    <meta_value><![CDATA[Fisher]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2723</field_id>
+		    <meta_value><![CDATA[Product Manager]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2724</field_id>
+		    <meta_value><![CDATA[Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2726</field_id>
+		    <meta_value><![CDATA[https://twitter.com/home]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2727</field_id>
+		    <meta_value><![CDATA[https://www.linkedin.com/]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2729</field_id>
+		    <meta_value><![CDATA[]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2722</field_id>
+		    <meta_value><![CDATA[http://sandbox.formidableforms.com/demos/wp-content/uploads/sites/17/formidable/193/greg-e1595546082470.png]]></meta_value>
+		</item_meta>
+	</item>
+	<item>
+		<id>2260</id>
+		<item_key><![CDATA[ip8tl]]></item_key>
+		<name><![CDATA[Savannah]]></name>
+		<description><![CDATA[{"browser":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/84.0.4147.89 Safari\/537.36","referrer":"https:\/\/sandbox.formidableforms.com\/demos\/wp-admin\/admin.php?page=formidable-entries&frm_action=new&form=193&frm-full=1"}]]></description>
+		<created_at>2020-07-23 23:03:51</created_at>
+		<updated_at>2020-07-23 23:09:51</updated_at>
+		<form_id>193</form_id>
+		<post_id>0</post_id>
+		<ip>67.164.194.82</ip>
+		<is_draft>0</is_draft>
+		<user_id><![CDATA[]]></user_id>
+		<updated_by><![CDATA[stephywells]]></updated_by>
+		<parent_item_id>0</parent_item_id>
+
+		<item_meta>
+			<field_id>2720</field_id>
+		    <meta_value><![CDATA[Savannah]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2721</field_id>
+		    <meta_value><![CDATA[Miles]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2723</field_id>
+		    <meta_value><![CDATA[Ruby Developer]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2724</field_id>
+		    <meta_value><![CDATA[Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2726</field_id>
+		    <meta_value><![CDATA[https://twitter.com/home]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2727</field_id>
+		    <meta_value><![CDATA[https://www.linkedin.com/]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2729</field_id>
+		    <meta_value><![CDATA[]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2722</field_id>
+		    <meta_value><![CDATA[http://sandbox.formidableforms.com/demos/wp-content/uploads/sites/17/formidable/193/sav.png]]></meta_value>
+		</item_meta>
+	</item>
+	<item>
+		<id>2261</id>
+		<item_key><![CDATA[y6rc0]]></item_key>
+		<name><![CDATA[Ronald]]></name>
+		<description><![CDATA[{"browser":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/84.0.4147.89 Safari\/537.36","referrer":"https:\/\/sandbox.formidableforms.com\/demos\/wp-admin\/admin.php?page=formidable-entries&frm_action=new&form=193&frm-full=1"}]]></description>
+		<created_at>2020-07-23 23:04:27</created_at>
+		<updated_at>2020-07-23 23:25:04</updated_at>
+		<form_id>193</form_id>
+		<post_id>0</post_id>
+		<ip>67.164.194.82</ip>
+		<is_draft>0</is_draft>
+		<user_id><![CDATA[]]></user_id>
+		<updated_by><![CDATA[stephywells]]></updated_by>
+		<parent_item_id>0</parent_item_id>
+
+		<item_meta>
+			<field_id>2720</field_id>
+		    <meta_value><![CDATA[Ronald]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2721</field_id>
+		    <meta_value><![CDATA[Richards]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2723</field_id>
+		    <meta_value><![CDATA[3D Designer]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2724</field_id>
+		    <meta_value><![CDATA[Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2726</field_id>
+		    <meta_value><![CDATA[https://twitter.com/home]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2727</field_id>
+		    <meta_value><![CDATA[https://www.linkedin.com/]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2729</field_id>
+		    <meta_value><![CDATA[]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2722</field_id>
+		    <meta_value><![CDATA[http://sandbox.formidableforms.com/demos/wp-content/uploads/sites/17/formidable/193/cody.png]]></meta_value>
+		</item_meta>
+	</item>
+	<item>
+		<id>2262</id>
+		<item_key><![CDATA[oqblz]]></item_key>
+		<name><![CDATA[Robert]]></name>
+		<description><![CDATA[{"browser":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/84.0.4147.89 Safari\/537.36","referrer":"https:\/\/sandbox.formidableforms.com\/demos\/wp-admin\/admin.php?page=formidable-entries&frm_action=new&form=193&frm-full=1"}]]></description>
+		<created_at>2020-07-23 23:04:57</created_at>
+		<updated_at>2020-07-23 23:12:03</updated_at>
+		<form_id>193</form_id>
+		<post_id>0</post_id>
+		<ip>67.164.194.82</ip>
+		<is_draft>0</is_draft>
+		<user_id><![CDATA[]]></user_id>
+		<updated_by><![CDATA[stephywells]]></updated_by>
+		<parent_item_id>0</parent_item_id>
+
+		<item_meta>
+			<field_id>2720</field_id>
+		    <meta_value><![CDATA[Robert]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2721</field_id>
+		    <meta_value><![CDATA[Edwards]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2723</field_id>
+		    <meta_value><![CDATA[People Operations]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2724</field_id>
+		    <meta_value><![CDATA[Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2726</field_id>
+		    <meta_value><![CDATA[https://twitter.com/home]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2727</field_id>
+		    <meta_value><![CDATA[https://www.linkedin.com/]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2729</field_id>
+		    <meta_value><![CDATA[]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2722</field_id>
+		    <meta_value><![CDATA[http://sandbox.formidableforms.com/demos/wp-content/uploads/sites/17/formidable/193/rob.png]]></meta_value>
+		</item_meta>
+	</item>
+	<item>
+		<id>2264</id>
+		<item_key><![CDATA[z8ht8]]></item_key>
+		<name><![CDATA[Bessie]]></name>
+		<description><![CDATA[{"browser":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/84.0.4147.89 Safari\/537.36","referrer":"https:\/\/sandbox.formidableforms.com\/demos\/wp-admin\/admin.php?page=formidable-entries&frm_action=new&form=193&frm-full=1"}]]></description>
+		<created_at>2020-07-24 03:32:14</created_at>
+		<updated_at>2020-07-24 03:32:14</updated_at>
+		<form_id>193</form_id>
+		<post_id>0</post_id>
+		<ip>67.164.194.82</ip>
+		<is_draft>0</is_draft>
+		<user_id><![CDATA[stephywells]]></user_id>
+		<updated_by><![CDATA[stephywells]]></updated_by>
+		<parent_item_id>0</parent_item_id>
+
+		<item_meta>
+			<field_id>2720</field_id>
+		    <meta_value><![CDATA[Bessie]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2721</field_id>
+		    <meta_value><![CDATA[Richards]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2722</field_id>
+		    <meta_value><![CDATA[http://sandbox.formidableforms.com/demos/wp-content/uploads/sites/17/formidable/193/bessie.png]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2723</field_id>
+		    <meta_value><![CDATA[Sales Manager]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2726</field_id>
+		    <meta_value><![CDATA[https://twitter.com/home]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2727</field_id>
+		    <meta_value><![CDATA[https://www.linkedin.com/]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2729</field_id>
+		    <meta_value><![CDATA[]]></meta_value>
+		</item_meta>
+	</item>
+	<item>
+		<id>2265</id>
+		<item_key><![CDATA[lvw9a]]></item_key>
+		<name><![CDATA[Kristin]]></name>
+		<description><![CDATA[{"browser":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/84.0.4147.89 Safari\/537.36","referrer":"https:\/\/sandbox.formidableforms.com\/demos\/wp-admin\/admin.php?page=formidable-entries&frm_action=new&form=193&frm-full=1"}]]></description>
+		<created_at>2020-07-24 03:33:07</created_at>
+		<updated_at>2020-07-24 03:33:07</updated_at>
+		<form_id>193</form_id>
+		<post_id>0</post_id>
+		<ip>67.164.194.82</ip>
+		<is_draft>0</is_draft>
+		<user_id><![CDATA[stephywells]]></user_id>
+		<updated_by><![CDATA[stephywells]]></updated_by>
+		<parent_item_id>0</parent_item_id>
+
+		<item_meta>
+			<field_id>2720</field_id>
+		    <meta_value><![CDATA[Kristin]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2721</field_id>
+		    <meta_value><![CDATA[McCoy]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2722</field_id>
+		    <meta_value><![CDATA[http://sandbox.formidableforms.com/demos/wp-content/uploads/sites/17/formidable/193/kristin.png]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2723</field_id>
+		    <meta_value><![CDATA[Product Designer]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2726</field_id>
+		    <meta_value><![CDATA[https://twitter.com/home]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2727</field_id>
+		    <meta_value><![CDATA[https://www.linkedin.com/]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>2729</field_id>
+		    <meta_value><![CDATA[]]></meta_value>
+		</item_meta>
+	</item>
+	<view>
+		<title>Team Directory List</title>
+		<link></link>
+		<post_author><![CDATA[]]></post_author>
+		<description></description>
+		<content><![CDATA[<div class="frm6 frm_grid_container">
+<div class="frm4">
+[if team-avatar]<img src="[team-avatar size=medium]" alt="[team-first sanitize=1]" style="max-width:100%;width:200px;" />[/if team-avatar][if team-avatar equals='']<div class="frm_color_block" style="max-width:100%;width:200px;padding:20px;"><svg class="frmsvg" style="width:100%;opacity:.7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 448"><path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16A134.4 134.4 0 000 438.4V464a48 48 0 0048 48h352a48 48 0 0048-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6a86.6 86.6 0 0186.4-86.4c14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16a86.6 86.6 0 0186.4 86.4V464zM224 288a144 144 0 100-288 144 144 0 000 288zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"/></svg></div>[/if team-avatar]
+</div>
+<div class="frm8" style="padding-left:20px">
+<h3 style="margin-top:0">[team-first] [team-last]</h3>
+<em>[team-title]</em>
+<ul class="frm_plain_list frm_inline_list">[if team-twitter]
+<li><a href="[team-twitter]" target="_blank" rel="noopener noreferrer" style="color:inherit"><svg class="frmsvg" style="width:20px;height:18px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 4.6c-1 .4-1.9.6-2.9.7a5 5 0 002.2-2.7c-1 .6-2 1-3.1 1.2-1-1-2.2-1.6-3.6-1.6a5 5 0 00-4.8 6 14 14 0 01-10.2-5c-.4.7-.6 1.5-.6 2.4a5 5 0 002.2 4.1c-.8 0-1.6-.2-2.3-.6A5 5 0 005 14a5 5 0 01-2.2 0 5 5 0 004.6 3.5 9.9 9.9 0 01-7.3 2 14 14 0 007.6 2.3c9 0 14-7.5 14-14V7A10 10 0 0024 4.6z"></path></svg></a></li>[/if team-twitter][if team-linkedin]
+<li><a href="[team-linkedin]" target="_blank" rel="noopener noreferrer" style="color:inherit"><svg class="frmsvg" style="width:21px;height:18px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.4 20.5H17v-5.6c0-1.3 0-3-1.9-3-1.8 0-2 1.4-2 2.9v5.7H9.3V9h3.4v1.6c.5-1 1.6-1.9 3.4-1.9 3.6 0 4.2 2.4 4.2 5.5v6.3zm-15-13a2 2 0 110-4.2 2 2 0 010 4.1zm1.7 13H3.6V9H7v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 1 .8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7c0-1-.8-1.7-1.8-1.7z"></path></svg></a></li>[/if team-linkedin]
+</ul>
+</div>
+<hr class="frm_full" style="margin:35px 0" />
+</div>]]></content>
+		<excerpt><![CDATA[]]></excerpt>
+		<post_id>607</post_id>
+		<post_date>2020-07-09 17:16:57</post_date>
+		<post_date_gmt>2020-07-09 23:16:57</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>dir-team</post_name>
+		<status>private</status>
+		<post_parent>0</post_parent>
+		<menu_order>0</menu_order>
+		<post_type>frm_display</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_edit_last</meta_key>
+			<meta_value>7</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_param</meta_key>
+			<meta_value><![CDATA[entry]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_dyncontent</meta_key>
+			<meta_value><![CDATA[]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_type</meta_key>
+			<meta_value><![CDATA[id]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_form_id</meta_key>
+			<meta_value>193</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_options</meta_key>
+			<meta_value><![CDATA[{"date_field_id":"","edate_field_id":"","repeat_event_field_id":"","repeat_edate_field_id":"","before_content":"<div class=\"frm_grid_container with_frm_style frm_no_grid_750\">","after_content":"<\/div>","empty_msg":"No Team Members Found","limit":"","page_size":"","no_rt":0,"ajax_pagination":"0","copy":0}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_edit_lock</meta_key>
+			<meta_value><![CDATA[1601501785:2]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_show_count</meta_key>
+			<meta_value><![CDATA[all]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>site-sidebar-layout</meta_key>
+			<meta_value><![CDATA[default]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>site-content-layout</meta_key>
+			<meta_value><![CDATA[default]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>theme-transparent-header-meta</meta_key>
+			<meta_value><![CDATA[default]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_active_preview_filter</meta_key>
+			<meta_value><![CDATA[limited]]></meta_value>
+		</postmeta>
+	</view>
+	<view>
+		<title>Team Directory Rows</title>
+		<link></link>
+		<post_author><![CDATA[]]></post_author>
+		<description></description>
+		<content><![CDATA[<div class="frm3" style="text-align:center;margin-bottom:30px">
+<p class="aligncenter" style="width:200px;max-width:90%;">[if team-avatar]<img src="[team-avatar size=medium]" alt="[team-first sanitize=1]" style="max-width:100%;" class="frm_round"/>[/if team-avatar][if team-avatar equals='']<span class="frm_round frm_color_block" style="width:100%;padding:20px;display:block"><svg class="frmsvg" style="width:100%;opacity:.7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 448"><path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16A134.4 134.4 0 000 438.4V464a48 48 0 0048 48h352a48 48 0 0048-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6a86.6 86.6 0 0186.4-86.4c14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16a86.6 86.6 0 0186.4 86.4V464zM224 288a144 144 0 100-288 144 144 0 000 288zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"/></svg></span>[/if team-avatar]</p>
+<h3 style="margin-top:0">[team-first] [team-last]</h3>
+<em>[team-title]</em>
+<ul class="frm_plain_list frm_inline_list">[if team-twitter]
+<li><a href="[team-twitter]" target="_blank" rel="noopener noreferrer" style="color:inherit"><svg class="frmsvg" style="width:20px;height:18px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 4.6c-1 .4-1.9.6-2.9.7a5 5 0 002.2-2.7c-1 .6-2 1-3.1 1.2-1-1-2.2-1.6-3.6-1.6a5 5 0 00-4.8 6 14 14 0 01-10.2-5c-.4.7-.6 1.5-.6 2.4a5 5 0 002.2 4.1c-.8 0-1.6-.2-2.3-.6A5 5 0 005 14a5 5 0 01-2.2 0 5 5 0 004.6 3.5 9.9 9.9 0 01-7.3 2 14 14 0 007.6 2.3c9 0 14-7.5 14-14V7A10 10 0 0024 4.6z"></path></svg></a></li>[/if team-twitter][if team-linkedin]
+<li><a href="[team-linkedin]" target="_blank" rel="noopener noreferrer" style="color:inherit"><svg class="frmsvg" style="width:21px;height:18px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.4 20.5H17v-5.6c0-1.3 0-3-1.9-3-1.8 0-2 1.4-2 2.9v5.7H9.3V9h3.4v1.6c.5-1 1.6-1.9 3.4-1.9 3.6 0 4.2 2.4 4.2 5.5v6.3zm-15-13a2 2 0 110-4.2 2 2 0 010 4.1zm1.7 13H3.6V9H7v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 1 .8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7c0-1-.8-1.7-1.8-1.7z"></path></svg></a></li>[/if team-linkedin]
+</ul>
+</div>]]></content>
+		<excerpt><![CDATA[]]></excerpt>
+		<post_id>608</post_id>
+		<post_date>2020-07-09 17:43:06</post_date>
+		<post_date_gmt>2020-07-09 23:43:06</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>dir-team-2</post_name>
+		<status>private</status>
+		<post_parent>0</post_parent>
+		<menu_order>0</menu_order>
+		<post_type>frm_display</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_edit_lock</meta_key>
+			<meta_value><![CDATA[1595993035:7]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_edit_last</meta_key>
+			<meta_value>7</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_param</meta_key>
+			<meta_value><![CDATA[entry]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_dyncontent</meta_key>
+			<meta_value><![CDATA[]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_type</meta_key>
+			<meta_value><![CDATA[id]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_show_count</meta_key>
+			<meta_value><![CDATA[all]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_form_id</meta_key>
+			<meta_value>193</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_options</meta_key>
+			<meta_value><![CDATA[{"date_field_id":"","edate_field_id":"","repeat_event_field_id":"","repeat_edate_field_id":"","before_content":"<div class=\"frm_grid_container with_frm_style frm_no_grid_600\">","after_content":"<\/div>","empty_msg":"No Team Members Found","limit":"","page_size":"","no_rt":0,"ajax_pagination":"0","copy":0}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>site-sidebar-layout</meta_key>
+			<meta_value><![CDATA[default]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>site-content-layout</meta_key>
+			<meta_value><![CDATA[default]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>theme-transparent-header-meta</meta_key>
+			<meta_value><![CDATA[default]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_active_preview_filter</meta_key>
+			<meta_value><![CDATA[limited]]></meta_value>
+		</postmeta>
+	</view>
+	<view>
+		<title>Add a Team Listing</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[<!-- wp:formidable/simple-form {"formId":"193"} -->
+<div>[formidable id="193"]</div>
+<!-- /wp:formidable/simple-form -->]]></content>
+		<excerpt><![CDATA[]]></excerpt>
+		<post_id>1214</post_id>
+		<post_date>2022-10-11 19:26:06</post_date>
+		<post_date_gmt>2022-10-11 19:26:06</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>add-a-team-listing</post_name>
+		<status>draft</status>
+		<post_parent>0</post_parent>
+		<menu_order>0</menu_order>
+		<post_type>page</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_edit_lock</meta_key>
+			<meta_value><![CDATA[1665516242:86]]></meta_value>
+		</postmeta>
+	</view>
+	<view>
+		<title>Team Directory</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[<!-- wp:shortcode -->
+[display-frm-data id=dir-team]
+<!-- /wp:shortcode -->]]></content>
+		<excerpt><![CDATA[]]></excerpt>
+		<post_id>1215</post_id>
+		<post_date>2022-10-11 19:26:59</post_date>
+		<post_date_gmt>2022-10-11 19:26:59</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>team-directory-2</post_name>
+		<status>draft</status>
+		<post_parent>0</post_parent>
+		<menu_order>0</menu_order>
+		<post_type>page</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_edit_lock</meta_key>
+			<meta_value><![CDATA[1665516537:86]]></meta_value>
+		</postmeta>
+	</view>
+</channel>

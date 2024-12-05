@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/6.0.1" created="2022-08-31 05:56" -->
+
+<channel>
+	<title>[Used Live] API Demos</title>
+	<pubDate>Wed, 31 Aug 2022 05:56:22 +0000</pubDate>
+
+	<form>
+		<id>367</id>
+		<form_key><![CDATA[media-release]]></form_key>
+		<name><![CDATA[Media Release]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2022-08-31 05:10:16</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<editable>0</editable>
+		<options><![CDATA[{"antispam":"1","logged_in_role":[""],"cookie_expiration":"8000","editable_role":[""],"edit_page_id":"","protect_files":"0","noindex_files":"0","open_date":"2022-08-31 05:10","custom_style":"1","submit_conditions":{"show_hide":"show","any_all":"all"},"start_over":"1","start_over_label":"Start Over","landing_bg_image_id":"0","landing_opacity":"100","chat_progress_type":"","chat_continue_text":"Continue","chat_start_button_text":"Start","before_html":"<legend class=\"frm_screen_reader\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\"frm_form_title\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\"frm_description\">[form_description]<\/div>[\/if form_description]","submit_html":"<div class=\"frm_submit\">\r\n[if back_button]<button type=\"submit\" name=\"frm_prev_page\" formnovalidate=\"formnovalidate\" class=\"frm_prev_page\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\"frm_button_submit\" type=\"submit\" [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\"#\" tabindex=\"0\" class=\"frm_save_draft\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n[if start_over]<a href=\"#\" tabindex=\"0\" class=\"frm_start_over\">[start_over_label]<\/a>[\/if start_over]\r\n<\/div>"}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>0</parent_form_id>
+		<field>
+			<id>4813</id>
+			<field_key><![CDATA[media-release-name]]></field_key>
+			<name><![CDATA[ Name of Releasor]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[name]]></type>
+			<default_value><![CDATA[{"first":"","middle":"","last":""}]]></default_value>
+			<field_order>2</field_order>
+			<form_id>367</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n    <\/div>\n    [input]\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","placeholder":{"first":"","middle":"","last":""}}]]></field_options>
+		</field>
+		<field>
+			<id>4815</id>
+			<field_key><![CDATA[media-release-email]]></field_key>
+			<name><![CDATA[Email]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[email]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>4</field_order>
+			<form_id>367</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","classes":"frm6 frm_first","placeholder":"email@example.com"}]]></field_options>
+		</field>
+		<field>
+			<id>4816</id>
+			<field_key><![CDATA[media-release-phone]]></field_key>
+			<name><![CDATA[Phone]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[phone]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>5</field_order>
+			<form_id>367</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","classes":"frm6","format":"(999)-999-9999","placeholder":"(999)-999-9999"}]]></field_options>
+		</field>
+		<field>
+			<id>4819</id>
+			<field_key><![CDATA[media-release-age]]></field_key>
+			<name><![CDATA[Is releasor under 18 years of age?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>7</field_order>
+			<form_id>367</form_id>
+			<required>1</required>
+			<options><![CDATA[[{"label":"Yes","value":"Yes","image":"0"},{"label":"No","value":"No","image":"0"}]]]></options>
+			<field_options><![CDATA[{"align":"inline","admin_only":[""],"other":"0","in_section":"0","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n    <\/div>\n    <div class=\"frm_opt_container\" role=\"group\">[input]<\/div>\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","image_options":"0","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4820</id>
+			<field_key><![CDATA[media-release-use]]></field_key>
+			<name><![CDATA[Where will the media obtained be used for?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[select]]></type>
+			<default_value><![CDATA[[""]]]></default_value>
+			<field_order>9</field_order>
+			<form_id>367</form_id>
+			<required>1</required>
+			<options><![CDATA[{"0":{"label":"","value":""},"1":{"label":"Audio","value":"Audio"},"2":{"label":"Advertising","value":"Advertising"},"3":{"label":"Email","value":"Email"},"4":{"label":"Photographs","value":"Photographs"},"5":{"label":"Marketing","value":"Marketing"},"6":{"label":"News Releases","value":"News Releases"},"7":{"label":"Websites","value":"Websites"},"8":{"label":"Video","value":"Video"},"other_7":"Other"}]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"multiple":"1","autocom":"1","other":"1","in_section":"0","placeholder":"Select one or more options.."}]]></field_options>
+		</field>
+		<field>
+			<id>4814</id>
+			<field_key><![CDATA[media-release-post]]></field_key>
+			<name><![CDATA[Where will you be posting the content?]]></name>
+			<description><![CDATA[Please share a link with the website, social media page or blog]]></description>
+			<type><![CDATA[url]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>11</field_order>
+			<form_id>367</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","invalid":"Website\/URL is invalid","classes":"frm_first","placeholder":"http:\/\/"}]]></field_options>
+		</field>
+		<field>
+			<id>4821</id>
+			<field_key><![CDATA[media-release-parent]]></field_key>
+			<name><![CDATA[Parent/Guardian Name]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[name]]></type>
+			<default_value><![CDATA[{"first":"","middle":"","last":""}]]></default_value>
+			<field_order>13</field_order>
+			<form_id>367</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"show_hide":"hide","hide_field":["4819"],"hide_field_cond":["!="],"hide_opt":["Yes"],"admin_only":[""],"in_section":"0","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n    <\/div>\n    [input]\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","placeholder":{"first":"","middle":"","last":""}}]]></field_options>
+		</field>
+		<field>
+			<id>4822</id>
+			<field_key><![CDATA[media-release-agree]]></field_key>
+			<name><![CDATA[Agree to terms]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[checkbox]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>15</field_order>
+			<form_id>367</form_id>
+			<required>1</required>
+			<options><![CDATA[[{"label":"I hereby authorize to use my photo, video, and likeness in news releases, photographs, video, audio, website, marketing and advertising for an indefinite period of time.","value":"I hereby authorize to use my photo, video, and likeness in news releases, photographs, video, audio, website, marketing and advertising for an indefinite period of time.","image":"0"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","label":"none","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n    <\/div>\n    <div class=\"frm_opt_container\" role=\"group\">[input]<\/div>\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","image_options":"0","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4823</id>
+			<field_key><![CDATA[media-release-agree-guardian]]></field_key>
+			<name><![CDATA[Agree to terms (under 18) ]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[checkbox]]></type>
+			<default_value><![CDATA[["I am under the age of 18 and hereby authorize my parent\/guardian in executing this release on my behalf and agrees to be bound by its terms."]]]></default_value>
+			<field_order>17</field_order>
+			<form_id>367</form_id>
+			<required>1</required>
+			<options><![CDATA[[{"label":"I am under the age of 18 and hereby authorize my parent\/guardian in executing this release on my behalf and agrees to be bound by its terms.","value":"I am under the age of 18 and hereby authorize my parent\/guardian in executing this release on my behalf and agrees to be bound by its terms.","image":"0"}]]]></options>
+			<field_options><![CDATA[{"show_hide":"hide","hide_field":["4819"],"hide_field_cond":["!="],"hide_opt":["Yes"],"admin_only":[""],"other":"0","in_section":"0","label":"none","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n    <\/div>\n    <div class=\"frm_opt_container\" role=\"group\">[input]<\/div>\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","image_options":"0","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4825</id>
+			<field_key><![CDATA[media-release-date]]></field_key>
+			<name><![CDATA[Date Signed]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[date]]></type>
+			<default_value><![CDATA[[date]]]></default_value>
+			<field_order>19</field_order>
+			<form_id>367</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","invalid":"Date is invalid","classes":"frm4 frm_first","days_of_the_week":[1,2,3,4,5,6,0]}]]></field_options>
+		</field>
+		<field>
+			<id>4824</id>
+			<field_key><![CDATA[media-release-releasor-sign]]></field_key>
+			<name><![CDATA[Releasor Signature]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[signature]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>20</field_order>
+			<form_id>367</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"show_hide":"hide","hide_field":["4819"],"hide_opt":["Yes"],"admin_only":[""],"in_section":"0","size":"400","max":"150","classes":"frm4"}]]></field_options>
+		</field>
+		<field>
+			<id>4826</id>
+			<field_key><![CDATA[media-release-parent-sign]]></field_key>
+			<name><![CDATA[Parent/​Guardian Signature]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[signature]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>21</field_order>
+			<form_id>367</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"show_hide":"hide","hide_field":["4819"],"hide_field_cond":["!="],"hide_opt":["Yes"],"admin_only":[""],"in_section":"0","size":"400","max":"150","blank":"","classes":"frm4"}]]></field_options>
+		</field>
+	</form>
+	<view>
+		<title>Send Email</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[{"email_to":"[admin_email]","cc":"","bcc":"","from":"[sitename] <[admin_email]>","reply_to":"","email_subject":"","email_message":"[default-message]","inc_user_info":0,"plain_text":0,"event":["create"],"conditions":{"send_stop":"","any_all":""}}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>1145</post_id>
+		<post_date>2022-08-31 05:10:16</post_date>
+		<post_date_gmt>2022-08-31 05:10:16</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>367_email_</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>367</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+	</view>
+</channel>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/5.7.2" created="2021-07-05 22:38" -->
+
+<channel>
+	<title>[Used Live] API Demos</title>
+	<pubDate>Mon, 05 Jul 2021 22:38:34 +0000</pubDate>
+
+	<form>
+		<id>296</id>
+		<form_key><![CDATA[pizza-takeout-order]]></form_key>
+		<name><![CDATA[Pizza Takeout Order]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2021-04-23 17:58:25</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<editable>0</editable>
+		<options><![CDATA[{"success_msg":"Your pizza order has been submitted.","logged_in_role":[""],"cookie_expiration":"8000","editable_role":[""],"edit_page_id":"","protect_files":"0","open_date":"2021-04-23 17:58","custom_style":"1","submit_conditions":{"show_hide":"show","any_all":"all"},"before_html":"<legend class=\\\"frm_screen_reader\\\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\\\"frm_form_title\\\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\\\"frm_description\\\">[form_description]<\/div>[\/if form_description]","submit_html":"<div class=\\\"frm_submit\\\">\r\n[if back_button]<button type=\\\"submit\\\" name=\\\"frm_prev_page\\\" formnovalidate=\\\"formnovalidate\\\" class=\\\"frm_prev_page\\\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\\\"frm_button_submit\\\" type=\\\"submit\\\"  [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\\\"#\\\" tabindex=\\\"0\\\" class=\\\"frm_save_draft\\\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>"}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>0</parent_form_id>
+		<field>
+			<id>4328</id>
+			<field_key><![CDATA[ivyre]]></field_key>
+			<name><![CDATA[Choose your Pizza(s)]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>1</field_order>
+			<form_id>296</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"form_select":"311","admin_only":[""],"in_section":"0","label":"","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field frm_section_heading form-field[error_class]\\\">\r\n<h3 class=\\\"frm_pos_[label_position][collapse_class]\\\">[field_name]<\/h3>\r\n[if description]<div class=\\\"frm_description\\\">[description]<\/div>[\/if description]\r\n[collapse_this]\r\n<\/div>","format":"grid","repeat":"1"}]]></field_options>
+		</field>
+		<field>
+			<id>4329</id>
+			<field_key><![CDATA[twt64]]></field_key>
+			<name><![CDATA[Section Buttons]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[end_divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>4</field_order>
+			<form_id>296</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"in_section":"0","blank":"","add_label":"Add Pizza","remove_label":"Remove Pizza"}]]></field_options>
+		</field>
+		<field>
+			<id>4168</id>
+			<field_key><![CDATA[xtl8v]]></field_key>
+			<name><![CDATA[Name]]></name>
+			<description><![CDATA[First]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>5</field_order>
+			<form_id>296</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","invalid":"Text is invalid","classes":"frm_half","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>4169</id>
+			<field_key><![CDATA[p349h]]></field_key>
+			<name><![CDATA[Name]]></name>
+			<description><![CDATA[Last]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>6</field_order>
+			<form_id>296</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","label":"hidden","invalid":"Text is invalid","classes":"frm_half","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>4170</id>
+			<field_key><![CDATA[2t6sf]]></field_key>
+			<name><![CDATA[Email]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[email]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>7</field_order>
+			<form_id>296</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>4171</id>
+			<field_key><![CDATA[f6odv]]></field_key>
+			<name><![CDATA[Phone]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[phone]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>8</field_order>
+			<form_id>296</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>4172</id>
+			<field_key><![CDATA[8xa0f]]></field_key>
+			<name><![CDATA[Address]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[address]]></type>
+			<default_value><![CDATA[{"line1":"","line2":"","city":"","state":"","zip":"","country":""}]]></default_value>
+			<field_order>9</field_order>
+			<form_id>296</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <div  id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/div>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>","placeholder":{"line1":"","line2":"","city":"","state":"","zip":"","country":""},"address_type":"us","line1_desc":"Address Line 1","line2_desc":"Address Line 2"}]]></field_options>
+		</field>
+		<field>
+			<id>4180</id>
+			<field_key><![CDATA[bddjb]]></field_key>
+			<name><![CDATA[Credit Card]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[credit_card]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>10</field_order>
+			<form_id>296</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <div  id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/div>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>","placeholder":{"cc":"","month":"Month","year":"Year","cvc":""},"save_cc":"4"}]]></field_options>
+		</field>
+		<field>
+			<id>4178</id>
+			<field_key><![CDATA[xqpq]]></field_key>
+			<name><![CDATA[Total]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[total]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>11</field_order>
+			<form_id>296</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <div id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]<\/div>\r\n    <p class=\\\"frm_total_formatted\\\"><\/p>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>4179</id>
+			<field_key><![CDATA[ymucf]]></field_key>
+			<name><![CDATA[Payment Method]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[gateway]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>12</field_order>
+			<form_id>296</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>"}]]></field_options>
+		</field>
+	</form>
+	<form>
+		<id>311</id>
+		<form_key><![CDATA[sdscg]]></form_key>
+		<name><![CDATA[Choose your Pizza(s)]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2021-06-09 21:58:17</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<editable>0</editable>
+		<options><![CDATA[{"open_date":"2021-06-09 21:58","paypal_item_name":"","paypal_amount_field":"","paypal_amount":"","paypal_list":[],"paypal_stop_email":0,"paypal_type":"","repeat_num":1,"repeat_time":"M","retry":0,"trial":0,"trial_amount":"","trial_num":1,"trial_time":"M","change_field":[],"action_id":0,"business_email":"steph@strategy11.com","currency":"USD","return_url":"http:\/\/sandbox.formidableforms.com\/demos","cancel_url":"http:\/\/sandbox.formidableforms.com\/demos"}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>296</parent_form_id>
+		<field>
+			<id>4176</id>
+			<field_key><![CDATA[u7h29]]></field_key>
+			<name><![CDATA[Pizza Type]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[product]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>2</field_order>
+			<form_id>311</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Cheese","price":"10","value":"Cheese"},{"label":"Pepperoni","price":"10.50","value":"Pepperoni"},{"label":"Sausage","price":"10.50","value":"Sausage"},{"label":"Pineapple","price":"10.50","value":"Pineapple"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4328","blank":"","classes":"frm_half","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <div  id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\\\"frm_opt_container\\\" aria-labelledby=\\\"field_[key]_label\\\" role=\\\"group\\\">[input]<\/div>\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>4175</id>
+			<field_key><![CDATA[kyazu]]></field_key>
+			<name><![CDATA[Pizza Quantity]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[quantity]]></type>
+			<default_value>1</default_value>
+			<field_order>3</field_order>
+			<form_id>311</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4328","blank":"","invalid":"Quantity is invalid","classes":"frm_half","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>","minnum":"1","maxnum":"50","product_field":["4176"]}]]></field_options>
+		</field>
+	</form>
+	<view>
+		<title>Send Email</title>
+		<link></link>
+		<post_author><![CDATA[emmawells]]></post_author>
+		<description></description>
+		<content><![CDATA[{"email_to":"[admin_email]","cc":"","bcc":"","from":"[sitename] <[admin_email]>","reply_to":"","email_subject":"","email_message":"[default-message]","inc_user_info":"0","plain_text":"0","event":["create"],"conditions":{"send_stop":"","any_all":""}}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>858</post_id>
+		<post_date>2021-04-23 17:58:25</post_date>
+		<post_date_gmt>2021-04-23 17:58:25</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>296_email_</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>296</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+	</view>
+	<view>
+		<title>Collect a Payment</title>
+		<link></link>
+		<post_author><![CDATA[emmawells]]></post_author>
+		<description></description>
+		<content><![CDATA[{"event":["create"],"description":"[sitename] Pizza","amount":"[4178]","credit_card":"4180","type":"single","interval_count":"1","interval":"month","payment_count":"9999","trial_interval_count":"0","capture":"","currency":"usd","gateway":["stripe"],"plan_id":"","routing_num":"","account_num":"","bank_name":"","email":"[4170]","billing_address":"4172","billing_first_name":"4168","billing_last_name":"4169","billing_company":"","shipping_address":"","shipping_first_name":"","shipping_last_name":"","shipping_company":"","conditions":{"send_stop":"send","any_all":"any"}}]]></content>
+		<excerpt><![CDATA[payment]]></excerpt>
+		<post_id>859</post_id>
+		<post_date>2021-04-23 18:21:24</post_date>
+		<post_date_gmt>2021-04-23 18:21:24</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>296_payment_859</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>296</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[296_payment_959]]></meta_value>
+		</postmeta>
+	</view>
+</channel>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/6.0.2" created="2022-09-20 06:01" -->
+
+<channel>
+	<title>API Demos</title>
+	<pubDate>Tue, 20 Sep 2022 06:01:09 +0000</pubDate>
+
+	<form>
+		<id>378</id>
+		<form_key><![CDATA[product-recommendation-quiz]]></form_key>
+		<name><![CDATA[Product Recommendation Quiz]]></name>
+		<description><![CDATA[<p><strong>What is your skin type?</strong></p>
+<p>Take this quiz to find out!</p>
+]]></description>
+		<created_at>2022-09-15 15:19:19</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<editable>0</editable>
+		<options><![CDATA[{"show_description":"1","antispam":"1","logged_in_role":[""],"cookie_expiration":"8000","editable_role":[""],"edit_page_id":"","protect_files":"0","noindex_files":"0","open_date":"2022-09-15 15:19","custom_style":"1","submit_value":"Ok, tell me my skin type.","submit_conditions":{"show_hide":"show","any_all":"all"},"start_over":"1","start_over_label":"Start Over","landing_bg_image_id":"0","landing_opacity":"100","chat":["1"],"chat_include_arrows":["1"],"chat_show_start_page":1,"chat_progress_type":"","chat_continue_text":"Continue","chat_start_button_text":"Start","before_html":"<legend class=\"frm_screen_reader\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\"frm_form_title\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\"frm_description\">[form_description]<\/div>[\/if form_description]","submit_html":"<div class=\"frm_submit\">\r\n[if back_button]<button type=\"submit\" name=\"frm_prev_page\" formnovalidate=\"formnovalidate\" class=\"frm_prev_page\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\"frm_button_submit\" type=\"submit\" [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\"#\" tabindex=\"0\" class=\"frm_save_draft\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n[if start_over]<a href=\"#\" tabindex=\"0\" class=\"frm_start_over\">[start_over_label]<\/a>[\/if start_over]\r\n<\/div>","js_validate":1}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>0</parent_form_id>
+		<field>
+			<id>5021</id>
+			<field_key><![CDATA[outcome-quiz-result]]></field_key>
+			<name><![CDATA[Outcome]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[quiz_score]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>0</field_order>
+			<form_id>378</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>5016</id>
+			<field_key><![CDATA[7k6ed]]></field_key>
+			<name><![CDATA[How would you describe your pores?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>2</field_order>
+			<form_id>378</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Quite large and visible","value":"Quite large and visible","image":"0"},{"label":"Large in the T-zone area","value":"Large in the T-zone area","image":"0"},{"label":"Small and visible","value":"Small and visible","image":"0"},{"label":"Barely visible","value":"Barely visible","image":"0"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\"frm_opt_container\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>","image_options":"0","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>5017</id>
+			<field_key><![CDATA[7fss7]]></field_key>
+			<name><![CDATA[How is your complexion when you look in the mirror?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>4</field_order>
+			<form_id>378</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Oily and shiny all over","value":"Oily and shiny all over","image":"Oily and shiny all over"},{"label":"Oily in the T-zone area","value":"Oily in the T-zone area","image":"Oily in the T-zone area"},{"label":"Patches of dry skin","value":"Patches of dry skin","image":"Dry patches of skin all over"},{"label":"Glowing and calm skin","value":"Glowing and calm skin","image":"Glowing and calm skin"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\"frm_opt_container\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>","image_options":"0","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>5018</id>
+			<field_key><![CDATA[ymzjl]]></field_key>
+			<name><![CDATA[Do you get breakouts (pimples)?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>6</field_order>
+			<form_id>378</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"All the time.","value":"All the time.","image":"0"},{"label":"Sometimes, but mostly in the T-zone area.","value":"Sometimes, but mostly in the T-zone area.","image":"0"},{"label":"Mostly on my cheeks and with dry skin","value":"Mostly on my cheeks and with dry skin","image":"0"},{"label":"Rarely get breakouts.","value":"Rarely get breakouts.","image":"0"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\"frm_opt_container\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>","image_options":"0","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>5020</id>
+			<field_key><![CDATA[cue8h]]></field_key>
+			<name><![CDATA[Does your skin get red or irritated?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>8</field_order>
+			<form_id>378</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Sometimes, not often","value":"Sometimes, not often","image":"Sometimes, not often"},{"label":"I get red patches here and there","value":"I get red patches here and there","image":"I get red patches here and there"},{"label":"Yes, most of the time","value":"Yes, most of the time","image":"Yes, most of the time"},{"label":"No, not at all","value":"No, not at all","image":"No, not at all"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\"frm_opt_container\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>","image_options":"0","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>5019</id>
+			<field_key><![CDATA[d1676]]></field_key>
+			<name><![CDATA[After using a moisturizer, what does your skin feel like?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>10</field_order>
+			<form_id>378</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Too shiny and oily","value":"Too shiny and oily","image":"0"},{"label":"Oily in the T-zone, and dry on the cheeks","value":"Oily in the T-zone, and dry on the cheeks","image":"0"},{"label":"It needs more moisture","value":"It needs more moisture","image":"0"},{"label":"Skin feels hydrated","value":"Skin feels hydrated","image":"0"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\"frm_opt_container\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>","image_options":"0","image_size":"small"}]]></field_options>
+		</field>
+	</form>
+	<view>
+		<title>Oily Skin</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[{"event":["create","update"],"quiz_type":"outcome","image":"1176","description":"<strong>You have Oily Skin<\/strong>\r\nYour skin produces too much sebum and is possibly acne-prone, as excess oil can lead to breakouts. To keep your pores clear, the ideal skincare product for you is our Oil-free Rich Serum.\r\n[outcome-quiz-result show=totals]","conditions":[{"hide_field":"5016","hide_field_cond":"==","hide_opt":"Quite large and visible"},{"hide_field":"5017","hide_field_cond":"==","hide_opt":"Oily and shiny all over"},{"hide_field":"5018","hide_field_cond":"==","hide_opt":"All the time."},{"hide_field":"5020","hide_field_cond":"==","hide_opt":"Sometimes, not often"},{"hide_field":"5019","hide_field_cond":"==","hide_opt":"Too shiny and oily"}]}]]></content>
+		<excerpt><![CDATA[quiz_outcome]]></excerpt>
+		<post_id>1168</post_id>
+		<post_date>2022-09-15 16:04:39</post_date>
+		<post_date_gmt>2022-09-15 16:04:39</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>378_quiz_outcome_1168</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>378</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[378_quiz_outcome_1268]]></meta_value>
+		</postmeta>
+	</view>
+	<view>
+		<title>Dry Skin</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[{"event":["create","update"],"quiz_type":"outcome","image":"1175","description":"<strong>You have Dry Skin<\/strong>\r\nYour skin type feels dull and rough, and sometimes may appear flaky and red. To keep your skin hydrated, the ideal skincare product for you is our Ultra Rich Moisturizer.\r\n[outcome-quiz-result show=totals]","conditions":[{"hide_field":"5016","hide_field_cond":"==","hide_opt":"Small and visible"},{"hide_field":"5017","hide_field_cond":"==","hide_opt":"Patches of dry skin"},{"hide_field":"5018","hide_field_cond":"==","hide_opt":"Mostly on my cheeks and with dry skin"},{"hide_field":"5020","hide_field_cond":"==","hide_opt":"Yes, most of the time"},{"hide_field":"5019","hide_field_cond":"==","hide_opt":"It needs more moisture"}]}]]></content>
+		<excerpt><![CDATA[quiz_outcome]]></excerpt>
+		<post_id>1169</post_id>
+		<post_date>2022-09-15 16:06:01</post_date>
+		<post_date_gmt>2022-09-15 16:06:01</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>378_quiz_outcome_1169</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>378</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[378_quiz_outcome_1179]]></meta_value>
+		</postmeta>
+	</view>
+	<view>
+		<title>Combination Skin</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[{"event":["create","update"],"quiz_type":"outcome","image":"1173","description":"<strong>You have Combination Skin<\/strong>\r\nYour skin type is both oily in the T-zone area and dryness on your cheeks. To keep your skin balanced, the ideal skincare product for you is our Perfect Balancing Toner.\r\n[outcome-quiz-result show=totals]","conditions":[{"hide_field":"5016","hide_field_cond":"==","hide_opt":"Large in the T-zone area"},{"hide_field":"5017","hide_field_cond":"==","hide_opt":"Oily in the T-zone area"},{"hide_field":"5018","hide_field_cond":"==","hide_opt":"Sometimes, but mostly in the T-zone area."},{"hide_field":"5020","hide_field_cond":"==","hide_opt":"I get red patches here and there"},{"hide_field":"5019","hide_field_cond":"==","hide_opt":"Oily in the T-zone, and dry on the cheeks"}]}]]></content>
+		<excerpt><![CDATA[quiz_outcome]]></excerpt>
+		<post_id>1170</post_id>
+		<post_date>2022-09-15 16:06:34</post_date>
+		<post_date_gmt>2022-09-15 16:06:34</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>378_quiz_outcome_1170</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>378</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[378_quiz_outcome_1180]]></meta_value>
+		</postmeta>
+	</view>
+	<view>
+		<title>Normal Skin</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[{"event":["create","update"],"quiz_type":"outcome","image":"1174","description":"<strong>You have Normal Skin<\/strong>\r\nYour skin type has the right balance and rarely experiences any issues. Congratulations! To maintain your perfect skin, the ideal skincare product for you is our Basic serum. \r\n[outcome-quiz-result show=totals]","conditions":[{"hide_field":"5016","hide_field_cond":"==","hide_opt":"Barely visible"},{"hide_field":"5017","hide_field_cond":"==","hide_opt":"Glowing and calm skin"},{"hide_field":"5018","hide_field_cond":"==","hide_opt":"Rarely get breakouts."},{"hide_field":"5020","hide_field_cond":"==","hide_opt":"No, not at all"},{"hide_field":"5019","hide_field_cond":"==","hide_opt":"Skin feels hydrated"}]}]]></content>
+		<excerpt><![CDATA[quiz_outcome]]></excerpt>
+		<post_id>1171</post_id>
+		<post_date>2022-09-15 16:07:05</post_date>
+		<post_date_gmt>2022-09-15 16:07:05</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>378_quiz_outcome_1171</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>378</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[378_quiz_outcome_1179]]></meta_value>
+		</postmeta>
+	</view>
+	<view>
+		<title>Send Email</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[{"event":["create"],"email_to":"[admin_email]","cc":"","bcc":"","from":"[sitename] ","reply_to":"","email_subject":"Product Recommendation Quiz","email_message":"[default-message]","email_attachment_id":"","conditions":{"send_stop":"send","any_all":"any"},"autoresponder":{"is_active":"","do_default_trigger":"no","send_interval":"30","send_unit":"days","send_before_after":"after","send_date":"update","send_after_interval_type":"number","send_after_interval":"0","send_after_unit":"days","send_after_count":"1"}}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>1181</post_id>
+		<post_date>2022-09-15 17:12:22</post_date>
+		<post_date_gmt>2022-09-15 17:12:22</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>378_email_1181</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>378</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[378_email_1269]]></meta_value>
+		</postmeta>
+	</view>
+</channel>

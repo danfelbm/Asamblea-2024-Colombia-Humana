@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/5.7.2" created="2021-09-02 21:30" -->
+
+<channel>
+	<title>[Used Live] API Demos</title>
+	<pubDate>Thu, 02 Sep 2021 21:30:19 +0000</pubDate>
+
+	<form>
+		<id>326</id>
+		<form_key><![CDATA[faqs]]></form_key>
+		<name><![CDATA[FAQs]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2021-08-06 16:44:09</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<editable>0</editable>
+		<options><![CDATA[{"logged_in_role":[""],"cookie_expiration":"8000","editable_role":[""],"edit_page_id":"","protect_files":"0","open_date":"2021-08-06 16:44","custom_style":"1","submit_conditions":{"show_hide":"show","any_all":"all"},"before_html":"<legend class=\\\"frm_screen_reader\\\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\\\"frm_form_title\\\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\\\"frm_description\\\">[form_description]<\/div>[\/if form_description]","submit_html":"<div class=\\\"frm_submit\\\">\r\n[if back_button]<button type=\\\"submit\\\" name=\\\"frm_prev_page\\\" formnovalidate=\\\"formnovalidate\\\" class=\\\"frm_prev_page\\\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\\\"frm_button_submit\\\" type=\\\"submit\\\"  [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\\\"#\\\" tabindex=\\\"0\\\" class=\\\"frm_save_draft\\\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>"}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>0</parent_form_id>
+		<field>
+			<id>4408</id>
+			<field_key><![CDATA[7t2fr]]></field_key>
+			<name><![CDATA[Question]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>1</field_order>
+			<form_id>326</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"blank":"","invalid":"Text is invalid","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>","admin_only":[""],"in_section":"0"}]]></field_options>
+		</field>
+		<field>
+			<id>4409</id>
+			<field_key><![CDATA[6uf33]]></field_key>
+			<name><![CDATA[Answer]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[rte]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>2</field_order>
+			<form_id>326</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"max":"5","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>","admin_only":[""],"in_section":"0","get_values_form":"","get_values_field":"","watch_lookup":[],"get_most_recent_value":"","lookup_filter_current_user":false}]]></field_options>
+		</field>
+		<field>
+			<id>4410</id>
+			<field_key><![CDATA[naxgg]]></field_key>
+			<name><![CDATA[Order]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[number]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>3</field_order>
+			<form_id>326</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"blank":"","invalid":"Number is invalid","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>","minnum":"0","maxnum":"9999999","admin_only":[""],"in_section":"0"}]]></field_options>
+		</field>
+	</form>
+	<item>
+		<id>2726</id>
+		<item_key><![CDATA[euj6c]]></item_key>
+		<name><![CDATA[How can I pay for an order?]]></name>
+		<description><![CDATA[{"browser":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/92.0.4515.131 Safari\/537.36","referrer":"https:\/\/qa.formidableforms.com\/kristine\/wp-admin\/admin-ajax.php?action=frm_forms_preview&form=faqstemplate"}]]></description>
+		<created_at>2021-08-06 16:46:22</created_at>
+		<updated_at>2021-08-22 04:22:09</updated_at>
+		<form_id>326</form_id>
+		<post_id>0</post_id>
+		<ip>180.190.215.222</ip>
+		<is_draft>0</is_draft>
+		<user_id><![CDATA[stephywells]]></user_id>
+		<updated_by><![CDATA[kristine1]]></updated_by>
+		<parent_item_id>0</parent_item_id>
+
+		<item_meta>
+			<field_id>4408</field_id>
+		    <meta_value><![CDATA[How can I pay for an order?]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4409</field_id>
+		    <meta_value><![CDATA[Our available payment methods are Cash, Debit, Visa, Mastercard, and American Express.]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4410</field_id>
+		    <meta_value>4</meta_value>
+		</item_meta>
+	</item>
+	<item>
+		<id>2727</id>
+		<item_key><![CDATA[owug3]]></item_key>
+		<name><![CDATA[Do you provide discounts for non-profits?]]></name>
+		<description><![CDATA[{"browser":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/92.0.4515.131 Safari\/537.36","referrer":"https:\/\/qa.formidableforms.com\/kristine\/wp-admin\/admin-ajax.php?action=frm_forms_preview&form=faqstemplate"}]]></description>
+		<created_at>2021-08-06 16:48:18</created_at>
+		<updated_at>2021-08-26 21:22:32</updated_at>
+		<form_id>326</form_id>
+		<post_id>0</post_id>
+		<ip>180.190.215.222</ip>
+		<is_draft>0</is_draft>
+		<user_id><![CDATA[stephywells]]></user_id>
+		<updated_by><![CDATA[kristine1]]></updated_by>
+		<parent_item_id>0</parent_item_id>
+
+		<item_meta>
+			<field_id>4408</field_id>
+		    <meta_value><![CDATA[Do you provide discounts for non-profits?]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4409</field_id>
+		    <meta_value><![CDATA[Yes we do! We provide discount to registered charities and non-profit organizations.]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4410</field_id>
+		    <meta_value>3</meta_value>
+		</item_meta>
+	</item>
+	<item>
+		<id>2728</id>
+		<item_key><![CDATA[zqpps]]></item_key>
+		<name><![CDATA[How do I request a refund?]]></name>
+		<description><![CDATA[{"browser":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/92.0.4515.131 Safari\/537.36","referrer":"https:\/\/qa.formidableforms.com\/kristine\/wp-admin\/admin-ajax.php?action=frm_forms_preview&form=faqstemplate"}]]></description>
+		<created_at>2021-08-06 16:49:03</created_at>
+		<updated_at>2021-08-22 04:21:20</updated_at>
+		<form_id>326</form_id>
+		<post_id>0</post_id>
+		<ip>180.190.215.222</ip>
+		<is_draft>0</is_draft>
+		<user_id><![CDATA[stephywells]]></user_id>
+		<updated_by><![CDATA[kristine1]]></updated_by>
+		<parent_item_id>0</parent_item_id>
+
+		<item_meta>
+			<field_id>4408</field_id>
+		    <meta_value><![CDATA[How do I request a refund?]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4409</field_id>
+		    <meta_value><![CDATA[To request a refund, sign in to your account and fill out the <strong>Request refund</strong> form. We can issue a refund for any product that is requested within 14 days of purchase.]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4410</field_id>
+		    <meta_value>1</meta_value>
+		</item_meta>
+	</item>
+	<item>
+		<id>2729</id>
+		<item_key><![CDATA[p2s5i]]></item_key>
+		<name><![CDATA[How long is the warranty period?]]></name>
+		<description><![CDATA[{"browser":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/92.0.4515.131 Safari\/537.36","referrer":"https:\/\/qa.formidableforms.com\/kristine\/wp-admin\/admin.php?page=formidable-entries&frm_action=new&form=111&frm-full=1"}]]></description>
+		<created_at>2021-08-06 17:05:14</created_at>
+		<updated_at>2021-08-22 04:21:44</updated_at>
+		<form_id>326</form_id>
+		<post_id>0</post_id>
+		<ip>180.190.215.222</ip>
+		<is_draft>0</is_draft>
+		<user_id><![CDATA[stephywells]]></user_id>
+		<updated_by><![CDATA[kristine1]]></updated_by>
+		<parent_item_id>0</parent_item_id>
+
+		<item_meta>
+			<field_id>4408</field_id>
+		    <meta_value><![CDATA[How long is the warranty period?]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4409</field_id>
+		    <meta_value><![CDATA[Our standard warranty is one year. If you register your product, you will get one additional year warranty.]]></meta_value>
+		</item_meta>
+		<item_meta>
+			<field_id>4410</field_id>
+		    <meta_value>2</meta_value>
+		</item_meta>
+	</item>
+	<view>
+		<title>FAQs List</title>
+		<link></link>
+		<post_author><![CDATA[kristine1]]></post_author>
+		<description></description>
+		<content><![CDATA[[{"box":0,"content":"","style":{"borderStyle":"none","borderWidth":"0"}},{"box":1,"content":"<div itemscope itemprop=\"mainEntity\" itemtype=\"https:\/\/schema.org\/Question\">\n<h4 itemprop=\"name\">[4408]<\/h4>\n<section itemscope itemprop=\"acceptedAnswer\" itemtype=\"https:\/\/schema.org\/Answer\">\n<div itemprop=\"text\">[4409]<\/div>\n<\/section>\n<\/div>\n","style":{"borderStyle":"none","borderColor":"#d8d9dc","borderWidth":"1px"}},{"box":2,"content":"[4409]"},{"box":3,"content":"[4409]"}]]]></content>
+		<excerpt><![CDATA[]]></excerpt>
+		<post_id>927</post_id>
+		<post_date>2021-08-06 16:51:30</post_date>
+		<post_date_gmt>2021-08-06 08:51:30</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>faqs-template-pagination</post_name>
+		<status>private</status>
+		<post_parent>0</post_parent>
+		<menu_order>0</menu_order>
+		<post_type>frm_display</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>frm_form_id</meta_key>
+			<meta_value>326</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_grid_view</meta_key>
+			<meta_value>1</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_show_count</meta_key>
+			<meta_value><![CDATA[all]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_options</meta_key>
+			<meta_value><![CDATA[{"date_field_id":"","edate_field_id":"","repeat_event_field_id":"","repeat_edate_field_id":"","before_content":"\n","after_content":"","empty_msg":"No Entries Found","limit":"","page_size":"10","no_rt":0,"copy":0,"order_by":["4410"],"order":["ASC"],"grid_column_count":2,"grid_row_gap":"0","grid_column_gap":"2","grid_classes":"","grid_responsive":1}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_param</meta_key>
+			<meta_value><![CDATA[entry]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_dyncontent</meta_key>
+			<meta_value><![CDATA[]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_type</meta_key>
+			<meta_value><![CDATA[id]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_active_preview_filter</meta_key>
+			<meta_value><![CDATA[limited]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_edit_last</meta_key>
+			<meta_value>8</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_edit_lock</meta_key>
+			<meta_value><![CDATA[1629606617:8]]></meta_value>
+		</postmeta>
+		<layout>
+			<type>listing</type>
+			<data><![CDATA[[{"id":0,"layout":1,"boxes":[{"id":1}]}]]]></data>
+		</layout>
+	</view>
+	<view>
+		<title>FAQs Collapsible</title>
+		<link></link>
+		<post_author><![CDATA[kristine1]]></post_author>
+		<description></description>
+		<content><![CDATA[<div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h4><a href="#" class="accordion-title" itemprop="name">[4408] <span class="hide-active">+</span><span class="show-active">-</span></a></h4>
+<section itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<div itemprop="text">[4409]</div>
+</section>
+</div>
+]]></content>
+		<excerpt><![CDATA[]]></excerpt>
+		<post_id>929</post_id>
+		<post_date>2021-08-22 09:18:47</post_date>
+		<post_date_gmt>2021-08-22 01:18:47</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>faqs-template-collapsible</post_name>
+		<status>private</status>
+		<post_parent>0</post_parent>
+		<menu_order>0</menu_order>
+		<post_type>frm_display</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>frm_form_id</meta_key>
+			<meta_value>326</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_show_count</meta_key>
+			<meta_value><![CDATA[all]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_options</meta_key>
+			<meta_value><![CDATA[{"date_field_id":"","edate_field_id":"","repeat_event_field_id":"","repeat_edate_field_id":"","before_content":"<style>\n#ff-faqs section{display: none;margin: 0;padding: 0 16px 15px;}\n#ff-faqs .active section{display:block;}\n#ff-faqs .active .hide-active, #ff-faqs .show-active{ display: none;}\n#ff-faqs .active .show-active{display: initial;}\n#ff-faqs .accordion-title span {width: 30px;height: 30px;fill: currentColor;float: right;}\n#ff-faqs .accordion-title {background: #fff;border: 1px solid #d8d9dc;display: block;color: inherit;border-radius: 3px;padding: 15px;margin-bottom: 15px;text-decoration:none;}\n<\/style>\n<div id=\"ff-faqs\">","after_content":"<\/div>\n\n<script>document.addEventListener('DOMContentLoaded',function(){frmAccordion();});\nfunction frmAccordion(){\nvar t = document.getElementsByClassName('accordion-title');\nfor(var i=0;i < t.length;i++) {\nt[i].addEventListener('click',function(e){\ne.preventDefault();\nvar p = this.parentNode.parentNode;\nvar open = p.className.indexOf('active')=== -1;\nvar a = p.parentNode.querySelectorAll('.active');\nfor(var i = 0;i < a.length;i++){a[i].className = a[i].className.replace(\/active\/g,'');}\nif(open){p.className = 'active';}\nreturn false;\n});\n}\n}\n<\/script>","empty_msg":"No Entries Found","limit":"","page_size":"","no_rt":0,"copy":0,"order_by":["4410"],"order":["ASC"]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_param</meta_key>
+			<meta_value><![CDATA[entry]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_dyncontent</meta_key>
+			<meta_value><![CDATA[]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_type</meta_key>
+			<meta_value><![CDATA[id]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>frm_active_preview_filter</meta_key>
+			<meta_value><![CDATA[limited]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_edit_last</meta_key>
+			<meta_value>8</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_edit_lock</meta_key>
+			<meta_value><![CDATA[1630012351:8]]></meta_value>
+		</postmeta>
+	</view>
+</channel>

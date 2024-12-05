@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/6.1.1" created="2023-01-24 20:33" -->
+
+<channel>
+	<title>API Demos</title>
+	<pubDate>Tue, 24 Jan 2023 20:33:28 +0000</pubDate>
+
+	<form>
+		<id>395</id>
+		<form_key><![CDATA[player-profile]]></form_key>
+		<name><![CDATA[Player Profile]]></name>
+		<description><![CDATA[<p><strong>Complete your player profile</strong></p>
+]]></description>
+		<created_at>2023-01-24 19:59:23</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<editable>0</editable>
+		<options><![CDATA[{"show_description":"1","antispam":"1","logged_in_role":[""],"cookie_expiration":"8000","editable_role":[""],"edit_page_id":"","protect_files_role":[""],"open_date":"2023-01-24 19:59","custom_style":"1","submit_conditions":{"show_hide":"show","any_all":"all"},"start_over":"1","start_over_label":"Start Over","landing_bg_image_id":"0","landing_opacity":"100","chat":["1"],"chat_include_arrows":["1"],"chat_show_start_page":1,"chat_progress_type":"bar","chat_continue_text":"OK","chat_start_button_text":"Let\\'s start","before_html":"<legend class=\"frm_screen_reader\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\"frm_form_title\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\"frm_description\">[form_description]<\/div>[\/if form_description]","submit_html":"<div class=\"frm_submit\">\r\n[if back_button]<button type=\"submit\" name=\"frm_prev_page\" formnovalidate=\"formnovalidate\" class=\"frm_prev_page\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\"frm_button_submit\" type=\"submit\" [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\"#\" tabindex=\"0\" class=\"frm_save_draft\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n[if start_over]<a href=\"#\" tabindex=\"0\" class=\"frm_start_over\">[start_over_label]<\/a>[\/if start_over]\r\n<\/div>","js_validate":1}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>0</parent_form_id>
+		<field>
+			<id>5298</id>
+			<field_key><![CDATA[xqh2k]]></field_key>
+			<name><![CDATA[What is your full name?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[name]]></type>
+			<default_value><![CDATA[{"first":"","middle":"","last":""}]]></default_value>
+			<field_order>2</field_order>
+			<form_id>395</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>","placeholder":{"first":"","middle":"","last":""}}]]></field_options>
+		</field>
+		<field>
+			<id>5305</id>
+			<field_key><![CDATA[gmtp9]]></field_key>
+			<name><![CDATA[What is your email address?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[email]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>4</field_order>
+			<form_id>395</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","invalid":"Email is invalid","placeholder":"email@example.com"}]]></field_options>
+		</field>
+		<field>
+			<id>5306</id>
+			<field_key><![CDATA[k41iw]]></field_key>
+			<name><![CDATA[What is your phone number?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[phone]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>6</field_order>
+			<form_id>395</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","invalid":"Phone is invalid","format":"(999) 999 9999","placeholder":"(999) 999 9999"}]]></field_options>
+		</field>
+		<field>
+			<id>5307</id>
+			<field_key><![CDATA[52rbk]]></field_key>
+			<name><![CDATA[Where do you live?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[address]]></type>
+			<default_value><![CDATA[{"line1":"","line2":"","city":"","state":"","zip":"","country":""}]]></default_value>
+			<field_order>8</field_order>
+			<form_id>395</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>","placeholder":{"line1":"Unit\/Building","line2":"Street Name","city":"City","state":"State","zip":"Zip Code","country":""},"address_type":"generic","city_desc":"","state_desc":"","zip_desc":"","auto_address":0,"geo_show_map":0}]]></field_options>
+		</field>
+		<field>
+			<id>5299</id>
+			<field_key><![CDATA[q3wcj]]></field_key>
+			<name><![CDATA[What's your date of birth?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[date]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>10</field_order>
+			<form_id>395</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","invalid":"Date is invalid","classes":"frm12 frm_first","placeholder":"MM \/ DD \/ YYYY","start_year":"-50","end_year":"+0","days_of_the_week":[1,2,3,4,5,6,0]}]]></field_options>
+		</field>
+		<field>
+			<id>5300</id>
+			<field_key><![CDATA[9luqd]]></field_key>
+			<name><![CDATA[What's your height?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[number]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>13</field_order>
+			<form_id>395</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","append":"ft","blank":"","invalid":"Number is invalid","minnum":"0","maxnum":"9999999","placeholder":"Enter the value in ft.."}]]></field_options>
+		</field>
+		<field>
+			<id>5303</id>
+			<field_key><![CDATA[fo9qy]]></field_key>
+			<name><![CDATA[What's your weight?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[number]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>15</field_order>
+			<form_id>395</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","append":"lbs","blank":"","invalid":"Number is invalid","minnum":"0","maxnum":"9999999","placeholder":"Enter the value in lbs.."}]]></field_options>
+		</field>
+		<field>
+			<id>5301</id>
+			<field_key><![CDATA[pdz9v]]></field_key>
+			<name><![CDATA[Do you have any health issues or injuries?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[textarea]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>17</field_order>
+			<form_id>395</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","auto_grow":"1","max_limit":"0","max":"3","blank":"","invalid":"Paragraph is invalid","placeholder":"If yes, enter the details here.."}]]></field_options>
+		</field>
+		<field>
+			<id>5302</id>
+			<field_key><![CDATA[tn4qq]]></field_key>
+			<name><![CDATA[Do you have achievements worth mentioning?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[textarea]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>19</field_order>
+			<form_id>395</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","auto_grow":"1","max_limit":"0","max":"3","blank":"","invalid":"Paragraph is invalid","placeholder":"If yes, enter the details here.."}]]></field_options>
+		</field>
+		<field>
+			<id>5304</id>
+			<field_key><![CDATA[3qa1i]]></field_key>
+			<name><![CDATA[Upload a photo of yourself]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[file]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>21</field_order>
+			<form_id>395</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","invalid":"File Upload is invalid","classes":"frm_full_upload","ftypes":{"jpg|jpeg|jpe":"image\/jpeg","png":"image\/png","gif":"image\/gif"},"attach":"1","restrict":"1"}]]></field_options>
+		</field>
+	</form>
+	<view>
+		<title>Send Email</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[{"email_to":"[admin_email]","cc":"","bcc":"","from":"[sitename] <[admin_email]>","reply_to":"","email_subject":"","email_message":"[default-message]","inc_user_info":0,"plain_text":0,"event":["create"],"conditions":{"send_stop":"","any_all":""}}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>1303</post_id>
+		<post_date>2023-01-24 19:59:23</post_date>
+		<post_date_gmt>2023-01-24 19:59:23</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>395_email_</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>395</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+	</view>
+</channel>

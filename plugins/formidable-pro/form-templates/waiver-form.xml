@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/6.0.2" created="2022-09-02 05:07" -->
+
+<channel>
+	<title>[Used Live] API Demos</title>
+	<pubDate>Fri, 02 Sep 2022 05:07:15 +0000</pubDate>
+
+	<form>
+		<id>371</id>
+		<form_key><![CDATA[waiver]]></form_key>
+		<name><![CDATA[Waiver]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2022-09-02 04:15:58</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<editable>0</editable>
+		<options><![CDATA[{"antispam":1,"start_over":1,"submit_html":"<div class=\"frm_submit\">\n[if back_button]<button type=\"submit\" name=\"frm_prev_page\" formnovalidate=\"formnovalidate\" class=\"frm_prev_page\" [back_hook]>[back_label]<\/button>[\/if back_button]\n<button class=\"frm_button_submit\" type=\"submit\" [button_action]>[button_label]<\/button>\n[if save_draft]<a href=\"#\" tabindex=\"0\" class=\"frm_save_draft\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\n[if start_over]<a href=\"#\" tabindex=\"0\" class=\"frm_start_over\">[start_over_label]<\/a>[\/if start_over]\n<\/div>","open_date":"2022-09-02 04:15"}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>0</parent_form_id>
+		<field>
+			<id>4895</id>
+			<field_key><![CDATA[xiar0]]></field_key>
+			<name><![CDATA[Participant Information]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>2</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","label":"","blank":"","repeat":"0"}]]></field_options>
+		</field>
+		<field>
+			<id>4897</id>
+			<field_key><![CDATA[dv8ce]]></field_key>
+			<name><![CDATA[Name]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[name]]></type>
+			<default_value><![CDATA[{"first":"","middle":"","last":""}]]></default_value>
+			<field_order>4</field_order>
+			<form_id>371</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4895","blank":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n    <\/div>\n    [input]\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","placeholder":{"first":"","middle":"","last":""}}]]></field_options>
+		</field>
+		<field>
+			<id>4898</id>
+			<field_key><![CDATA[cv80s]]></field_key>
+			<name><![CDATA[Phone]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[phone]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>6</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4895","blank":"","classes":"frm6 frm_first","format":"(999)-999-9999","placeholder":"(999)-999-9999"}]]></field_options>
+		</field>
+		<field>
+			<id>4899</id>
+			<field_key><![CDATA[5v0ff]]></field_key>
+			<name><![CDATA[Email]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[email]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>7</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4895","blank":"","classes":"frm6","placeholder":"example@site.com"}]]></field_options>
+		</field>
+		<field>
+			<id>4900</id>
+			<field_key><![CDATA[nrqbw]]></field_key>
+			<name><![CDATA[Address]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[address]]></type>
+			<default_value><![CDATA[{"line1":"","line2":"","city":"","state":"","zip":"","country":""}]]></default_value>
+			<field_order>9</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4895","blank":"","classes":"frm12 frm_first","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n    <\/div>\n    [input]\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","placeholder":{"line1":"","line2":"","city":"","state":"","zip":"","country":""},"address_type":"us","auto_address":0,"geo_show_map":0}]]></field_options>
+		</field>
+		<field>
+			<id>4901</id>
+			<field_key><![CDATA[waiver-birthdate]]></field_key>
+			<name><![CDATA[Date of Birth]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[date]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>11</field_order>
+			<form_id>371</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4895","blank":"","invalid":"Date is invalid","classes":"frm6 frm_first","days_of_the_week":[1,2,3,4,5,6,0]}]]></field_options>
+		</field>
+		<field>
+			<id>4902</id>
+			<field_key><![CDATA[ivfx8]]></field_key>
+			<name><![CDATA[Age]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[number]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>12</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"read_only":"1","admin_only":[""],"calc":"[age id=waiver-birthdate]","in_section":"4895","blank":"","invalid":"Number is invalid","classes":"frm6","minnum":"0","maxnum":"9999999"}]]></field_options>
+		</field>
+		<field>
+			<id>4896</id>
+			<field_key><![CDATA[nh2so]]></field_key>
+			<name><![CDATA[Section Buttons]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[end_divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>13</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4903</id>
+			<field_key><![CDATA[92s1g]]></field_key>
+			<name><![CDATA[Parent/Guardian Information]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>15</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","label":"","blank":"","repeat":"0"}]]></field_options>
+		</field>
+		<field>
+			<id>4904</id>
+			<field_key><![CDATA[h2j6j]]></field_key>
+			<name><![CDATA[Parent/Guardian Name]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[name]]></type>
+			<default_value><![CDATA[{"first":"","middle":"","last":""}]]></default_value>
+			<field_order>17</field_order>
+			<form_id>371</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4903","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n    <\/div>\n    [input]\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","placeholder":{"first":"","middle":"","last":""}}]]></field_options>
+		</field>
+		<field>
+			<id>4911</id>
+			<field_key><![CDATA[93yp0]]></field_key>
+			<name><![CDATA[Relationship]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[select]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>19</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"","value":""},{"label":"Father","value":"Father"},{"label":"Mother","value":"Mother"},{"label":"Guardian","value":"Guardian"},{"label":"Sister\/Brother","value":"Sister\/Brother"},{"label":"Partner","value":"Partner"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"4903","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4905</id>
+			<field_key><![CDATA[3ufih]]></field_key>
+			<name><![CDATA[Parent/Guardian Phone]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[phone]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>21</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4903","blank":"","invalid":"Phone is invalid","classes":"frm6 frm_first","format":"(999)-999-9999","placeholder":"(999)-999-9999"}]]></field_options>
+		</field>
+		<field>
+			<id>4906</id>
+			<field_key><![CDATA[jj9my]]></field_key>
+			<name><![CDATA[Parent/Guardian Email]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[email]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>22</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4903","blank":"","invalid":"Email is invalid","classes":"frm6","placeholder":"example@site.com"}]]></field_options>
+		</field>
+		<field>
+			<id>4907</id>
+			<field_key><![CDATA[rokvn]]></field_key>
+			<name><![CDATA[Parent/Guardian Address]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[address]]></type>
+			<default_value><![CDATA[{"line1":"","line2":"","city":"","state":"","zip":"","country":""}]]></default_value>
+			<field_order>24</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4903","blank":"","classes":"frm12 frm_first","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n    <\/div>\n    [input]\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","placeholder":{"line1":"","line2":"","city":"","state":"","zip":"","country":""},"address_type":"us","auto_address":0,"geo_show_map":0}]]></field_options>
+		</field>
+		<field>
+			<id>4910</id>
+			<field_key><![CDATA[xzphx]]></field_key>
+			<name><![CDATA[Section Buttons]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[end_divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>25</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4912</id>
+			<field_key><![CDATA[wbce5]]></field_key>
+			<name><![CDATA[Program Information]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>27</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","label":"","blank":"","repeat":"0"}]]></field_options>
+		</field>
+		<field>
+			<id>4914</id>
+			<field_key><![CDATA[e3sh4]]></field_key>
+			<name><![CDATA[Program Name]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>29</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4912","blank":"","invalid":"Text is invalid","classes":"frm_first","auto_address":0,"geo_show_map":0}]]></field_options>
+		</field>
+		<field>
+			<id>4915</id>
+			<field_key><![CDATA[jktlq]]></field_key>
+			<name><![CDATA[Program Date]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[date]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>31</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4912","blank":"","invalid":"Date is invalid","classes":"frm6 frm_first","days_of_the_week":[1,2,3,4,5,6,0]}]]></field_options>
+		</field>
+		<field>
+			<id>4916</id>
+			<field_key><![CDATA[qronb]]></field_key>
+			<name><![CDATA[Program Time]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[time]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>32</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4912","blank":"","invalid":"Time is invalid","classes":"frm6","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n    <\/div>\n    [input]\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","step":"30","clock":"12"}]]></field_options>
+		</field>
+		<field>
+			<id>4917</id>
+			<field_key><![CDATA[7d1i2]]></field_key>
+			<name><![CDATA[Program Location]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[address]]></type>
+			<default_value><![CDATA[{"line1":"","line2":"","city":"","state":"","zip":"","country":""}]]></default_value>
+			<field_order>34</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4912","blank":"","classes":"frm12 frm_first","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n    <\/div>\n    [input]\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","placeholder":{"line1":"","line2":"","city":"","state":"","zip":"","country":""},"address_type":"us","auto_address":0,"geo_show_map":0}]]></field_options>
+		</field>
+		<field>
+			<id>4913</id>
+			<field_key><![CDATA[51qa9]]></field_key>
+			<name><![CDATA[Section Buttons]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[end_divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>35</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4918</id>
+			<field_key><![CDATA[m5mme]]></field_key>
+			<name><![CDATA[Acknowledgment]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>37</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","label":"","blank":"","repeat":"0"}]]></field_options>
+		</field>
+		<field>
+			<id>4920</id>
+			<field_key><![CDATA[x7xs3]]></field_key>
+			<name><![CDATA[HTML]]></name>
+			<description><![CDATA[I acknowledge that my child is in good mental and good physical condition.
+
+I accept the risks that are associated with my child when we/I decided to allow him/her to participate.
+
+I indemnify and hold them harmless from any injuries, demands, or death that may be sustained by my child.
+
+I authorize the organizers to take photos and videos of my child during the program and while on the premise. I allow them to use this for educational, advertising, and marketing purposes provided that they value our privacy with respect and will not associate it with unpleasant situations.
+
+I release the organizers from any liabilities, loss, damage, and fees during the program or while on the premise.]]></description>
+			<type><![CDATA[html]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>39</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4918","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4924</id>
+			<field_key><![CDATA[lauza]]></field_key>
+			<name><![CDATA[Consent]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[checkbox]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>41</field_order>
+			<form_id>371</form_id>
+			<required>1</required>
+			<options><![CDATA[[{"label":"I have read and understand the waiver agreement above and by signing this document, I hereby agree and confirm that I will abide by it.","value":"I have read and understand the waiver agreement above and by signing this document, I hereby agree and confirm that I will abide by it.","image":"0"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"4918","label":"none","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n    <\/div>\n    <div class=\"frm_opt_container\" role=\"group\">[input]<\/div>\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","image_options":"0","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4921</id>
+			<field_key><![CDATA[suag4]]></field_key>
+			<name><![CDATA[Signature]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[signature]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>43</field_order>
+			<form_id>371</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4918","size":"600","max":"150","blank":"","classes":"frm6 frm_first"}]]></field_options>
+		</field>
+		<field>
+			<id>4923</id>
+			<field_key><![CDATA[g2yej]]></field_key>
+			<name><![CDATA[Date]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[date]]></type>
+			<default_value><![CDATA[[date]]]></default_value>
+			<field_order>44</field_order>
+			<form_id>371</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4918","blank":"","classes":"frm6","days_of_the_week":[1,2,3,4,5,6,0]}]]></field_options>
+		</field>
+		<field>
+			<id>4919</id>
+			<field_key><![CDATA[y1trp]]></field_key>
+			<name><![CDATA[Section Buttons]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[end_divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>45</field_order>
+			<form_id>371</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"in_section":"0","blank":""}]]></field_options>
+		</field>
+	</form>
+	<view>
+		<title>Send Email</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[{"email_to":"[admin_email]","cc":"","bcc":"","from":"[sitename] <[admin_email]>","reply_to":"","email_subject":"","email_message":"[default-message]","inc_user_info":0,"plain_text":0,"event":["create"],"conditions":{"send_stop":"","any_all":""}}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>1155</post_id>
+		<post_date>2022-09-02 04:15:58</post_date>
+		<post_date_gmt>2022-09-02 04:15:58</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>371_email_</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>371</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+	</view>
+</channel>

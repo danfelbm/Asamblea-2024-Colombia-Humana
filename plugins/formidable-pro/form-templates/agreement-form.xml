@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/6.0.2" created="2022-09-13 18:01" -->
+
+<channel>
+	<title>API Demos</title>
+	<pubDate>Tue, 13 Sep 2022 18:01:32 +0000</pubDate>
+
+	<form>
+		<id>376</id>
+		<form_key><![CDATA[agreement]]></form_key>
+		<name><![CDATA[Agreement]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2022-09-13 17:28:35</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<editable>0</editable>
+		<options><![CDATA[{"antispam":1,"start_over":1,"submit_html":"<div class=\"frm_submit\">\n[if back_button]<button type=\"submit\" name=\"frm_prev_page\" formnovalidate=\"formnovalidate\" class=\"frm_prev_page\" [back_hook]>[back_label]<\/button>[\/if back_button]\n<button class=\"frm_button_submit\" type=\"submit\" [button_action]>[button_label]<\/button>\n[if save_draft]<a href=\"#\" tabindex=\"0\" class=\"frm_save_draft\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\n[if start_over]<a href=\"#\" tabindex=\"0\" class=\"frm_start_over\">[start_over_label]<\/a>[\/if start_over]\n<\/div>","open_date":"2022-09-13 17:28"}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>0</parent_form_id>
+		<field>
+			<id>4970</id>
+			<field_key><![CDATA[6ernj]]></field_key>
+			<name><![CDATA[Agreement]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>2</field_order>
+			<form_id>376</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","label":"","blank":"","repeat":"0"}]]></field_options>
+		</field>
+		<field>
+			<id>4969</id>
+			<field_key><![CDATA[f36uj]]></field_key>
+			<name><![CDATA[This agreement made this:]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[date]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>4</field_order>
+			<form_id>376</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4970","blank":"","invalid":"Date is invalid","classes":"frm12 frm_first","days_of_the_week":[1,2,3,4,5,6,0]}]]></field_options>
+		</field>
+		<field>
+			<id>4972</id>
+			<field_key><![CDATA[m1idw]]></field_key>
+			<name><![CDATA[By and between:]]></name>
+			<description><![CDATA[First Party]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>6</field_order>
+			<form_id>376</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4970","blank":"","invalid":"Text is invalid","classes":"frm6 frm_first","auto_address":0,"geo_show_map":0}]]></field_options>
+		</field>
+		<field>
+			<id>4973</id>
+			<field_key><![CDATA[pjid5]]></field_key>
+			<name><![CDATA[And:]]></name>
+			<description><![CDATA[Second Party]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>7</field_order>
+			<form_id>376</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4970","blank":"","invalid":"Text is invalid","classes":"frm6 frm6","auto_address":0,"geo_show_map":0}]]></field_options>
+		</field>
+		<field>
+			<id>4974</id>
+			<field_key><![CDATA[f7dcg]]></field_key>
+			<name><![CDATA[First party agrees that it shall:]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[textarea]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>9</field_order>
+			<form_id>376</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4970","blank":"","classes":"frm6 frm_first"}]]></field_options>
+		</field>
+		<field>
+			<id>4975</id>
+			<field_key><![CDATA[udhhu]]></field_key>
+			<name><![CDATA[Second party agrees that it shall:]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[textarea]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>10</field_order>
+			<form_id>376</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4970","blank":"","classes":"frm6"}]]></field_options>
+		</field>
+		<field>
+			<id>4976</id>
+			<field_key><![CDATA[32eu9]]></field_key>
+			<name><![CDATA[Other terms to be observed by and between the parties:]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[textarea]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>12</field_order>
+			<form_id>376</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4970","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4977</id>
+			<field_key><![CDATA[e4nfl]]></field_key>
+			<name><![CDATA[Total fees agreed between parties:]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[number]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>14</field_order>
+			<form_id>376</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4970","prepend":"$","blank":"","invalid":"Number is invalid","minnum":"0","maxnum":"9999999"}]]></field_options>
+		</field>
+		<field>
+			<id>4971</id>
+			<field_key><![CDATA[jiwv1]]></field_key>
+			<name><![CDATA[Section Buttons]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[end_divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>17</field_order>
+			<form_id>376</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4979</id>
+			<field_key><![CDATA[gj8om]]></field_key>
+			<name><![CDATA[Signatures]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>19</field_order>
+			<form_id>376</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","label":"","blank":"","repeat":"0"}]]></field_options>
+		</field>
+		<field>
+			<id>4981</id>
+			<field_key><![CDATA[nb6q8]]></field_key>
+			<name><![CDATA[Name of First Party]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[name]]></type>
+			<default_value><![CDATA[{"first":"","middle":"","last":""}]]></default_value>
+			<field_order>21</field_order>
+			<form_id>376</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4979","classes":"frm6 frm_first","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n    <\/div>\n    [input]\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","placeholder":{"first":"","middle":"","last":""}}]]></field_options>
+		</field>
+		<field>
+			<id>4986</id>
+			<field_key><![CDATA[chzz7]]></field_key>
+			<name><![CDATA[Name of Second Party]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[name]]></type>
+			<default_value><![CDATA[{"first":"","middle":"","last":""}]]></default_value>
+			<field_order>22</field_order>
+			<form_id>376</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4979","classes":"frm6","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n    <\/div>\n    [input]\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>","placeholder":{"first":"","middle":"","last":""}}]]></field_options>
+		</field>
+		<field>
+			<id>4983</id>
+			<field_key><![CDATA[ir79d]]></field_key>
+			<name><![CDATA[Date signed]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[date]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>24</field_order>
+			<form_id>376</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4979","blank":"","invalid":"Date is invalid","classes":"frm6 frm_first","days_of_the_week":[1,2,3,4,5,6,0]}]]></field_options>
+		</field>
+		<field>
+			<id>4985</id>
+			<field_key><![CDATA[b9x7k]]></field_key>
+			<name><![CDATA[Date signed]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[date]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>25</field_order>
+			<form_id>376</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4979","blank":"","invalid":"Date is invalid","classes":"frm6 frm6","days_of_the_week":[1,2,3,4,5,6,0]}]]></field_options>
+		</field>
+		<field>
+			<id>4982</id>
+			<field_key><![CDATA[1ij8h]]></field_key>
+			<name><![CDATA[Signature (First Party)]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[signature]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>27</field_order>
+			<form_id>376</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4979","size":"600","max":"150","classes":"frm6 frm_first"}]]></field_options>
+		</field>
+		<field>
+			<id>4984</id>
+			<field_key><![CDATA[lifom]]></field_key>
+			<name><![CDATA[Signature (Second Party)]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[signature]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>28</field_order>
+			<form_id>376</form_id>
+			<required>1</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"4979","size":"600","max":"150","classes":"frm6"}]]></field_options>
+		</field>
+		<field>
+			<id>4980</id>
+			<field_key><![CDATA[d7ft9]]></field_key>
+			<name><![CDATA[Section Buttons]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[end_divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>29</field_order>
+			<form_id>376</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"in_section":"0","blank":""}]]></field_options>
+		</field>
+	</form>
+	<view>
+		<title>Send Email</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[{"email_to":"[admin_email]","cc":"","bcc":"","from":"[sitename] <[admin_email]>","reply_to":"","email_subject":"","email_message":"[default-message]","inc_user_info":0,"plain_text":0,"event":["create"],"conditions":{"send_stop":"","any_all":""}}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>1164</post_id>
+		<post_date>2022-09-13 17:28:35</post_date>
+		<post_date_gmt>2022-09-13 17:28:35</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>376_email_</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>376</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+	</view>
+</channel>

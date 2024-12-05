@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/6.1.1" created="2023-01-24 22:19" -->
+
+<channel>
+	<title>API Demos</title>
+	<pubDate>Tue, 24 Jan 2023 22:19:45 +0000</pubDate>
+
+	<form>
+		<id>394</id>
+		<form_key><![CDATA[signup-sheet]]></form_key>
+		<name><![CDATA[Signup Sheet]]></name>
+		<description><![CDATA[<p>Do you want to play Volleyball?<br />
+We are holding tryouts for the Volleyball team!</p>
+]]></description>
+		<created_at>2023-01-17 08:43:28</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<editable>0</editable>
+		<options><![CDATA[{"show_title":"1","show_description":"1","antispam":"1","logged_in_role":[""],"cookie_expiration":"8000","editable_role":[""],"edit_page_id":"","protect_files":"0","noindex_files":"0","open_date":"2023-01-17 07:43","custom_style":"1","submit_conditions":{"show_hide":"show","any_all":"all"},"start_over":"1","start_over_label":"Start Over","landing_bg_image_id":"0","landing_opacity":"100","chat":["1"],"chat_include_arrows":["1"],"chat_show_start_page":1,"chat_progress_type":"bar","chat_continue_text":"OK","chat_start_button_text":"Sign up now","before_html":"<legend class=\"frm_screen_reader\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\"frm_form_title\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\"frm_description\">[form_description]<\/div>[\/if form_description]","submit_html":"<div class=\"frm_submit\">\r\n[if back_button]<button type=\"submit\" name=\"frm_prev_page\" formnovalidate=\"formnovalidate\" class=\"frm_prev_page\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\"frm_button_submit\" type=\"submit\" [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\"#\" tabindex=\"0\" class=\"frm_save_draft\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n[if start_over]<a href=\"#\" tabindex=\"0\" class=\"frm_start_over\">[start_over_label]<\/a>[\/if start_over]\r\n<\/div>","js_validate":1}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>0</parent_form_id>
+		<field>
+			<id>5290</id>
+			<field_key><![CDATA[apb3r2]]></field_key>
+			<name><![CDATA[What is your first name?]]></name>
+			<description><![CDATA[We will contact you using this name.]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>2</field_order>
+			<form_id>394</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","invalid":"Text is invalid","placeholder":"Type your answer here...","auto_address":0,"geo_show_map":0}]]></field_options>
+		</field>
+		<field>
+			<id>5291</id>
+			<field_key><![CDATA[qet8b2]]></field_key>
+			<name><![CDATA[And your last name?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>4</field_order>
+			<form_id>394</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","invalid":"Text is invalid","placeholder":"Type your answer here...","auto_address":0,"geo_show_map":0}]]></field_options>
+		</field>
+		<field>
+			<id>5296</id>
+			<field_key><![CDATA[he2e7]]></field_key>
+			<name><![CDATA[Which position(s) are you interested in trying out for? We are looking for the best player to represent the school.]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[checkbox]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>6</field_order>
+			<form_id>394</form_id>
+			<required>0</required>
+			<options><![CDATA[{"0":{"label":"Setter","value":"Setter","image":"1309","src":"http:\/\/sandbox.formidableforms.com\/demos\/wp-content\/uploads\/sites\/17\/2023\/01\/volleyball.jpg"},"1":{"label":"Libero","value":"Libero","image":"1309","src":"http:\/\/sandbox.formidableforms.com\/demos\/wp-content\/uploads\/sites\/17\/2023\/01\/volleyball.jpg"},"4":{"label":"Middle Blocker","value":"Middle Blocker","image":"1309","src":"http:\/\/sandbox.formidableforms.com\/demos\/wp-content\/uploads\/sites\/17\/2023\/01\/volleyball.jpg"},"2":{"label":"Outside Hitter","value":"Outside Hitter","image":"1309","src":"http:\/\/sandbox.formidableforms.com\/demos\/wp-content\/uploads\/sites\/17\/2023\/01\/volleyball.jpg"},"3":{"label":"Opposite Hitter","value":"Opposite Hitter","image":"1309","src":"http:\/\/sandbox.formidableforms.com\/demos\/wp-content\/uploads\/sites\/17\/2023\/01\/volleyball.jpg"},"5":{"label":"Defensive Specialist","value":"Defensive Specialist","image":"1309","src":"http:\/\/sandbox.formidableforms.com\/demos\/wp-content\/uploads\/sites\/17\/2023\/01\/volleyball.jpg"}}]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\"frm_opt_container\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>","image_options":"1","image_size":"small","use_images_in_buttons":"1"}]]></field_options>
+		</field>
+		<field>
+			<id>5318</id>
+			<field_key><![CDATA[fnbcr]]></field_key>
+			<name><![CDATA[Finally, how do you want us to contact you?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[select]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>8</field_order>
+			<form_id>394</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"","value":""},{"label":"Call me","value":"Call me"},{"label":"Email me","value":"Email me"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>5319</id>
+			<field_key><![CDATA[hop9n]]></field_key>
+			<name><![CDATA[Enter your phone number]]></name>
+			<description><![CDATA[We will use this to contact you when tryouts are held and what you need to bring.]]></description>
+			<type><![CDATA[phone]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>10</field_order>
+			<form_id>394</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"hide_field":["5318"],"hide_opt":["Call me"],"admin_only":[""],"in_section":"0","blank":"","invalid":"Phone is invalid","format":"(999 999 9999","placeholder":"(999 999 9999"}]]></field_options>
+		</field>
+		<field>
+			<id>5293</id>
+			<field_key><![CDATA[drfuv2]]></field_key>
+			<name><![CDATA[Enter your email address]]></name>
+			<description><![CDATA[We will use this to contact you when tryouts are held and what you need to bring.]]></description>
+			<type><![CDATA[email]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>12</field_order>
+			<form_id>394</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"hide_field":["5318"],"hide_opt":["Email me"],"admin_only":[""],"in_section":"0","invalid":"Email is invalid","placeholder":"name@email.com"}]]></field_options>
+		</field>
+	</form>
+	<view>
+		<title>Send Email</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[{"event":["create"],"email_to":"[admin_email]","cc":"","bcc":"","from":"[sitename] <[admin_email]>","reply_to":"","email_subject":"[form_name]","email_message":"[default-message]","email_attachment_id":"","conditions":{"send_stop":"send","any_all":"any"},"autoresponder":{"is_active":"","do_default_trigger":"no","send_interval":"30","send_unit":"days","send_before_after":"after","send_date":"update","send_after_interval_type":"number","send_after_interval":"0","send_after_unit":"days","send_after_count":"1"}}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>1291</post_id>
+		<post_date>2023-01-17 07:43:07</post_date>
+		<post_date_gmt>2023-01-17 07:43:07</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>394_email_1291</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>394</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[393_email_-2]]></meta_value>
+		</postmeta>
+	</view>
+</channel>

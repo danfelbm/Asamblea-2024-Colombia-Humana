@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/5.8.3" created="2022-03-01 20:47" -->
+
+<channel>
+	<title>[Used Live] API Demos</title>
+	<pubDate>Tue, 01 Mar 2022 20:47:28 +0000</pubDate>
+
+	<form>
+		<id>346</id>
+		<form_key><![CDATA[spelling-quiz]]></form_key>
+		<name><![CDATA[Spelling Quiz]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2021-12-28 02:44:20</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<editable>0</editable>
+		<options><![CDATA[{"antispam":"1","js_validate":"1","rootline_titles":{"0":"Page 1","4645":"Next","4646":"Next","4647":"Next","4648":"Next"},"success_msg":"[quiz-score show=percent][if quiz-score equals=\\\"4\\\"]<br> Congratulations, you\\'re a spelling champion![\/if quiz-score][if quiz-score equals=\\\"3\\\"] \u2014 Good job. <br> You\\'re nearly there. [\/if quiz-score][if quiz-score equals=\\\"2\\\"] \u2014 Not good enough, I\\'m afraid. <br> We\\'re looking for a higher pass rate.[\/if quiz-score][if quiz-score equals=\\\"1\\\"] \u2014 Poor effort. <br> Get back to the books and try again.[\/if quiz-score][if quiz-score equals=\\\"0\\\"]<br> Please see me after class.[\/if quiz-score]","logged_in_role":[""],"cookie_expiration":"8000","editable_role":[""],"edit_page_id":"","protect_files":"0","noindex_files":"0","open_date":"2021-12-28 02:44","custom_style":"1","transition":"slideup","submit_conditions":{"show_hide":"show","any_all":"all"},"landing_bg_image_id":"0","landing_opacity":"100","chat_include_arrows":["1"],"chat_progress_type":"","chat_continue_text":"Continue","chat_start_button_text":"Start","before_html":"<legend class=\\\"frm_screen_reader\\\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\\\"frm_form_title\\\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\\\"frm_description\\\">[form_description]<\/div>[\/if form_description]","submit_html":"<div class=\\\"frm_submit\\\">\r\n[if back_button]<button type=\\\"submit\\\" name=\\\"frm_prev_page\\\" formnovalidate=\\\"formnovalidate\\\" class=\\\"frm_prev_page\\\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\\\"frm_button_submit\\\" type=\\\"submit\\\"  [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\\\"#\\\" tabindex=\\\"0\\\" class=\\\"frm_save_draft\\\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>"}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>0</parent_form_id>
+		<field>
+			<id>4594</id>
+			<field_key><![CDATA[quiz-score]]></field_key>
+			<name><![CDATA[Quiz Score]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[quiz_score]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>2</field_order>
+			<form_id>346</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4592</id>
+			<field_key><![CDATA[jubvz]]></field_key>
+			<name><![CDATA[HTML]]></name>
+			<description><![CDATA[<h3>Let the spelling quiz commence!</h3><br>
+<p>I hope you've done your homework.</p>]]></description>
+			<type><![CDATA[html]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>4</field_order>
+			<form_id>346</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field\\\">[description]<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>4645</id>
+			<field_key><![CDATA[g9zih]]></field_key>
+			<name><![CDATA[Next]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[break]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>6</field_order>
+			<form_id>346</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4585</id>
+			<field_key><![CDATA[5k2wi]]></field_key>
+			<name><![CDATA[1. What's the correct spelling of this word?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>8</field_order>
+			<form_id>346</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Acomodate","value":"Acomodate","image":"A. Acomodate"},{"label":"Acommodate","value":"Acommodate","image":"B. Acommodate"},{"label":"Accommodate","value":"Accommodate","image":"C. Accommodate"},{"label":"Accommidate","value":"Accommidate","image":"D. Accommidate"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <div  id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\\\"frm_opt_container\\\" aria-labelledby=\\\"field_[key]_label\\\" role=\\\"group\\\">[input]<\/div>\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>","image_options":"buttons","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4646</id>
+			<field_key><![CDATA[e7bnt]]></field_key>
+			<name><![CDATA[Next]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[break]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>10</field_order>
+			<form_id>346</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4586</id>
+			<field_key><![CDATA[hxcbc]]></field_key>
+			<name><![CDATA[2. Psychiatrist <br> Is the spelling of this word correct?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>12</field_order>
+			<form_id>346</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Yes","value":"Yes","image":"Yes"},{"label":"No","value":"No","image":"No"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <div  id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\\\"frm_opt_container\\\" aria-labelledby=\\\"field_[key]_label\\\" role=\\\"group\\\">[input]<\/div>\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>","image_options":"buttons","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4647</id>
+			<field_key><![CDATA[rxo19]]></field_key>
+			<name><![CDATA[Next]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[break]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>14</field_order>
+			<form_id>346</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4587</id>
+			<field_key><![CDATA[2vwpf]]></field_key>
+			<name><![CDATA[3. Can you tell me the correct spelling of this word?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>16</field_order>
+			<form_id>346</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Rhinoceros","value":"Rhinoceros","image":"Rhinoceros"},{"label":"Rynoceros","value":"Rynoceros","image":"Rynoceros"},{"label":"Rhinocoros","value":"Rhinocoros","image":"Rhinocoros"},{"label":"Rinoceros","value":"Rinoceros","image":"Rinoceros"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <div  id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\\\"frm_opt_container\\\" aria-labelledby=\\\"field_[key]_label\\\" role=\\\"group\\\">[input]<\/div>\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>","image_options":"buttons","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4648</id>
+			<field_key><![CDATA[qv9fz]]></field_key>
+			<name><![CDATA[Next]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[break]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>18</field_order>
+			<form_id>346</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4588</id>
+			<field_key><![CDATA[fmjem]]></field_key>
+			<name><![CDATA[4. Select the correct spelling of the word]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[select]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>20</field_order>
+			<form_id>346</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Cemitary","value":"Cemitary"},{"label":"Cemetary","value":"Cemetary"},{"label":"Cemetery","value":"Cemetery"},{"label":"Cemitry","value":"Cemitry"},{"label":"Cemetry","value":"Cemetry"},{"label":"Cemitarie","value":"Cemitarie"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"autocom":"1","other":"0","in_section":"0","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>","placeholder":"Type or select an option"}]]></field_options>
+		</field>
+	</form>
+	<view>
+		<title>Send Email</title>
+		<link></link>
+		<post_author><![CDATA[kristine]]></post_author>
+		<description></description>
+		<content><![CDATA[{"event":["create"],"email_to":"[admin_email]","cc":"","bcc":"","from":"[sitename] <[admin_email]>","reply_to":"","email_subject":"","email_message":"[default-message]","email_attachment_id":"","conditions":{"send_stop":"send","any_all":"any"},"autoresponder":{"is_active":"","do_default_trigger":"no","send_interval":"30","send_unit":"days","send_before_after":"after","send_date":"update","send_after_interval_type":"number","send_after_interval":"0","send_after_unit":"days","send_after_count":"1"}}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>984</post_id>
+		<post_date>2021-12-28 02:44:20</post_date>
+		<post_date_gmt>0000-00-00 00:00:00</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>346_email_984</post_name>
+		<status>draft</status>
+		<post_parent>0</post_parent>
+		<menu_order>346</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+	</view>
+	<view>
+		<title>Quiz</title>
+		<link></link>
+		<post_author><![CDATA[stephywells]]></post_author>
+		<description></description>
+		<content><![CDATA[{"event":["create"],"show_result":"","random_options":["1"],"quiz":{"4589":{"id":"4585","score":"1","corrects":["Accommodate"]},"4590":{"id":"4586","score":"1","corrects":["Yes"]},"4591":{"id":"4587","score":"1","corrects":["Rhinoceros"]},"4592":{"id":"4588","score":"1","corrects":["Cemetery"]}},"enable":["4585","4586","4587","4588"],"conditions":{"send_stop":"send","any_all":"any"}}]]></content>
+		<excerpt><![CDATA[quiz]]></excerpt>
+		<post_id>992</post_id>
+		<post_date>2022-02-17 20:56:33</post_date>
+		<post_date_gmt>2022-02-17 20:56:33</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>346_quiz_992</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>346</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[346_quiz]]></meta_value>
+		</postmeta>
+	</view>
+</channel>

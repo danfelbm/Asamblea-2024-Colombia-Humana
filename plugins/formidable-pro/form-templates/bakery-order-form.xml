@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/5.5.2" created="2020-11-25 21:41" -->
+
+<channel>
+	<title>[Used Live] API Demos</title>
+	<pubDate>Wed, 25 Nov 2020 21:41:15 +0000</pubDate>
+
+	<form>
+		<id>258</id>
+		<form_key><![CDATA[bakery-order]]></form_key>
+		<name><![CDATA[Bakery Order]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2020-11-23 12:37:46</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<editable>0</editable>
+		<options><![CDATA[{"rootline_titles":{"0":"Page 1","3757":"Next"},"logged_in_role":[""],"editable_role":[""],"edit_page_id":"","open_date":"2020-11-23 12:37","submit_value":"Order Now","submit_conditions":{"show_hide":"show","any_all":"all"},"before_html":"<legend class=\\\"frm_screen_reader\\\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\\\"frm_form_title\\\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\\\"frm_description\\\">[form_description]<\/div>[\/if form_description]","submit_html":"<div class=\\\"frm_submit\\\">\r\n[if back_button]<button type=\\\"submit\\\" name=\\\"frm_prev_page\\\" formnovalidate=\\\"formnovalidate\\\" class=\\\"frm_prev_page\\\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\\\"frm_button_submit\\\" type=\\\"submit\\\"  [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\\\"#\\\" tabindex=\\\"0\\\" class=\\\"frm_save_draft\\\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>"}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>0</parent_form_id>
+		<field>
+			<id>3739</id>
+			<field_key><![CDATA[h6prc]]></field_key>
+			<name><![CDATA[Bakery Products]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>1</field_order>
+			<form_id>258</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"form_select":"259","admin_only":[""],"label":"","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field frm_section_heading form-field[error_class]\\\">\r\n<h3 class=\\\"frm_pos_[label_position][collapse_class]\\\">[field_name]<\/h3>\r\n[if description]<div class=\\\"frm_description\\\">[description]<\/div>[\/if description]\r\n[collapse_this]\r\n<\/div>","repeat":"1"}]]></field_options>
+		</field>
+		<field>
+			<id>3740</id>
+			<field_key><![CDATA[wi4c1]]></field_key>
+			<name><![CDATA[Section Buttons]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[end_divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>7</field_order>
+			<form_id>258</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>3744</id>
+			<field_key><![CDATA[sdhor]]></field_key>
+			<name><![CDATA[Total]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[total]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>8</field_order>
+			<form_id>258</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"blank":"","classes":"frm_total_big","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <div id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]<\/div>\r\n    <p class=\\\"frm_total_formatted\\\"><\/p>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>3749</id>
+			<field_key><![CDATA[ve7ed]]></field_key>
+			<name><![CDATA[Customer Details]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>9</field_order>
+			<form_id>258</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"label":"","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>3751</id>
+			<field_key><![CDATA[uvn0e]]></field_key>
+			<name><![CDATA[Customer's Name]]></name>
+			<description><![CDATA[First Name]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>10</field_order>
+			<form_id>258</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"3749","blank":"","invalid":"Text is invalid","classes":"frm_first frm_half"}]]></field_options>
+		</field>
+		<field>
+			<id>3753</id>
+			<field_key><![CDATA[pf1j1]]></field_key>
+			<name><![CDATA[Customer's Name]]></name>
+			<description><![CDATA[Last Name]]></description>
+			<type><![CDATA[text]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>11</field_order>
+			<form_id>258</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"3749","label":"hidden","blank":"","invalid":"Text is invalid","classes":"frm_half"}]]></field_options>
+		</field>
+		<field>
+			<id>3754</id>
+			<field_key><![CDATA[jh0ts]]></field_key>
+			<name><![CDATA[Email]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[email]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>12</field_order>
+			<form_id>258</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"3749","blank":"","classes":"frm_first frm_half"}]]></field_options>
+		</field>
+		<field>
+			<id>3755</id>
+			<field_key><![CDATA[yswy9]]></field_key>
+			<name><![CDATA[Phone]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[phone]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>13</field_order>
+			<form_id>258</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"3749","blank":"","classes":"frm_half"}]]></field_options>
+		</field>
+		<field>
+			<id>3747</id>
+			<field_key><![CDATA[awr5u]]></field_key>
+			<name><![CDATA[Type of Order]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>14</field_order>
+			<form_id>258</form_id>
+			<required>1</required>
+			<options><![CDATA[[{"label":"Pick-Up","value":"Pick-Up","image":"0"},{"label":"Delivery","value":"Delivery","image":"0"}]]]></options>
+			<field_options><![CDATA[{"align":"inline","admin_only":[""],"in_section":"3749","classes":"frm_half frm_first","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>3748</id>
+			<field_key><![CDATA[5qpxm]]></field_key>
+			<name><![CDATA[Pick-up/Delivery Date]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[date]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>15</field_order>
+			<form_id>258</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"3749","blank":"","invalid":"Date is invalid","classes":"frm_half","start_year":"0","days_of_the_week":[1,2,3,4,5,6,0],"minimum_date_cond":"today","minimum_date_val":"+1 day"}]]></field_options>
+		</field>
+		<field>
+			<id>3756</id>
+			<field_key><![CDATA[x2ycv]]></field_key>
+			<name><![CDATA[Delivery Address]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[address]]></type>
+			<default_value><![CDATA[{"line1":"","line2":"","city":"","state":"","zip":"","country":""}]]></default_value>
+			<field_order>16</field_order>
+			<form_id>258</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"hide_field":["3747"],"hide_opt":["Delivery"],"admin_only":[""],"in_section":"3749","blank":"","placeholder":{"line1":"","line2":"","city":"","state":"","zip":"","country":""}}]]></field_options>
+		</field>
+		<field>
+			<id>3750</id>
+			<field_key><![CDATA[18bhk]]></field_key>
+			<name><![CDATA[Section Buttons]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[end_divider]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>17</field_order>
+			<form_id>258</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>3757</id>
+			<field_key><![CDATA[84dlr]]></field_key>
+			<name><![CDATA[Next]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[break]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>18</field_order>
+			<form_id>258</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>3758</id>
+			<field_key><![CDATA[25oj4]]></field_key>
+			<name><![CDATA[Summary]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[summary]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>19</field_order>
+			<form_id>258</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field\\\">\r\n\t<h3 class=\\\"frm_pos_[label_position]\\\">[field_name]<\/h3>\r\n\t[if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [input]\r\n<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>3759</id>
+			<field_key><![CDATA[du0fm]]></field_key>
+			<name><![CDATA[Credit Card]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[credit_card]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>20</field_order>
+			<form_id>258</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <div  id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\">[required_label]<\/span>\r\n    <\/div>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>3848</id>
+			<field_key><![CDATA[vo4ex]]></field_key>
+			<name><![CDATA[Payment Method]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[gateway]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>21</field_order>
+			<form_id>258</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"blank":""}]]></field_options>
+		</field>
+	</form>
+	<form>
+		<id>259</id>
+		<form_key><![CDATA[3kjup]]></form_key>
+		<name><![CDATA[Bakery Products]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2020-11-23 12:41:00</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<editable>0</editable>
+		<options><![CDATA[{"open_date":"2020-11-23 12:41"}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>258</parent_form_id>
+		<field>
+			<id>3741</id>
+			<field_key><![CDATA[y9cvx]]></field_key>
+			<name><![CDATA[Product]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[product]]></type>
+			<default_value><![CDATA[Cupcakes ($2)]]></default_value>
+			<field_order>2</field_order>
+			<form_id>259</form_id>
+			<required>1</required>
+			<options><![CDATA[[{"label":"Cupcakes ($2)","price":"2","value":"Cupcakes ($2)"},{"label":"Cookies ($1.50)","price":"1.50","value":"Cookies ($1.50)"},{"label":"Doughnuts ($1)","price":"1","value":"Doughnuts ($1)"},{"label":"Rolls ($0.25)","price":"0.25","value":"Rolls ($0.25)"},{"label":"Cake ($35)","price":"35","value":"Cake ($35)"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"3739","blank":"","classes":"frm_half frm_first","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <div  id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\\\"frm_opt_container\\\" aria-labelledby=\\\"field_[key]_label\\\" role=\\\"group\\\">[input]<\/div>\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>3742</id>
+			<field_key><![CDATA[ui6qa]]></field_key>
+			<name><![CDATA[Quantity]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[quantity]]></type>
+			<default_value>1</default_value>
+			<field_order>3</field_order>
+			<form_id>259</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"3739","blank":"","classes":"frm_half","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>","product_field":["3741"]}]]></field_options>
+		</field>
+		<field>
+			<id>3743</id>
+			<field_key><![CDATA[1lfn0]]></field_key>
+			<name><![CDATA[ Flavor]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[product]]></type>
+			<default_value><![CDATA[Chocolate]]></default_value>
+			<field_order>4</field_order>
+			<form_id>259</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Chocolate","price":"1","value":"Chocolate"},{"label":"Mocha","price":"0.50","value":"Mocha"},{"label":"Marble","price":"1.20","value":"Marble"},{"label":"Double Dutch","price":"2","value":"Double Dutch"}]]]></options>
+			<field_options><![CDATA[{"align":"inline","hide_field":["3741","3741"],"hide_field_cond":["==","=="],"hide_opt":["Cupcakes ($2)","Cake ($35)"],"admin_only":[""],"in_section":"3739","blank":"","classes":"frm_half frm_first","data_type":"radio"}]]></field_options>
+		</field>
+		<field>
+			<id>3745</id>
+			<field_key><![CDATA[2v17]]></field_key>
+			<name><![CDATA[Icing]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[product]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>5</field_order>
+			<form_id>259</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Chocolate (+$5)","price":"5","value":"Chocolate (+$5)"},{"label":"Caramel(+$4)","price":"4","value":"Caramel(+$4)"},{"label":"Caramel(+$3)","price":"3","value":"Caramel(+$3)"}]]]></options>
+			<field_options><![CDATA[{"align":"inline","hide_field":["3741","3741","3741","3741"],"hide_field_cond":["==","==","==","=="],"hide_opt":["Cupcakes ($2)","Cookies ($1.50)","Doughnuts ($1)","Cake ($35)"],"admin_only":[""],"in_section":"3739","blank":"","classes":"frm_half","data_type":"radio"}]]></field_options>
+		</field>
+		<field>
+			<id>3746</id>
+			<field_key><![CDATA[uy2nh]]></field_key>
+			<name><![CDATA[Size]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[product]]></type>
+			<default_value><![CDATA[Small]]></default_value>
+			<field_order>6</field_order>
+			<form_id>259</form_id>
+			<required>0</required>
+			<options><![CDATA[{"1":{"label":"Small","price":"0","value":"Small"},"0":{"label":"Large (+$15)","price":"15","value":"Large (+$15)"}}]]></options>
+			<field_options><![CDATA[{"hide_field":["3741"],"hide_opt":["Cake ($35)"],"admin_only":[""],"in_section":"3739","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <div  id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\\\"frm_opt_container\\\" aria-labelledby=\\\"field_[key]_label\\\" role=\\\"group\\\">[input]<\/div>\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>","data_type":"radio"}]]></field_options>
+		</field>
+	</form>
+	<view>
+		<title>Send Email</title>
+		<link></link>
+		<post_author><![CDATA[stephywells]]></post_author>
+		<description></description>
+		<content><![CDATA[{"event":["create"],"email_to":"[admin_email]","cc":"","bcc":"","from":"[sitename] <[admin_email]>","reply_to":"","email_subject":"","email_message":"[default-message]","email_attachment_id":"","conditions":{"send_stop":"send","any_all":"any"},"autoresponder":{"is_active":"","do_default_trigger":"no","send_interval":"1","send_unit":"days","send_before_after":"after","send_date":"","send_after_interval_type":"number","send_after_interval":"0","send_after_unit":"days","send_after_count":"1"}}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>787</post_id>
+		<post_date>2020-11-23 12:37:46</post_date>
+		<post_date_gmt>2020-11-23 12:37:46</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>258_email_787</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>258</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[258_email_]]></meta_value>
+		</postmeta>
+	</view>
+	<view>
+		<title>Collect a Payment</title>
+		<link></link>
+		<post_author><![CDATA[stephywells]]></post_author>
+		<description></description>
+		<content><![CDATA[{"event":["create"],"description":"Bakery order","amount":"[3744]","credit_card":"3759","type":"single","interval_count":"1","interval":"month","payment_count":"9999","trial_interval_count":"0","capture":"authorize","currency":"usd","gateway":["stripe"],"plan_id":"","routing_num":"","account_num":"","bank_name":"","email":"[3754]","billing_address":"3756","billing_first_name":"3751","billing_last_name":"3753","billing_company":"","shipping_address":"","shipping_first_name":"","shipping_last_name":"","shipping_company":"","conditions":{"send_stop":"send","any_all":"any"}}]]></content>
+		<excerpt><![CDATA[payment]]></excerpt>
+		<post_id>799</post_id>
+		<post_date>2020-11-25 21:35:42</post_date>
+		<post_date_gmt>2020-11-25 21:35:42</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>258_payment_888</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>258</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+	</view>
+</channel>

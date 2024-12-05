@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/5.7.2" created="2021-07-23 21:49" -->
+
+<channel>
+	<title>[Used Live] API Demos</title>
+	<pubDate>Fri, 23 Jul 2021 21:49:07 +0000</pubDate>
+
+	<form>
+		<id>299</id>
+		<form_key><![CDATA[neighborhood-feedback]]></form_key>
+		<name><![CDATA[Neighborhood Feedback]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2021-04-27 21:17:19</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<editable>0</editable>
+		<options><![CDATA[{"success_msg":"Your responses have been submitted. Thank you!","logged_in_role":[""],"cookie_expiration":"8000","editable_role":[""],"edit_page_id":"","protect_files":"0","open_date":"2021-04-27 21:17","custom_style":"survey-form-style","submit_conditions":{"show_hide":"show","any_all":"all"},"before_html":"<legend class=\\\"frm_screen_reader\\\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\\\"frm_form_title\\\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\\\"frm_description\\\">[form_description]<\/div>[\/if form_description]","submit_html":"<div class=\\\"frm_submit\\\">\r\n[if back_button]<button type=\\\"submit\\\" name=\\\"frm_prev_page\\\" formnovalidate=\\\"formnovalidate\\\" class=\\\"frm_prev_page\\\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\\\"frm_button_submit\\\" type=\\\"submit\\\"  [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\\\"#\\\" tabindex=\\\"0\\\" class=\\\"frm_save_draft\\\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>","paypal_item_name":"","paypal_amount_field":"","paypal_amount":"","paypal_list":[],"paypal_stop_email":0,"paypal_type":"","repeat_num":1,"repeat_time":"M","retry":0,"trial":0,"trial_amount":"","trial_num":1,"trial_time":"M","change_field":[],"action_id":0,"business_email":"steph@strategy11.com","currency":"USD","return_url":"http:\/\/sandbox.formidableforms.com\/demos","cancel_url":"http:\/\/sandbox.formidableforms.com\/demos"}]]></options>
+		<status><![CDATA[published]]></status>
+		<parent_form_id>0</parent_form_id>
+		<field>
+			<id>4204</id>
+			<field_key><![CDATA[qqmz2]]></field_key>
+			<name><![CDATA[How many of your neighbors do you know?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>1</field_order>
+			<form_id>299</form_id>
+			<required>1</required>
+			<options><![CDATA[{"1":{"label":"All of them","value":"All of them","image":"0"},"2":{"label":"Most of them","value":"Most of them","image":"0"},"3":{"label":"Some of them","value":"Some of them","image":"0"},"4":{"label":"A few of them","value":"A few of them","image":"0"},"5":{"label":"None of them","value":"None of them","image":"0"}}]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4205</id>
+			<field_key><![CDATA[exf4i]]></field_key>
+			<name><![CDATA[How strong is the sense of community in this neighborhood?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>2</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Extremely strong","value":"Extremely strong","image":"Extremely strong"},{"label":"Very strong","value":"Very strong","image":"Very strong"},{"label":"Moderately strong","value":"Moderately strong","image":"Moderately strong"},{"label":"Slightly strong","value":"Slightly strong","image":"Slightly strong"},{"label":"Not at all strong","value":"Not at all strong","image":"Not at all strong"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <div  id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\\\"frm_opt_container\\\" aria-labelledby=\\\"field_[key]_label\\\" role=\\\"group\\\">[input]<\/div>\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4206</id>
+			<field_key><![CDATA[tzcby]]></field_key>
+			<name><![CDATA[How often do you attend events in this neighborhood?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>3</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Extremely often","value":"Extremely often","image":"Extremely often"},{"label":"Very often","value":"Very often","image":"Very often"},{"label":"Moderately often","value":"Moderately often","image":"Moderately often"},{"label":"Slightly often","value":"Slightly often","image":"Slightly often"},{"label":"Not at all often","value":"Not at all often","image":"Not at all often"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <div  id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\\\"frm_opt_container\\\" aria-labelledby=\\\"field_[key]_label\\\" role=\\\"group\\\">[input]<\/div>\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4207</id>
+			<field_key><![CDATA[qi0hb]]></field_key>
+			<name><![CDATA[How often do you participate in activities in this neighborhood?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>4</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Extremely often","value":"Extremely often","image":"0"},{"label":"Very often","value":"Very often","image":"0"},{"label":"Moderately often","value":"Moderately often","image":"0"},{"label":"Slightly often","value":"Slightly often","image":"0"},{"label":"Not at all often","value":"Not at all often","image":"0"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <div  id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\\\"frm_opt_container\\\" aria-labelledby=\\\"field_[key]_label\\\" role=\\\"group\\\">[input]<\/div>\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4208</id>
+			<field_key><![CDATA[ql84u]]></field_key>
+			<name><![CDATA[If you do not participate in activities in this neighborhood, then why not?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[textarea]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>5</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"hide_field":["4207","4207"],"hide_field_cond":["==","=="],"hide_opt":["Slightly often","Not at all often"],"admin_only":[""],"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4209</id>
+			<field_key><![CDATA[bu8du]]></field_key>
+			<name><![CDATA[What types of events would you attend if they were held in this neighborhood?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[textarea]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>6</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>4210</id>
+			<field_key><![CDATA[2mvpn]]></field_key>
+			<name><![CDATA[What types of activities would you participate in if they were available in this neighborhood?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[textarea]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>7</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" id=\\\"field_[key]_label\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\" aria-hidden=\\\"true\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\" id=\\\"frm_desc_field_[key]\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\" id=\\\"frm_error_field_[key]\\\">[error]<\/div>[\/if error]\r\n<\/div>"}]]></field_options>
+		</field>
+		<field>
+			<id>4398</id>
+			<field_key><![CDATA[bgbnd]]></field_key>
+			<name><![CDATA[Next]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[break]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>8</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4211</id>
+			<field_key><![CDATA[3xjev]]></field_key>
+			<name><![CDATA[How often do you visit the parks in this neighborhood?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>9</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Extremely often","value":"Extremely often","image":"0"},{"label":"Very often","value":"Very often","image":"0"},{"label":"Moderately often","value":"Moderately often","image":"0"},{"label":"Slightly often","value":"Slightly often","image":"0"},{"label":"Not at all often","value":"Not at all often","image":"0"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4212</id>
+			<field_key><![CDATA[t2zyd]]></field_key>
+			<name><![CDATA[Are you satisfied with the parks in this neighborhood?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>10</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Very Satisfied","value":"Very Satisfied","image":"0"},{"label":"Satisfied","value":"Satisfied","image":"0"},{"label":"Neutral","value":"Neutral","image":"0"},{"label":"Unsatisfied","value":"Unsatisfied","image":"0"},{"label":"Very Unsatisfied","value":"Very Unsatisfied","image":"0"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4213</id>
+			<field_key><![CDATA[684o2]]></field_key>
+			<name><![CDATA[How well are the streets in this neighborhood maintained?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>11</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Extremely well","value":"Extremely well","image":"0"},{"label":"Very well","value":"Very well","image":"0"},{"label":"Moderately well","value":"Moderately well","image":"0"},{"label":"Slightly well","value":"Slightly well","image":"0"},{"label":"Not at all well","value":"Not at all well","image":"0"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4214</id>
+			<field_key><![CDATA[u9427]]></field_key>
+			<name><![CDATA[How safe do you feel in this neighborhood?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>12</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Extremely safe","value":"Extremely safe","image":"0"},{"label":"Very safe","value":"Very safe","image":"0"},{"label":"Moderately safe","value":"Moderately safe","image":"0"},{"label":"Slightly safe","value":"Slightly safe","image":"0"},{"label":"Not at all safe","value":"Not at all safe","image":"0"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4215</id>
+			<field_key><![CDATA[mcedm]]></field_key>
+			<name><![CDATA[How clean is this neighborhood?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>13</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Extremely clean","value":"Extremely clean","image":"0"},{"label":"Very clean","value":"Very clean","image":"0"},{"label":"Moderately clean","value":"Moderately clean","image":"0"},{"label":"Slightly clean","value":"Slightly clean","image":"0"},{"label":"Not at all clean","value":"Not at all clean","image":"0"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4216</id>
+			<field_key><![CDATA[oopev]]></field_key>
+			<name><![CDATA[How proud are you to live in this neighborhood?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>14</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Extremely proud","value":"Extremely proud","image":"0"},{"label":"Very proud","value":"Very proud","image":"0"},{"label":"Moderately proud","value":"Moderately proud","image":"0"},{"label":"Slightly proud","value":"Slightly proud","image":"0"},{"label":"Not at all proud","value":"Not at all proud","image":"0"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4217</id>
+			<field_key><![CDATA[ls5qy]]></field_key>
+			<name><![CDATA[What do you like most about this neighborhood?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[textarea]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>15</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4218</id>
+			<field_key><![CDATA[iudf3]]></field_key>
+			<name><![CDATA[What do you like least about this neighborhood?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[textarea]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>16</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4219</id>
+			<field_key><![CDATA[2gq6n]]></field_key>
+			<name><![CDATA[What changes would most improve this neighborhood?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[textarea]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>17</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"in_section":"0","blank":""}]]></field_options>
+		</field>
+		<field>
+			<id>4220</id>
+			<field_key><![CDATA[l45dt]]></field_key>
+			<name><![CDATA[How promising is the future of this neighborhood?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>18</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Extremely promising","value":"Extremely promising","image":"0"},{"label":"Very promising","value":"Very promising","image":"0"},{"label":"Moderately promising","value":"Moderately promising","image":"0"},{"label":"Slightly promising","value":"Slightly promising","image":"0"},{"label":"Not at all promising","value":"Not at all promising","image":"0"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","image_size":"small"}]]></field_options>
+		</field>
+		<field>
+			<id>4221</id>
+			<field_key><![CDATA[evm8n]]></field_key>
+			<name><![CDATA[Are you satisfied with your overall experience living in this neighborhood?]]></name>
+			<description><![CDATA[]]></description>
+			<type><![CDATA[radio]]></type>
+			<default_value><![CDATA[]]></default_value>
+			<field_order>19</field_order>
+			<form_id>299</form_id>
+			<required>0</required>
+			<options><![CDATA[[{"label":"Very Satisfied","value":"Very Satisfied","image":"0"},{"label":"Satisfied","value":"Satisfied","image":"0"},{"label":"Neutral","value":"Neutral","image":"0"},{"label":"Unsatisfied","value":"Unsatisfied","image":"0"},{"label":"Very Unsatisfied","value":"Very Unsatisfied","image":"0"},{"label":"N\/A","value":"N\/A","image":"0"}]]]></options>
+			<field_options><![CDATA[{"admin_only":[""],"other":"0","in_section":"0","blank":"","image_size":"small"}]]></field_options>
+		</field>
+	</form>
+	<view>
+		<title>Send Email</title>
+		<link></link>
+		<post_author><![CDATA[emmawells]]></post_author>
+		<description></description>
+		<content><![CDATA[{"email_to":"[admin_email]","cc":"","bcc":"","from":"[sitename] <[admin_email]>","reply_to":"","email_subject":"","email_message":"[default-message]","inc_user_info":"0","plain_text":"0","event":["create"],"conditions":{"send_stop":"","any_all":""}}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>864</post_id>
+		<post_date>2021-04-27 21:17:19</post_date>
+		<post_date_gmt>2021-04-27 21:17:19</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>299_email_</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>299</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+	</view>
+</channel>
