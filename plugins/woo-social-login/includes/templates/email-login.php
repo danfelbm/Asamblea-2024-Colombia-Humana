@@ -27,6 +27,7 @@ global $woo_slg_options; // Define global variable
 		<input type="email" class="regular-text woo-slg-email-login woo-slg-email-input" placeholder="Escribe tu correo electrónico" />
 		<input type="hidden" name="woo_slg_login_redirect_url" value="<?php echo $redirect_url; ?>">
 		<input type="button" class="woo-slg-email-login-btn" value="Obtener código de acceso" title="<?php echo $login_btn_text; ?>" />
+		<a href="https://asamblea.colombiahumana.co/delegados">Clic aquí si no recuerdas cuál correo registraste</a>
 		<input type="button" id="woo-slg-email-login-btn-resend" class="woo-slg-email-login-btn-resend" value="" title="" />
 		<div class="woo-slg-clear"></div>
 	</div><!--.woo-slg-social-wrap-->

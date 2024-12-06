@@ -93,15 +93,9 @@ get_header();
                     <?php 
                     $fecha_cierre = get_field('fecha_cierre', false, false); // Get raw value
                     
-                    // Debug output
-                    echo "<!-- Debug: fecha_cierre raw value: " . esc_html($fecha_cierre) . " -->";
-                    
                     if ($fecha_cierre) {
                         // Convert the date from Y-m-d H:i:s format for JavaScript
                         $date = DateTime::createFromFormat('Y-m-d H:i:s', $fecha_cierre);
-                        
-                        // More debug output
-                        echo "<!-- Debug: parsed date: " . ($date ? $date->format('Y-m-d H:i:s') : 'Failed to parse') . " -->";
                         
                         if ($date) {
                             $close_date = $date->getTimestamp();
@@ -194,9 +188,6 @@ get_header();
                             $form = FrmForm::getOne($form_id);
                             
                             if ($form) {
-                                // Debug: Output form ID
-                                echo "<script>console.log('Form ID:', " . json_encode($form_id) . ");</script>";
-                                
                                 // Get all entries for this form
                                 $entries_table = $wpdb->prefix . 'frm_items';
                                 $total_responses = $wpdb->get_var($wpdb->prepare(
@@ -206,17 +197,6 @@ get_header();
 
                                 // Get all radio fields in the form
                                 $radio_fields = FrmField::get_all_types_in_form($form_id, 'radio');
-                                
-                                // Debug: Output radio fields info
-                                echo "<script>console.log('Number of radio fields found:', " . count($radio_fields) . ");</script>";
-                                $fields_debug = array_map(function($field) {
-                                    return array(
-                                        'id' => $field->id,
-                                        'name' => $field->name,
-                                        'type' => $field->type
-                                    );
-                                }, $radio_fields);
-                                echo "<script>console.log('Radio fields:', " . json_encode($fields_debug) . ");</script>";
 
                                 if (!empty($radio_fields) && $total_responses > 0) {
                                     // Fetch all entries for all fields at once
@@ -224,22 +204,9 @@ get_header();
                                     $field_ids = array_map(function($field) { return $field->id; }, $radio_fields);
                                     $field_ids_string = implode(',', $field_ids);
                                     
-                                    // Debug: Output field IDs being queried
-                                    echo "<script>console.log('Querying field IDs:', " . json_encode($field_ids) . ");</script>";
-                                    
                                     $all_entries = $wpdb->get_results($wpdb->prepare(
                                         "SELECT field_id, meta_value FROM {$meta_table} WHERE field_id IN (" . $field_ids_string . ")"
                                     ));
-                                    
-                                    // Debug: Output entries count per field
-                                    $entries_count_by_field = array();
-                                    foreach ($all_entries as $entry) {
-                                        if (!isset($entries_count_by_field[$entry->field_id])) {
-                                            $entries_count_by_field[$entry->field_id] = 0;
-                                        }
-                                        $entries_count_by_field[$entry->field_id]++;
-                                    }
-                                    echo "<script>console.log('Entries count per field:', " . json_encode($entries_count_by_field) . ");</script>";
                                     
                                     // Organize entries by field_id
                                     $entries_by_field = array();
@@ -290,8 +257,6 @@ get_header();
                                                 $labels = array_keys($field_counts);
                                                 $data = array_values($field_counts);
                                                 
-                                                // Add debug output
-                                                error_log('Processing field ' . $radio_field->id . ': ' . json_encode($field_counts));
                                                 ?>
                                                 
                                                 <canvas id="resultsChart<?php echo $index; ?>" class="mb-8"></canvas>
