@@ -951,7 +951,7 @@ function woo_slg_social_connect(type, object) {
 
         if( response.indexOf('restrict')  > -1 ){
             jQuery(object).parents('.woo-slg-social-container').find('.woo-slg-restrict').remove();
-            jQuery(object).parents('.woo-slg-social-container').append('<div class="woo-slg-restrict">New user registrations are disabled on this website. Please contact admin.</div>');
+            jQuery(object).parents('.woo-slg-social-container').append('<div class="woo-slg-restrict">Nuevos registros están desactivados. Solo Delegados acreditados pueden acceder.</div>');
 
         }else if ( response.indexOf('emailnotverify')  > -1 ) {
             jQuery(object).parents('.woo-slg-social-container').find('.woo-slg-restrict').remove();

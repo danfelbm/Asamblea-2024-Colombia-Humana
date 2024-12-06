@@ -287,7 +287,7 @@ class WOO_Slg_Public {
                     }
                 }else{
                     $response['error'] = 'restrict';
-                    $response['message'] = 'New user registrations are disabled on this website. Please contact admin.';
+                    $response['message'] = 'Nuevos registros están desactivados. Solo Delegados acreditados pueden acceder.';
                     echo json_encode( $response );
                     //do exit to get proper response
                     exit;
@@ -554,7 +554,7 @@ class WOO_Slg_Public {
     				// indicate that a new user was created
     				$new_customer = true;
                 }else{
-                    return 'New user registrations are disabled on this website. Please contact admin.';
+                    return 'Nuevos registros están desactivados. Solo Delegados acreditados pueden acceder.';
                 }
 			}
 
