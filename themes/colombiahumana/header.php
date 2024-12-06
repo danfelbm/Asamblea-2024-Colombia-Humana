@@ -16,19 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<script src="https://cdn.tailwindcss.com"></script>
 	<link rel="stylesheet" href="https://www.shadcnblocks.com/_astro/index.By6RUMn0.css">
-	<script>
-		tailwind.config = {
-		theme: {
-			extend: {
-			colors: {
-				clifford: '#da373d',
-			}
-			}
-		}
-		}
-	</script>
 	<?php wp_head(); ?>
 	<script src="https://unpkg.com/htmx.org"></script>
   	<script src="https://unpkg.com/htmx.org@1.9.12/dist/ext/client-side-templates.js"></script>

@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.frm_form_field input {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+}
+
+.with_frm_style .frm_checkbox label:not(.frm-label-disabled),
+.with_frm_style .frm_radio label:not(.frm-label-disabled) {
+    cursor: pointer;
+    width: 100%;
+}
+
+.frm_image_options .frm_image_option_container {
+    border-width: 2px !important;
+}
+
+.frm_style_formidable-style.with_frm_style .frm_error,
+.frm_style_formidable-style.with_frm_style .frm_limit_error {
+    color: #E91E63;
+}
+
+.frm_button_submit {
+    background-color: #3858e9 !important;
+}
+
+.frm_button_submit:hover {
+    background-color: #2a46c5 !important;
+}
+
+.with_frm_style .big-radius .frm_radio input[type=radio] {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.with_frm_style .big-radius .frm_radio input[type=radio]:before {
+    margin: 8px;
+    width: 13px;
+    height: 13px;
+}
