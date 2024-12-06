@@ -211,6 +211,23 @@ get_header();
                                 }
 
                                 if (!empty($radio_fields) && $total_responses > 0) {
+                                    // Fetch all entries for all fields at once
+                                    $meta_table = $wpdb->prefix . 'frm_item_metas';
+                                    $field_ids = array_map(function($field) { return $field->id; }, $radio_fields);
+                                    $field_ids_string = implode(',', $field_ids);
+                                    
+                                    $all_entries = $wpdb->get_results($wpdb->prepare(
+                                        "SELECT field_id, meta_value FROM {$meta_table} WHERE field_id IN (" . $field_ids_string . ")"
+                                    ));
+                                    
+                                    // Organize entries by field_id
+                                    $entries_by_field = array();
+                                    foreach ($all_entries as $entry) {
+                                        if (!isset($entries_by_field[$entry->field_id])) {
+                                            $entries_by_field[$entry->field_id] = array();
+                                        }
+                                        $entries_by_field[$entry->field_id][] = $entry->meta_value;
+                                    }
                                     ?>
                                     <div class="max-w-4xl mx-auto">
                                         <p class="text-lg font-semibold mb-6 text-center">Total de respuestas: <?php echo $total_responses; ?></p>
@@ -238,25 +255,22 @@ get_header();
                                                     $field_counts[$label] = 0;
                                                 }
 
-                                                // Get entries for this field
-                                                $meta_table = $wpdb->prefix . 'frm_item_metas';
-                                                $entries = $wpdb->get_results($wpdb->prepare(
-                                                    "SELECT meta_value FROM {$meta_table} WHERE field_id = %d",
-                                                    $radio_field->id
-                                                ));
-
-                                                // Count responses
-                                                foreach ($entries as $entry) {
-                                                    $value = $entry->meta_value;
-                                                    if (isset($field_labels[$value])) {
-                                                        $label = $field_labels[$value];
-                                                        $field_counts[$label]++;
+                                                // Count responses using pre-fetched entries
+                                                if (isset($entries_by_field[$radio_field->id])) {
+                                                    foreach ($entries_by_field[$radio_field->id] as $value) {
+                                                        if (isset($field_labels[$value])) {
+                                                            $label = $field_labels[$value];
+                                                            $field_counts[$label]++;
+                                                        }
                                                     }
                                                 }
 
                                                 // Prepare data for Chart.js
                                                 $labels = array_keys($field_counts);
                                                 $data = array_values($field_counts);
+                                                
+                                                // Add debug output
+                                                error_log('Processing field ' . $radio_field->id . ': ' . json_encode($field_counts));
                                                 ?>
                                                 
                                                 <canvas id="resultsChart<?php echo $index; ?>" class="mb-8"></canvas>
@@ -272,9 +286,9 @@ get_header();
                                                 </div>
 
                                                 <script>
-                                                document.addEventListener('DOMContentLoaded', function() {
-                                                    const ctx<?php echo $index; ?> = document.getElementById('resultsChart<?php echo $index; ?>').getContext('2d');
-                                                    const resultsChart<?php echo $index; ?> = new Chart(ctx<?php echo $index; ?>, {
+                                                (function() {
+                                                    // Store chart configuration
+                                                    const chartConfig<?php echo $index; ?> = {
                                                         type: 'bar',
                                                         data: {
                                                             labels: <?php echo json_encode($labels); ?>,
@@ -303,13 +317,49 @@ get_header();
                                                                 }
                                                             }
                                                         }
-                                                    });
+                                                    };
+
+                                                    let chart<?php echo $index; ?> = null;
+
+                                                    // Function to initialize or update chart
+                                                    function initializeChart() {
+                                                        const canvas = document.getElementById('resultsChart<?php echo $index; ?>');
+                                                        if (!canvas) return;
+                                                        
+                                                        const ctx = canvas.getContext('2d');
+                                                        if (!ctx) return;
+
+                                                        // If chart exists, destroy it first
+                                                        if (chart<?php echo $index; ?>) {
+                                                            chart<?php echo $index; ?>.destroy();
+                                                        }
+
+                                                        // Create new chart instance
+                                                        chart<?php echo $index; ?> = new Chart(ctx, chartConfig<?php echo $index; ?>);
+                                                    }
+
+                                                    // Initialize chart when DOM is ready
+                                                    if (document.readyState === 'loading') {
+                                                        document.addEventListener('DOMContentLoaded', initializeChart);
+                                                    } else {
+                                                        initializeChart();
+                                                    }
 
                                                     // Update chart when switching tabs
-                                                    document.getElementById('tab-resultados').addEventListener('click', function() {
-                                                        resultsChart<?php echo $index; ?>.update();
-                                                    });
-                                                });
+                                                    const tabResultados = document.getElementById('tab-resultados');
+                                                    if (tabResultados) {
+                                                        tabResultados.addEventListener('click', function() {
+                                                            // Small delay to ensure the canvas is visible
+                                                            setTimeout(() => {
+                                                                if (!chart<?php echo $index; ?>) {
+                                                                    initializeChart();
+                                                                } else {
+                                                                    chart<?php echo $index; ?>.update();
+                                                                }
+                                                            }, 100);
+                                                        });
+                                                    }
+                                                })();
                                                 </script>
                                             </div>
                                         <?php endforeach; ?>
