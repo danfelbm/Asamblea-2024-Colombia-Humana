@@ -373,6 +373,22 @@ function my_login_logo() { ?>
 <?php }
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
 
+// Add Google Tag tracking code to login page
+function add_google_analytics_to_login() {
+    ?>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCR1EQ1SBD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ZCR1EQ1SBD');
+    </script>
+    <?php
+}
+add_action('login_head', 'add_google_analytics_to_login');
+
 /**
  * AJAX handler for votaciones filters
  */
