@@ -36,3 +36,21 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 .frm_style_formidable-style.with_frm_style .frm_error, .frm_style_formidable-style.with_frm_style .frm_limit_error {
     color: #E91E63;
 }
+
+.frm_button_submit {
+    background-color: #3858e9 !important;
+}
+.frm_button_submit:hover {
+    background-color: #2a46c5 !important;
+}
+
+.with_frm_style .big-radius .frm_radio input[type=radio] {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.with_frm_style .big-radius .frm_radio input[type=radio]:before {
+    margin: 8px;
+    width: 13px;
+    height: 13px;
+}

@@ -1,7 +1,15 @@
 <div class="container mx-auto px-4 py-8">
     <div class="mb-8 md:mb-10 lg:mb-12">
+        <!-- Mobile Filters Toggle Button -->
+        <button type="button" 
+                class="md:hidden w-full mb-4 inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2"
+                onclick="toggleMobileFilters()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-filter mr-2 h-4 w-4"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+            <span id="filterButtonText">Mostrar filtros</span>
+        </button>
+
         <!-- Filters Section -->
-        <div class="mb-10 flex flex-wrap items-center gap-x-4 gap-y-3 lg:gap-x-3">
+        <div class="mb-10 flex flex-wrap items-center gap-x-4 gap-y-3 lg:gap-x-3 hidden md:flex" id="filtersContainer">
             <!-- Order Filter -->
             <div class="shrink-0 md:w-52 lg:w-56" id="orderFilter">
                 <button type="button" class="flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background">
@@ -330,5 +338,18 @@ function fetchFilteredResults(params) {
             console.error('Error:', error);
             grid.style.opacity = '1';
         });
+}
+
+function toggleMobileFilters() {
+    const container = document.getElementById('filtersContainer');
+    const buttonText = document.getElementById('filterButtonText');
+    
+    if (container.classList.contains('hidden')) {
+        container.classList.remove('hidden');
+        buttonText.textContent = 'Ocultar filtros';
+    } else {
+        container.classList.add('hidden');
+        buttonText.textContent = 'Mostrar filtros';
+    }
 }
 </script>

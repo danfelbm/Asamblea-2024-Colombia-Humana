@@ -35,10 +35,10 @@ global $woo_slg_options; // Define global variable
 	<div class="woo-slg-login-success"></div><!--woo-slg-login-success-->
 
 
-	<div class="woo_slg_email_login_using woo-slg-email-otp-section">
+	<div class="woo_slg_email_login_using woo-slg-email-otp-section" style="margin: auto;">
 		<span><legend><?php esc_html_e( 'Verify OTP', 'wooslg');?></legend></span>
 		<?php wp_nonce_field( 'woo_slg_otp_verify', 'woo_slg_otp_nonce' ); ?>
-		<input type="text" class="regular-text woo-slg-otp-login woo-slg-otp-input" placeholder="" />
+		<input type="number" class="regular-text woo-slg-otp-login woo-slg-otp-input" placeholder="" />
 		<br />
 		<input type="button" class="woo-slg-email-login-btn-otp" value="<?php esc_html_e( 'Acceder al sistema', 'wooslg');?>" title="<?php echo $login_btn_text; ?>" />
 		<div class="woo-slg-clear"></div>

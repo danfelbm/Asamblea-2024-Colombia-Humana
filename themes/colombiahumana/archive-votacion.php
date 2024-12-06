@@ -16,7 +16,7 @@ get_header();
     </div>
 
     <!-- Tab content -->
-    <div class="mt-8">
+    <div>
         <!-- Votaciones disponibles tab -->
         <div id="content-disponibles" class="tab-content">
             <?php include('template-parts/votaciones-grid.php'); ?>
