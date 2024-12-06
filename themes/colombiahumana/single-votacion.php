@@ -194,6 +194,9 @@ get_header();
                             $form = FrmForm::getOne($form_id);
                             
                             if ($form) {
+                                // Debug: Output form ID
+                                echo "<script>console.log('Form ID:', " . json_encode($form_id) . ");</script>";
+                                
                                 // Get all entries for this form
                                 $entries_table = $wpdb->prefix . 'frm_items';
                                 $total_responses = $wpdb->get_var($wpdb->prepare(
@@ -201,14 +204,19 @@ get_header();
                                     $form_id
                                 ));
 
-                                // Get all radio fields from the form
-                                $fields = FrmField::get_all_for_form($form_id);
-                                $radio_fields = array();
-                                foreach ($fields as $field) {
-                                    if ($field->type == 'radio') {
-                                        $radio_fields[] = $field;
-                                    }
-                                }
+                                // Get all radio fields in the form
+                                $radio_fields = FrmField::get_all_types_in_form($form_id, 'radio');
+                                
+                                // Debug: Output radio fields info
+                                echo "<script>console.log('Number of radio fields found:', " . count($radio_fields) . ");</script>";
+                                $fields_debug = array_map(function($field) {
+                                    return array(
+                                        'id' => $field->id,
+                                        'name' => $field->name,
+                                        'type' => $field->type
+                                    );
+                                }, $radio_fields);
+                                echo "<script>console.log('Radio fields:', " . json_encode($fields_debug) . ");</script>";
 
                                 if (!empty($radio_fields) && $total_responses > 0) {
                                     // Fetch all entries for all fields at once
@@ -216,9 +224,22 @@ get_header();
                                     $field_ids = array_map(function($field) { return $field->id; }, $radio_fields);
                                     $field_ids_string = implode(',', $field_ids);
                                     
+                                    // Debug: Output field IDs being queried
+                                    echo "<script>console.log('Querying field IDs:', " . json_encode($field_ids) . ");</script>";
+                                    
                                     $all_entries = $wpdb->get_results($wpdb->prepare(
                                         "SELECT field_id, meta_value FROM {$meta_table} WHERE field_id IN (" . $field_ids_string . ")"
                                     ));
+                                    
+                                    // Debug: Output entries count per field
+                                    $entries_count_by_field = array();
+                                    foreach ($all_entries as $entry) {
+                                        if (!isset($entries_count_by_field[$entry->field_id])) {
+                                            $entries_count_by_field[$entry->field_id] = 0;
+                                        }
+                                        $entries_count_by_field[$entry->field_id]++;
+                                    }
+                                    echo "<script>console.log('Entries count per field:', " . json_encode($entries_count_by_field) . ");</script>";
                                     
                                     // Organize entries by field_id
                                     $entries_by_field = array();
