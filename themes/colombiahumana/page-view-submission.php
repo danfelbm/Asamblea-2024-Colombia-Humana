@@ -69,12 +69,12 @@ $form = FrmForm::getOne($entry->form_id);
                         <?php echo esc_html(date_i18n('d/m/Y H:i:s', strtotime($entry->created_at))); ?>
                     </dd>
                 </div>
-                <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                <!--<div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                     <dt class="text-sm/6 font-medium text-gray-900">Respuestas</dt>
                     <dd class="mt-1 text-sm/6 text-gray-700 sm:col-span-2 sm:mt-0">
-                        <?php echo FrmEntriesController::show_entry_shortcode(array('id' => $entry_id, 'plain_text' => 0)); ?>
+                        <?php //echo FrmEntriesController::show_entry_shortcode(array('id' => $entry_id, 'plain_text' => 0)); ?>
                     </dd>
-                </div>
+                </div>-->
             </dl>
         </div>
         <div class="mt-6 flex justify-end">

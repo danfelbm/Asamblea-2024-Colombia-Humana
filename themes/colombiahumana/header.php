@@ -78,12 +78,12 @@
 				<a href="<?php echo esc_url(home_url('/')); ?>" class="text-sm font-medium text-white transition-colors hover:text-gray-300">Inicio</a>
 				<a href="<?php echo esc_url(home_url('/votaciones')); ?>" class="text-sm font-medium text-white transition-colors hover:text-gray-300">Votaciones</a>
 				<a href="<?php echo esc_url(home_url('/ayuda')); ?>" class="text-sm font-medium text-white transition-colors hover:text-gray-300">Ayuda</a>
-				<a href="<?php echo esc_url(home_url('/plataforma')); ?>" class="text-sm font-medium text-white transition-colors hover:text-gray-300">Plataforma</a>
+				<a href="https://colombiahumana.co" target="_blank" class="text-sm font-medium text-white transition-colors hover:text-gray-300">Ir a Plataforma</a>
 			</nav>
 			<div class="hidden md:flex items-center space-x-4 ml-auto">
 				<?php if (is_user_logged_in()): ?>
 					<div class="flex items-center space-x-2">
-						<span class="text-sm text-white"><?php echo wp_get_current_user()->display_name; ?></span>
+						<a href="<?php echo esc_url(get_author_posts_url(wp_get_current_user()->ID)); ?>" class="block text-sm text-white hover:underline"><?php echo wp_get_current_user()->display_name; ?></a>
 						<a href="<?php echo wp_logout_url(home_url()); ?>" class="text-sm text-white hover:text-gray-300">Salir</a>
 					</div>
 				<?php endif; ?>
@@ -102,10 +102,10 @@
 					<a href="<?php echo esc_url(home_url('/')); ?>" class="text-lg font-medium text-white transition-colors hover:text-gray-300">Inicio</a>
 					<a href="<?php echo esc_url(home_url('/votaciones')); ?>" class="text-lg font-medium text-white transition-colors hover:text-gray-300">Votaciones</a>
 					<a href="<?php echo esc_url(home_url('/ayuda')); ?>" class="text-lg font-medium text-white transition-colors hover:text-gray-300">Ayuda</a>
-					<a href="<?php echo esc_url(home_url('/plataforma')); ?>" class="text-lg font-medium text-white transition-colors hover:text-gray-300">Plataforma</a>
+					<a href="https://colombiahumana.co" target="_blank" class="text-lg font-medium text-white transition-colors hover:text-gray-300">Ir a Plataforma</a>
 					<?php if (is_user_logged_in()): ?>
 						<div class="pt-4 border-t border-gray-700">
-							<span class="block text-sm text-white mb-2"><?php echo wp_get_current_user()->display_name; ?></span>
+							<a href="<?php echo esc_url(get_author_posts_url(wp_get_current_user()->ID)); ?>" class="block text-sm text-white hover:underline"><?php echo wp_get_current_user()->display_name; ?></a>
 							<a href="<?php echo wp_logout_url(home_url()); ?>" class="text-sm text-white hover:text-gray-300">Salir</a>
 						</div>
 					<?php endif; ?>

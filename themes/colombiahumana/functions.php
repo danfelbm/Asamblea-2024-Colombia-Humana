@@ -522,3 +522,11 @@ function hide_admin_bar_for_subscribers() {
     }
 }
 add_action('after_setup_theme', 'hide_admin_bar_for_subscribers');
+
+/**
+ * Redirect users to front page after login
+ */
+function redirect_after_login($redirect_to, $request, $user) {
+    return home_url();
+}
+add_filter('login_redirect', 'redirect_after_login', 10, 3);
